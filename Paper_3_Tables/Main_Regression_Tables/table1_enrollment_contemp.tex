@@ -1,0 +1,34 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:enrollment_contemp} School Enrollment (Ages 5--19), IV Estimates (Contemporaneous)}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{3}{c}{ENROLLED\_IN\_SCHOOL}\\
+      Model:                          & (1)            & (2)            & (3)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp. (DA, M USD)        & -0.002         & -0.002         & 0.020\\   
+                                      & (0.004)        & (0.004)        & (0.017)\\   
+      Female                          & 0.006$^{*}$    & 0.006$^{*}$    & 0.028\\   
+                                      & (0.003)        & (0.003)        & (0.023)\\   
+      Age                             & -0.038$^{***}$ & -0.038$^{***}$ & -0.041$^{***}$\\   
+                                      & (0.0010)       & (0.0010)       & (0.004)\\   
+      No. enrolled siblings (HH)      &                & 0.002          &   \\   
+                                      &                & (0.004)        &   \\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                       & Yes            & Yes            & Yes\\  
+      YEAR                            & Yes            & Yes            & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_   & 33.869         & 34.270         & 13.844\\  
+      Observations                    & 13,687         & 13,687         & 882\\  
+      R$^2$                           & 0.17705        & 0.17776        & -0.13419\\  
+      \midrule \midrule
+      \multicolumn{4}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+

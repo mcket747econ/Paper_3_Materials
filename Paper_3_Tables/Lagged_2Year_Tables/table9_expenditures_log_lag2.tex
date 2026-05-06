@@ -1,0 +1,32 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:expenditures_log_lag2} School Expenditure by Category, Log Outcomes (Enrolled Sample), IV Estimates (Lag 2)}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables:                & LOG\_SCHOOL\_TUITION\_NOBOOKS    & LOG\_SCHOOL\_BOOKS\_EXPENSES    & LOG\_SCHOOL\_TRANSPORT\_EXPENSES    & LOG\_SCHOOL\_UNIFORM\_EXPENSES    & LOG\_SCHOOL\_LUNCHSNACKS\_EXPENSES\\     
+      Model:                              & (1)                              & (2)                             & (3)                                 & (4)                               & (5)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp., lag 2 (DA, M USD)     & -0.004                           & -0.020                          & 0.068                               & 0.0008                            & -0.027\\   
+                                          & (0.013)                          & (0.022)                         & (0.111)                             & (0.014)                           & (0.030)\\   
+      Female                              & -0.004                           & 0.660$^{***}$                   & 0.734                               & 0.053                             & -0.501\\   
+                                          & (0.146)                          & (0.213)                         & (0.497)                             & (0.137)                           & (0.331)\\   
+      Age                                 & -0.550$^{***}$                   & -0.320$^{***}$                  & 0.247$^{**}$                        & 0.025                             & 0.100$^{**}$\\   
+                                          & (0.036)                          & (0.036)                         & (0.115)                             & (0.019)                           & (0.041)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                           & Yes                              & Yes                             & Yes                                 & Yes                               & Yes\\  
+      YEAR                                & Yes                              & Yes                             & Yes                                 & Yes                               & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_lag2   & 993.40                           & 811.13                          & 327.85                              & 810.83                            & 141.19\\  
+      Observations                        & 9,246                            & 10,281                          & 3,469                               & 10,304                            & 1,487\\  
+      R$^2$                               & 0.08555                          & 0.06388                         & 0.06045                             & 0.02048                           & -0.00065\\  
+      \midrule \midrule
+      \multicolumn{6}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+

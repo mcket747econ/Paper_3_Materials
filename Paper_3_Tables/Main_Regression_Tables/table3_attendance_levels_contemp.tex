@@ -1,0 +1,34 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:attendance_levels_contemp} School Attendance Levels (Enrolled Sample), IV Estimates (Contemporaneous)}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables: & \multicolumn{2}{c}{SCHOOL\_DAYS\_SENT\_PER\_WEEK} & \multicolumn{2}{c}{KEPTFROMSCHOOL\_ANY}\\
+      Model:                          & (1)           & (2)           & (3)            & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp. (DA, M USD)        & 0.011         & 0.010         & 0.001          & -0.013\\   
+                                      & (0.043)       & (0.042)       & (0.004)        & (0.013)\\   
+      Female                          & 0.052         & 0.052         & 0.001          & 0.040$^{*}$\\   
+                                      & (0.113)       & (0.113)       & (0.005)        & (0.023)\\   
+      Age                             & -0.026$^{**}$ & -0.026$^{**}$ & -0.007$^{***}$ & -0.009$^{**}$\\   
+                                      & (0.012)       & (0.011)       & (0.001)        & (0.004)\\   
+      No. enrolled siblings (HH)      &               & -0.044        &                &   \\   
+                                      &               & (0.079)       &                &   \\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                       & Yes           & Yes           & Yes            & Yes\\  
+      YEAR                            & Yes           & Yes           & Yes            & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_   & 27.349        & 27.989        & 28.599         & 15.858\\  
+      Observations                    & 11,557        & 11,557        & 12,032         & 774\\  
+      R$^2$                           & 0.02590       & 0.02671       & 0.21877        & 0.06317\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+

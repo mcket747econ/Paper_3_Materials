@@ -1,0 +1,34 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:enrollment} School Enrollment (Ages 5--19), IV Estimates}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{3}{c}{ENROLLED\_IN\_SCHOOL}\\
+      Model:                              & (1)                    & (2)                    & (3)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp., lag 1 (DA, M USD)     & $-6.72\times 10^{-5}$  & $-6.73\times 10^{-5}$  & 0.0008\\   
+                                          & (0.0004)               & (0.0004)               & (0.004)\\   
+      Female                              & 0.006$^{*}$            & 0.006$^{*}$            & 0.014\\   
+                                          & (0.003)                & (0.003)                & (0.025)\\   
+      Age                                 & -0.038$^{***}$         & -0.038$^{***}$         & -0.043$^{***}$\\   
+                                          & (0.001)                & (0.001)                & (0.003)\\   
+      No. enrolled siblings (HH)          &                        & -0.0002                &   \\   
+                                          &                        & (0.002)                &   \\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                           & Yes                    & Yes                    & Yes\\  
+      YEAR                                & Yes                    & Yes                    & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_lag1   & 1,028.8                & 1,030.2                & 44.088\\  
+      Observations                        & 13,518                 & 13,518                 & 861\\  
+      R$^2$                               & 0.25524                & 0.25524                & 0.31733\\  
+      \midrule \midrule
+      \multicolumn{4}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+

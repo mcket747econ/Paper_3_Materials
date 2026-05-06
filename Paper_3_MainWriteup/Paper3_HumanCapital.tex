@@ -1,0 +1,384 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage[T1]{fontenc}
+%\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{amssymb,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{bbm}
+\usepackage{appendix}
+\usepackage{filecontents,catchfile}
+\usepackage{parskip}
+\usepackage{array, dcolumn, seqsplit, booktabs, threeparttable}
+%\usepackage{adjustbox}
+\usepackage[export]{adjustbox}
+\usepackage{tabularx}
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs}
+\usepackage{subcaption}
+\usepackage{authblk}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage[justification=justified,singlelinecheck=true]{caption}
+\usepackage{csquotes}
+\usepackage{changepage}
+\usepackage{siunitx}
+\usepackage{multirow}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\captionsetup[table]{font=normalsize}
+
+
+\frenchspacing
+\setstretch{1.5}
+\newcommand{\sym}[1]{#1}
+\DeclareMathOperator*{\E}{\mathbb{E}}
+\newcommand{\fignote}[1]{\figtext{\emph{Note:~}~#1}}
+\newcommand{\figsource}[1]{\figtext{\emph{Source:~}~#1}}
+
+\sisetup{
+	detect-mode,
+	tight-spacing       = true,
+	group-digits        = false ,
+	output-decimal-marker={.},
+	input-open-uncertainty  = ,
+	input-close-uncertainty = ,
+	table-align-text-post   = false
+}
+
+\graphicspath{{figs/}}
+
+
+\newcommand*{\BibPath}{../Bibliography}
+\newcommand*{\ImagePath}{../Paper_3_Pictures}
+\newcommand*{\TablePath}{../Paper_3_Tables/Main_Regression_Exhibits}
+\newcommand*{\AppExhibitPath}{../Paper_3_Tables/Main_Appendix_Exhibits}
+\newcommand*{\TableSumPath}{../Paper_3_Tables/Summary_Stats}
+\newcommand*{\GraphPath}{../Paper_3_Graphs}
+\newcommand*{\TableLagOnePath}{../Paper_3_Tables/Main_Regression_Tables}
+\newcommand*{\TableLagTwoPath}{../Paper_3_Tables/Lagged_2Year_Tables}
+\newcommand*{\TableContempPath}{../Paper_3_Tables/Main_Regression_Tables}
+
+
+\usepackage[
+hyperref=true,
+backend=biber,
+style=authoryear,
+maxnames=2,
+minnames=1,
+doi=false,
+url=false,
+eprint=false,
+isbn=false,
+uniquename=false,
+uniquelist=false
+]{biblatex}
+
+\addbibresource{../Bibliography/Thesis_current_bibliography.bib}
+
+\AtBeginBibliography{\setcounter{maxnames}{99}}
+
+\AtEveryBibitem{%
+	\clearfield{doi}%
+	\clearfield{url}%
+	\clearfield{urldate}%
+	\clearfield{note}%
+}
+
+\DeclareNameAlias{author}{family-given}
+
+\providecommand*{\bibhyperref}[1]{\href{cite.\thefield{entrykey}}{#1}}
+\renewbibmacro*{textcite}{%
+	\bibhyperref{%
+		\printnames{labelname}%
+		\addspace
+		(\printfield{labelyear})%
+	}%
+}
+
+\renewbibmacro*{cite}{%
+	\bibhyperref{%
+		\printnames{labelname}\addspace\printfield{labelyear}%
+	}%
+}
+
+
+\usepackage[
+colorlinks=true,
+linkcolor=blue,
+citecolor=blue,
+urlcolor=black,
+bookmarks=false,
+hypertexnames=true
+]{hyperref}
+
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Subsection}
+
+\AtBeginBibliography{%
+	\renewcommand*{\mkbibnamefamily}[1]{\textbf{#1}}%
+	\renewcommand*{\mkbibnamegiven}[1]{\textbf{#1}}%
+}
+
+% Patch footnotes to be justified
+\makeatletter
+\patchcmd{\@footnotetext}{\footnotesize}{\footnotesize\ignorespaces}{}{}
+\makeatother
+
+\makeatletter
+\renewcommand\footnotesize{\fontsize{11}{13}\selectfont}
+\makeatother
+
+\setlength{\affilsep}{0.5em}
+
+
+\title{\textbf{Beaches or Books:}\\
+	\centerline{\textbf{Tourism and Human Capital Accumulation}\thanks{
+			mcketty@wisc.edu, matthewmcketty.com. I am grateful to my advisor, Jeremy Foltz, for his invaluable guidance throughout this project. I am deeply grateful for the guidance and support of my committee members: Dustin Frye, Priya Mukherjee, and Christopher Timmins. I also thank Paul Dower, Damien King, and Laura Schechter for their input, as well as Eric Dieckman for assistance with data architecture. I am grateful for the assistance of Antoinette Lyn from the Jamaican Ministry of Tourism. I am also grateful for financial assistance from the Department of Agricultural and Applied Economics, the Latin American, Caribbean and Iberian Studies Center, and the University of Wisconsin -- Madison Graduate School. }}}
+
+\author{Matthew McKetty}
+\affil{University of Wisconsin -- Madison}
+\date{}
+
+
+
+
+\begin{document}
+
+
+	\maketitle
+
+
+	\vspace{-2em}
+	\begin{center}
+		\section*{\large Abstract}
+		\addcontentsline{toc}{section}{Abstract}
+		\vspace{0.5em}
+		\begin{minipage}{0.85\textwidth}
+			\small
+			\setlength{\parskip}{0.5em}
+			\linespread{1.0}\selectfont
+			\setlength{\parindent}{2em}
+			[Abstract placeholder.] 
+%			Tourism specialization has been widely promoted as a development strategy for lower- and middle-income countries, yet relatively little is known about how tourism growth affects household investment in human capital. This paper investigates the effect of tourism demand shocks on children's school attendance, educational attainment, exam performance, and school expenditures in Jamaica. Using a shift-share instrumental variable strategy that exploits exogenous variation in origin-country tourist arrivals interacted with pre-determined local exposure shares, I estimate the causal impact of changes in local tourism revenues on education outcomes for households in affected development areas. I find that [results placeholder]. These findings have implications for the design of development strategies in countries heavily reliant on tourism, and for understanding the conditions under which export-led service sector growth translates into investments in the next generation.
+		\end{minipage}
+	\end{center}
+
+
+	\newpage
+	\section{Introduction}
+	\setlength{\parindent}{20pt}
+
+	Increases in human capital are a key mechanism by which countries are able to raise productivity, grow their economies, and improve living standards. It is therefore important to understand the factors that determine the level of investment by households in the education of their children. Existing work has demonstrated the important role played by factors such as income constraints, expected returns to education, and contemporaneous shocks to economic opportunities \parencite{ shah_drought_2017, atkin_endogenous_2016}. The effect of positive economic shocks on schooling decisions are known to depend on whether the income effect of suddenly having greater available resources to spend on education dominates, or the substitution effect, of the increased opportunity cost of schooling in light of greater income opportunities in the short-term is dominant. While there has been significant work conducted studying the effects of such shocks to agriculture and manufacturing, less attention has been paid to the role of positive shocks to service sector industries on schooling decisions. This paper addresses this gap in the literature by studying the effect of specialization in tourism services on human capital investment in Jamaica. 
+	
+	This paper answers the question: What is the impact of increases in the size of a local tourism industry on the decisions by households on how much to invest in education. Additionally, this paper studies how much the impacts of increases in the intensity of tourism vary depending on the stage of education. I employ two decades of rich tourism exit surveys spanning the year 2001-2021, which provide a detailed picture of tourist spending across Jamaican communities. I combine these with data from the Jamaica Survey of Living Conditions (JSLC) a representative household survey that provides thorough information on the spending by households on the education of individual children, as well as demographic insights such as the educational attainment and employment of parents. Linking households and tourism spending across spatially consistent units, I use a shift-share instrumental variable account for the likely endogeneity of development area tourism levels. I leverage exogenous variation in the number of tourists visiting Jamaica from specific regions of the world from year to year, and the heterogeneous preferences of tourists from various origin countries for where they choose to stay in Jamaica. 
+	
+	
+	The results show that higher one-year lagged area tourism levels produce no change in whether individuals aged between 5 and 19 are enrolled, nor any change in the reasons given for dropping out of school. Higher lagged area tourism revenues do reduce absenteeism, with an increase one-year lagged annual spending by tourists on area accommodations of 10 million U.S. Dollars resulting in a decrease in the likelihood of frequent or occasional absenteeism by .2 percent. This is largely driven by a decrease in frequent or occasional illness-related absenteeism by the same magnitude. At the same time, increases in
+	 
+
+
+
+	\newpage
+	\section{Context and Background}
+
+	\subsection{Jamaica and Tourism}
+
+	[Context and background placeholder.]
+
+	Jamaica is an upper-middle-income island nation of approximately three million people located in the Caribbean Sea. Tourism is the foundation of Jamaica's development strategy and its single largest foreign-exchange earner. The sector employs roughly one in four Jamaicans, either directly or indirectly, and tourism revenues as a share of GDP have consistently exceeded $20$ percent in recent years. The country specializes in beach-based, all-inclusive resort tourism, drawing visitors primarily from North America and Europe.
+
+	Tourism activity is highly heterogeneous across Jamaica's development areas --- the spatial units used by the Statistical Institute of Jamaica (STATIN) and the Social Development Commission (SDC) to group communities by geographic and socioeconomic characteristics. Resort towns such as Montego Bay, Negril, and Ocho Rios receive the vast majority of tourist overnight stays, while inland and rural development areas have much lower exposure to tourist spending. This geographic variation, combined with year-to-year variation in the origins of tourist arrivals, provides the identifying variation used in this paper.
+
+	\subsection{Human Capital, Household Income, and Tourism}
+
+%	[Literature review placeholder.]
+%
+%	A large literature in development economics documents the responsiveness of household investment in children's education to income shocks. Income transfers and conditional cash transfer programs have been shown to increase school enrollment and attendance \parencite[see, e.g.,][]{, fiszbein_conditional_2009}. The direction and magnitude of the effect of an income shock on education can, however, depend on the mechanism: an income gain that primarily accrues to adults who are not the child's primary caregiver, or that arrives through sectors with high child labor demand, may not translate into school investments \parencite{kruger_coffee_2007, edmonds_trade_2005}.
+%
+%	Tourism is an inherently labor-intensive sector and one in which low- to mid-skilled workers represent the majority of the workforce. Prior work has established that increases in local tourism revenues in Jamaica raise real per-capita consumption for urban households, with the benefits concentrated among workers in mid-skilled non-tourism occupations \parencite{mcketty_sun_2026}. Whether these income gains translate into household investments in children's education --- or whether they come at the cost of child labor substitution or reduced schooling time --- is the central question of this paper.
+%
+%	There is also a strand of literature on the effects of natural resource booms and export commodity shocks on human capital. \textcite{caselli_resource_2013} and \textcite{aragon_natural_2013} examine how resource booms affect local labor markets and household welfare. \textcite{atkin_endogenous_2016} finds that export manufacturing opportunities can reduce school attainment among young workers by raising the opportunity cost of schooling. An analogous concern exists for tourism: if tourism growth creates low-skill job opportunities for teenagers and young adults, it could raise the opportunity cost of schooling and reduce educational attainment even as it raises household income. Identifying which effect dominates is a key empirical question.
+
+
+	\newpage
+	\section{Data}
+
+	[Data section placeholder.]
+
+	\subsection*{Jamaica Survey of Living Conditions (JSLC)}
+
+	The primary household data source is the Jamaica Survey of Living Conditions (JSLC), a nationally representative rotating cross-sectional household survey conducted annually by the Statistical Institute of Jamaica and the Planning Institute of Jamaica. The JSLC collects detailed information on household consumption expenditures, income, employment, demographics, and --- critically for this paper --- a dedicated education module covering school enrollment, attendance, grade level, exam outcomes, and school-related expenditures. I use waves spanning $2006$--$2019$, excluding years $2005$, $2011$, and select survey years that lack key education variables.
+
+	The education module of the JSLC records, for each household member of school age, the type of school currently attended, the number of days sent to school in the reference week, reasons for any absences, and school-related expenditures on tuition, transport, uniforms, books, and lunch. For individuals no longer currently enrolled, the survey records the last grade and school type completed, years of schooling, and the reason for stopping attendance. National examination outcomes --- specifically, whether the respondent passed mathematics and English at the CSEC level --- are also recorded.
+
+	\subsection*{Ministry of Tourism Exit Surveys}
+
+	Tourist expenditure data come from the Ministry of Tourism (MOT) of Jamaica, which administers an exit survey to departing tourists at major ports of departure. These surveys record detailed information on tourist spending, country of origin, length of stay, accommodation type, and the geographic areas of the island visited. I use waves of the MOT exit survey spanning $2001$--$2019$.
+
+	Tourist spending is linked to development areas using information on accommodation location. I construct a measure of total tourist accommodation expenditures attributed to each development area in each year, $\text{DA\_EXP}_{dt}$, which is the primary continuous treatment variable in the analysis.
+
+	\subsection*{Shapefiles and Geographic Matching}
+
+	Development area boundaries from STATIN shapefiles are used to spatially match JSLC households to their development area and to allocate tourist spending to development areas. The JSLC reports development areas directly for the years covered, facilitating this linkage.
+
+
+	\newpage
+	\section{Empirical Approach}
+
+	\subsection{The Shift-Share Instrumental Variable Approach}
+
+	The central empirical challenge is that the level of tourism activity in a development area may be correlated with local economic conditions that independently affect household education decisions. To address this endogeneity, I employ a shift-share (Bartik) instrumental variable strategy.
+
+	The instrument is constructed by interacting aggregate ``shifts'' --- year-to-year changes in the number of tourists from each origin country $o$ arriving in Jamaica, $\Delta N_{ot}$ --- with predetermined ``shares'' capturing each development area $d$'s historical exposure to tourists from origin country $o$, $s_{od}$. The Bartik instrument is:
+
+	\begin{equation}
+		B_{dt} = \sum_{o} s_{od} \cdot \Delta N_{ot}
+	\end{equation}
+
+	\noindent where $s_{od}$ is the share of development area $d$'s tourist accommodation expenditures attributable to origin country $o$ in a base year, and $\Delta N_{ot}$ is the national-level change in arrivals from origin country $o$ in year $t$. The identifying assumption is that the national-level shifts in origin-country arrivals are orthogonal to local development-area shocks to education outcomes, conditional on development area and year fixed effects.
+
+	The baseline estimating equation is:
+
+	\begin{equation}
+		Y_{idt} = \alpha + \beta \, \widehat{\text{DA\_EXP}}_{dt} + \mathbf{X}_{idt}' \gamma + \delta_d + \lambda_t + \varepsilon_{idt}
+	\end{equation}
+
+	\noindent where $Y_{idt}$ is an education outcome for individual $i$ in development area $d$ in year $t$; $\widehat{\text{DA\_EXP}}_{dt}$ is the fitted value of local tourism accommodation expenditures from the first stage using $B_{dt}$ as the excluded instrument; $\mathbf{X}_{idt}$ is a vector of individual and household controls; $\delta_d$ and $\lambda_t$ are development area and year fixed effects; and $\varepsilon_{idt}$ is a disturbance term clustered at the development area level.
+
+	\subsection{Identification Checks}
+
+	[Identification checks placeholder.]
+
+	The validity of the shift-share instrument rests on two conditions. First, the shifts (origin-country arrival changes) must be plausibly exogenous to local Jamaican development-area conditions. Year-to-year variation in Canadian, American, and European tourist arrivals is driven primarily by macroeconomic conditions, exchange rates, and travel costs in origin countries --- factors that are unlikely to directly affect school attendance or exam performance in specific Jamaican development areas. Second, the shares must be predetermined relative to the shocks; I use base-year shares constructed from the earliest available exit survey years to ensure this.
+
+	I test the exclusion restriction in several ways, following \textcite{goldsmith-pinkham_bartik_2020}. I verify that the instrument is uncorrelated with pre-trend changes in education outcomes, and I test for balance across pre-determined household characteristics.
+
+	\subsection{Interpreting the Coefficient}
+
+	The coefficient $\beta$ in equation (2) is interpreted as the causal effect of an additional million USD in development area tourism revenues on the education outcome $Y$, for households in that development area. This is a local average treatment effect (LATE) for households in development areas with variation in tourism revenues driven by origin-country arrival shocks.
+
+
+	\newpage
+	\section{Results}
+
+	\subsection{Baseline Findings: School Attendance and Enrollment}
+
+	[Results placeholder.]
+
+	\input{\TableLagOnePath/table1_enrollment.tex}
+	\input{\TableLagOnePath/table2_dropout_reasons.tex}
+	\input{\TableLagOnePath/table3_attendance_levels.tex}
+	\input{\TableLagOnePath/table4_attendance_reasons.tex}
+
+	\FloatBarrier
+
+	\subsection{School Expenditures}
+
+	[Results placeholder.]
+
+	\input{\TableLagOnePath/table8_expenditures_level.tex}
+	\input{\TableLagOnePath/table9_expenditures_log.tex}
+
+	\FloatBarrier
+
+	\subsection{Educational Attainment and Exam Performance}
+
+	[Results placeholder.]
+
+	\input{\TableLagOnePath/table6_exams.tex}
+	\input{\TableLagOnePath/table7_sixthform_tertiary.tex}
+	\input{\TableLagOnePath/table5_skills_program.tex}
+
+	\FloatBarrier
+
+	\subsection{Heterogeneous Impacts}
+
+	[Heterogeneous impacts placeholder: by urban/rural, by household income quartile, by age group, by parental education.]
+
+	\subsection{Robustness to Alternative Explanations}
+
+	[Robustness placeholder.]
+
+
+	\newpage
+	\section{Discussion}
+
+	[Discussion placeholder.]
+
+	\subsection{Implications for Policy and Research}
+
+	[Policy implications placeholder.]
+
+	\subsection{Conclusion}
+
+	[Conclusion placeholder.]
+
+
+	\newpage
+	\printbibliography
+
+
+	\newpage
+	\section{Appendix}
+
+	\subsection{Instrument Summary Statistics and First Stage Regressions}
+
+	[Appendix placeholder.]
+
+	\subsection{Shift-Share Instrument Diagnostics and Summary Statistics}
+
+	[Appendix placeholder.]
+
+	\subsection{Additional Regression Results: Contemporaneous Specification}
+
+	Tables \ref{tab:enrollment_contemp}--\ref{tab:expenditures_log_contemp} replicate the main results using a contemporaneous specification in which development area tourism expenditures and the Bartik instrument enter without a lag.
+
+	\input{\TableContempPath/table1_enrollment_contemp.tex}
+	\input{\TableContempPath/table2_dropout_reasons_contemp.tex}
+	\input{\TableContempPath/table3_attendance_levels_contemp.tex}
+	\input{\TableContempPath/table4_attendance_reasons_contemp.tex}
+	\input{\TableContempPath/table8_expenditures_level_contemp.tex}
+	\input{\TableContempPath/table9_expenditures_log_contemp.tex}
+	\input{\TableContempPath/table6_exams_contemp.tex}
+	\input{\TableContempPath/table7_sixthform_tertiary_contemp.tex}
+	\input{\TableContempPath/table5_skills_program_contemp.tex}
+
+	\FloatBarrier
+
+	\subsection{Additional Regression Results: Two-Year Lagged Specification}
+
+	Tables \ref{tab:enrollment_lag2}--\ref{tab:expenditures_log_lag2} replicate the main results using a two-year lag specification in which development area tourism expenditures and the Bartik instrument enter with a two-year lag.
+
+	\input{\TableLagTwoPath/table1_enrollment_lag2.tex}
+	\input{\TableLagTwoPath/table2_dropout_reasons_lag2.tex}
+	\input{\TableLagTwoPath/table3_attendance_levels_lag2.tex}
+	\input{\TableLagTwoPath/table4_attendance_reasons_lag2.tex}
+	\input{\TableLagTwoPath/table8_expenditures_level_lag2.tex}
+	\input{\TableLagTwoPath/table9_expenditures_log_lag2.tex}
+	\input{\TableLagTwoPath/table6_exams_lag2.tex}
+	\input{\TableLagTwoPath/table7_sixthform_tertiary_lag2.tex}
+	\input{\TableLagTwoPath/table5_skills_program_lag2.tex}
+
+	\FloatBarrier
+
+	\subsection{Tourism Summary Statistics}
+
+	[Appendix placeholder.]
+
+	\subsection{Additional Household and Education Summary Statistics}
+
+	[Appendix placeholder.]
+
+
+\end{document}

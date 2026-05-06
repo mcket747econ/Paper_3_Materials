@@ -1,0 +1,156 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{atkin_endogenous_2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f673f9090cb4a1f7275c7106b927c6e0}{%
+           family={Atkin},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{fullhash}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{fullhashraw}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{bibnamehash}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{authorbibnamehash}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{authornamehash}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{authorfullhash}{f673f9090cb4a1f7275c7106b927c6e0}
+      \strng{authorfullhashraw}{f673f9090cb4a1f7275c7106b927c6e0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{8}
+      \field{title}{Endogenous {Skill} {Acquisition} and {Export} {Manufacturing} in {Mexico}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{volume}{106}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{2046\bibrangedash 2085}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1257/aer.20120901
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\mcket\\Zotero\\storage\\9PGIMU9M\\Atkin - 2016 - Endogenous Skill Acquisition and Export Manufactur.pdf:application/pdf
+      \endverb
+      \keyw{notion,Human Capital/Education}
+    \endentry
+    \entry{goldsmith-pinkham_bartik_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f3ca973d5895ae6e5e148903f7218eca}{%
+           family={Goldsmith-Pinkham},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=95a4c478dc1f368c14f4a266def33da7}{%
+           family={Sorkin},
+           familyi={S\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d82e901e935249954400a31db4bed9d5}{%
+           family={Swift},
+           familyi={S\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e001c936d4a9015262ad3e3f8b188480}
+      \strng{fullhash}{3ce4feea136f7f4ee132c83fd6e48abb}
+      \strng{fullhashraw}{3ce4feea136f7f4ee132c83fd6e48abb}
+      \strng{bibnamehash}{e001c936d4a9015262ad3e3f8b188480}
+      \strng{authorbibnamehash}{e001c936d4a9015262ad3e3f8b188480}
+      \strng{authornamehash}{e001c936d4a9015262ad3e3f8b188480}
+      \strng{authorfullhash}{3ce4feea136f7f4ee132c83fd6e48abb}
+      \strng{authorfullhashraw}{3ce4feea136f7f4ee132c83fd6e48abb}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bartik Instruments: What, When, Why, and How by Paul Goldsmith-Pinkham, Isaac Sorkin and Henry Swift. Published in volume 110, issue 8, pages 2586-2624 of American Economic Review, August 2020, Abstract: The Bartik instrument is formed by interacting local industry shares and national industry growt...}
+      \field{journaltitle}{Am. Econ. Rev.}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Bartik {Instruments}: {What}, {When}, {Why}, and {How}}
+      \field{volume}{110}
+      \field{year}{2020}
+      \field{pages}{2586\bibrangedash 2624}
+      \range{pages}{39}
+      \verb{file}
+      \verb Full Text:C\:\\Users\\mcket\\Zotero\\storage\\BLB6DXKZ\\Goldsmith-Pinkham et al. - 2020 - Bartik Instruments What, When, Why, and How.pdf:application/pdf
+      \endverb
+      \keyw{notion,More\_Updates}
+    \endentry
+    \entry{shah_drought_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=14a5b2834e6ed453a92b23030238997d}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7825c633e4618ca7934884fec0770019}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Bryce\bibnamedelima Millett},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{fullhash}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{fullhashraw}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{bibnamehash}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{authorbibnamehash}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{authornamehash}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{authorfullhash}{be64e75ee7137e62f76998d8b3cdb496}
+      \strng{authorfullhashraw}{be64e75ee7137e62f76998d8b3cdb496}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Higher wages are generally thought to increase human capital production, particularly in the developing world. We introduce a simple model of human capital production in which investments and time allocation differ by age. Using data on test scores and schooling from rural India, we show that higher wages increase human capital investment in early life (in utero to age 2) but decrease human capital from age 5 to 16. Children switch out of school into productive work when rainfall is higher. The opportunity cost of schooling, even for fairly young children, is an important factor in determining overall human capital investment.}
+      \field{journaltitle}{J. Polit. Econ.}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Drought of {Opportunities}: {Contemporaneous} and {Long}-{Term} {Impacts} of {Rainfall} {Shocks} on {Human} {Capital}}
+      \field{volume}{125}
+      \field{year}{2017}
+      \field{pages}{527\bibrangedash 561}
+      \range{pages}{35}
+      \verb{file}
+      \verb Full Text:C\:\\Users\\mcket\\Zotero\\storage\\EQCZV53P\\Shah and Steinberg - 2017 - Drought of Opportunities Contemporaneous and Long.pdf:application/pdf
+      \endverb
+      \keyw{notion,Human Capital/Education}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

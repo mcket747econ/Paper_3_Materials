@@ -1,0 +1,32 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:dropout_reasons} Reason for Non-Enrollment (Ages 5--19, Not Currently Enrolled), IV Estimates}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables:                & DROPOUT\_MONEY  & DROPOUT\_FAMILY  & DROPOUT\_NO\_INTEREST   & DROPOUT\_PREGNANT\\   
+      Model:                              & (1)             & (2)              & (3)                     & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp., lag 1 (DA, M USD)     & 0.0003          & 0.0002           & -0.0001                 & 0.0003\\   
+                                          & (0.0004)        & (0.0003)         & (0.0005)                & (0.0005)\\   
+      Female                              & -0.031$^{***}$  & -0.004           & -0.040$^{***}$          & 0.080$^{***}$\\   
+                                          & (0.011)         & (0.009)          & (0.010)                 & (0.011)\\   
+      Age                                 & -0.004          & -0.005$^{**}$    & -0.005                  & -0.003\\   
+                                          & (0.004)         & (0.002)          & (0.003)                 & (0.002)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                           & Yes             & Yes              & Yes                     & Yes\\  
+      YEAR                                & Yes             & Yes              & Yes                     & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_lag1   & 172.62          & 172.62           & 172.62                  & 172.62\\  
+      Observations                        & 1,637           & 1,637            & 1,637                   & 1,637\\  
+      R$^2$                               & 0.08282         & 0.04960          & 0.04458                 & 0.07234\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+

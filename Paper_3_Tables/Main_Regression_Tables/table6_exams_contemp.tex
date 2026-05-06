@@ -1,0 +1,32 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:exams_contemp} Examination Attainment: At Least Level X (Ages 5--19), IV Estimates (Contemporaneous)}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables: & EXAM\_ATLEAST\_GNAT & EXAM\_ATLEAST\_CXC\_BASIC & \multicolumn{2}{c}{EXAM\_ATLEAST\_CXC\_GEN} & MATHENG\_BOTH\\
+      Model:                          & (1)           & (2)           & (3)           & (4)           & (5)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp. (DA, M USD)        & 0.001         & 0.0009        & 0.0006        & -0.002        & $6.85\times 10^{-5}$\\    
+                                      & (0.002)       & (0.002)       & (0.001)       & (0.002)       & (0.0007)\\   
+      Female                          & 0.032$^{***}$ & 0.031$^{***}$ & 0.026$^{***}$ & 0.014         & 0.011$^{***}$\\   
+                                      & (0.004)       & (0.004)       & (0.004)       & (0.011)       & (0.002)\\   
+      Age                             & 0.021$^{***}$ & 0.019$^{***}$ & 0.016$^{***}$ & 0.008$^{***}$ & 0.007$^{***}$\\   
+                                      & (0.0008)      & (0.0009)      & (0.0009)      & (0.002)       & (0.0008)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                       & Yes           & Yes           & Yes           & Yes           & Yes\\  
+      YEAR                            & Yes           & Yes           & Yes           & Yes           & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_   & 33.869        & 33.869        & 33.869        & 13.844        & 33.869\\  
+      Observations                    & 13,687        & 13,687        & 13,687        & 882           & 13,687\\  
+      R$^2$                           & 0.11338       & 0.11290       & 0.10256       & 0.07354       & 0.05165\\  
+      \midrule \midrule
+      \multicolumn{6}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+

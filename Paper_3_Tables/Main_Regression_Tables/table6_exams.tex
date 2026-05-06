@@ -1,0 +1,32 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:exams} Examination Attainment: At Least Level X (Ages 5--19), IV Estimates}
+   \centering
+   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables: & EXAM\_ATLEAST\_GNAT & EXAM\_ATLEAST\_CXC\_BASIC & \multicolumn{2}{c}{EXAM\_ATLEAST\_CXC\_GEN} & MATHENG\_BOTH\\
+      Model:                              & (1)                    & (2)           & (3)                   & (4)           & (5)\\  
+      \midrule
+      \emph{Variables}\\
+      Tourism exp., lag 1 (DA, M USD)     & $-6.98\times 10^{-5}$  & -0.0002       & $-6.6\times 10^{-5}$  & 0.0005        & $5.36\times 10^{-5}$\\    
+                                          & (0.0002)               & (0.0001)      & (0.0001)              & (0.0009)      & (0.0001)\\   
+      Female                              & 0.031$^{***}$          & 0.030$^{***}$ & 0.025$^{***}$         & 0.018$^{*}$   & 0.011$^{***}$\\   
+                                          & (0.004)                & (0.004)       & (0.004)               & (0.010)       & (0.002)\\   
+      Age                                 & 0.021$^{***}$          & 0.019$^{***}$ & 0.016$^{***}$         & 0.008$^{***}$ & 0.007$^{***}$\\   
+                                          & (0.0008)               & (0.0009)      & (0.0010)              & (0.002)       & (0.0008)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      DEV\_AREA                           & Yes                    & Yes           & Yes                   & Yes           & Yes\\  
+      YEAR                                & Yes                    & Yes           & Yes                   & Yes           & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      F-test (1st stage), DA\_EXP\_lag1   & 1,028.8                & 1,028.8       & 1,028.8               & 44.088        & 1,028.8\\  
+      Observations                        & 13,518                 & 13,518        & 13,518                & 861           & 13,518\\  
+      R$^2$                               & 0.14510                & 0.13709       & 0.11767               & 0.10563       & 0.05217\\  
+      \midrule \midrule
+      \multicolumn{6}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}}
+\end{table}
+
+
