@@ -1,32 +1,32 @@
-
+﻿
 \begin{table}[htbp]
-   \caption{\label{tab:absence_reasons_lag2} Reasons for School Absence (Occasional or Frequent, Annual; Enrolled Sample), IV Estimates (Lag 2)}
+   \caption{\label{tab:absence_reasons_lag2} School Absence Reasons, IV Estimates (Lag 2)}
    \centering
    \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccccc}
       \tabularnewline \midrule \midrule
-      Dependent Variables:                & SCHOOL\_KEPTYEAR\_ANY\_OCC\_OR\_FREQ      & SCHOOL\_KEPTYEAR\_MONEY\_OCC\_OR\_FREQ      & SCHOOL\_KEPTYEAR\_TRANSPORT\_OCC\_OR\_FREQ      & SCHOOL\_KEPTYEAR\_ILL\_OCC\_OR\_FREQ      & SCHOOL\_KEPTYEAR\_WORK\_OCC\_OR\_FREQ      & SCHOOL\_KEPTYEAR\_MONEY\_OCC\_OR\_FREQ\\       
-      Model:                              & (1)                                       & (2)                                         & (3)                                             & (4)                                       & (5)                                        & (6)\\  
+      Dependent Variables:                & Kept out, any reason & Kept out, money & Kept out, transport    & Kept out, illness & Kept out, work          & Kept out, money\\  
+      Model:                              & (1)                  & (2)             & (3)                    & (4)               & (5)                     & (6)\\  
       \midrule
       \emph{Variables}\\
-      Tourism exp., lag 2 (DA, M USD)     & 0.001                                     & -0.002                                      & $-4.46\times 10^{-5}$                           & 0.004                                     & $-8.32\times 10^{-6}$                      & 0.020\\   
-                                          & (0.002)                                   & (0.001)                                     & (0.0002)                                        & (0.003)                                   & ($1.81\times 10^{-5}$)                     & (0.029)\\   
-      Female                              & -0.026$^{***}$                            & -0.017$^{**}$                               & $-5.64\times 10^{-5}$                           & -0.003                                    & -0.0004                                    & -0.051\\   
-                                          & (0.006)                                   & (0.007)                                     & (0.001)                                         & (0.006)                                   & (0.0004)                                   & (0.039)\\   
-      Age                                 & -0.002                                    & 0.001                                       & 0.0004$^{***}$                                  & -0.004$^{***}$                            & $3.59\times 10^{-5}$                       & 0.007\\   
-                                          & (0.001)                                   & (0.0009)                                    & (0.0001)                                        & (0.0006)                                  & ($5.32\times 10^{-5}$)                     & (0.006)\\   
-      \midrule
-      \emph{Fixed-effects}\\
-      DEV\_AREA                           & Yes                                       & Yes                                         & Yes                                             & Yes                                       & Yes                                        & Yes\\  
-      YEAR                                & Yes                                       & Yes                                         & Yes                                             & Yes                                       & Yes                                        & Yes\\  
+      Tourism exp., lag 2 (100M USD)      & 0.130                & -0.153          & -0.004                 & 0.369             & -0.0008                 & 2.00\\   
+                                          & (0.210)              & (0.108)         & (0.021)                & (0.319)           & (0.002)                 & (2.87)\\   
+      Female                              & -0.026$^{***}$       & -0.017$^{**}$   & $-5.64\times 10^{-5}$  & -0.003            & -0.0004                 & -0.051\\   
+                                          & (0.006)              & (0.007)         & (0.001)                & (0.006)           & (0.0004)                & (0.039)\\   
+      Age                                 & -0.002               & 0.001           & 0.0004$^{***}$         & -0.004$^{***}$    & $3.59\times 10^{-5}$    & 0.007\\   
+                                          & (0.001)              & (0.0009)        & (0.0001)               & (0.0006)          & ($5.32\times 10^{-5}$)  & (0.006)\\   
+      Mean of dep. var.                   & 0.188                & 0.108           & 0.003                  & 0.063             & 0.001                   & 0.184\\  
       \midrule
       \emph{Fit statistics}\\
-      F-test (1st stage), DA\_EXP\_lag2   & 439.38                                    & 439.38                                      & 439.38                                          & 439.38                                    & 439.38                                     & 18.957\\  
-      Observations                        & 11,881                                    & 11,881                                      & 11,881                                          & 11,881                                    & 11,881                                     & 756\\  
-      R$^2$                               & 0.13048                                   & 0.05276                                     & 0.01873                                         & -0.04748                                  & 0.00630                                    & -0.21224\\  
+      Bartik F-stat (1st stage)   & 439.38               & 439.38          & 439.38                 & 439.38            & 439.38                  & 18.957\\  
+      Observations                        & 11,881               & 11,881          & 11,881                 & 11,881            & 11,881                  & 756\\  
+      R$^2$                               & 0.13048              & 0.05276         & 0.01873                & -0.04748          & 0.00630                 & -0.21224\\  
       \midrule \midrule
-      \multicolumn{7}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{7}{l}{\emph{Clustered standard errors in parentheses}}\\
       \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
    \end{tabular}}
+   
+   \par \raggedright 
+   Sample: enrolled children; absence measured by annual recall (occasional or frequent). All specifications include development area and year fixed effects; standard errors clustered by development area.
 \end{table}
 
 

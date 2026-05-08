@@ -1,32 +1,32 @@
-
+﻿
 \begin{table}[htbp]
-   \caption{\label{tab:dropout_reasons_lag2} Reason for Non-Enrollment (Ages 5--19, Not Currently Enrolled), IV Estimates (Lag 2)}
+   \caption{\label{tab:dropout_reasons_lag2} Dropout Reasons, IV Estimates (Lag 2)}
    \centering
    \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccc}
       \tabularnewline \midrule \midrule
-      Dependent Variables:                & DROPOUT\_MONEY  & DROPOUT\_FAMILY  & DROPOUT\_NO\_INTEREST   & DROPOUT\_PREGNANT\\   
-      Model:                              & (1)             & (2)              & (3)                     & (4)\\  
+      Dependent Variables:                & Dropout: financial & Dropout: family & Dropout: no interest & Dropout: pregnancy\\  
+      Model:                              & (1)                & (2)             & (3)                  & (4)\\  
       \midrule
       \emph{Variables}\\
-      Tourism exp., lag 2 (DA, M USD)     & 0.0002          & 0.0007           & 0.001                   & -0.0010\\   
-                                          & (0.0005)        & (0.0007)         & (0.002)                 & (0.0010)\\   
-      Female                              & -0.031$^{***}$  & -0.004           & -0.039$^{***}$          & 0.079$^{***}$\\   
-                                          & (0.011)         & (0.009)          & (0.010)                 & (0.011)\\   
-      Age                                 & -0.004          & -0.005$^{**}$    & -0.005                  & -0.003\\   
-                                          & (0.004)         & (0.002)          & (0.003)                 & (0.002)\\   
-      \midrule
-      \emph{Fixed-effects}\\
-      DEV\_AREA                           & Yes             & Yes              & Yes                     & Yes\\  
-      YEAR                                & Yes             & Yes              & Yes                     & Yes\\  
+      Tourism exp., lag 2 (100M USD)      & 0.022              & 0.073           & 0.136                & -0.098\\   
+                                          & (0.050)            & (0.066)         & (0.150)              & (0.098)\\   
+      Female                              & -0.031$^{***}$     & -0.004          & -0.039$^{***}$       & 0.079$^{***}$\\   
+                                          & (0.011)            & (0.009)         & (0.010)              & (0.011)\\   
+      Age                                 & -0.004             & -0.005$^{**}$   & -0.005               & -0.003\\   
+                                          & (0.004)            & (0.002)         & (0.003)              & (0.002)\\   
+      Mean of dep. var.                   & 0.038              & 0.020           & 0.043                & 0.044\\  
       \midrule
       \emph{Fit statistics}\\
-      F-test (1st stage), DA\_EXP\_lag2   & 66.769          & 66.769           & 66.769                  & 66.769\\  
-      Observations                        & 1,637           & 1,637            & 1,637                   & 1,637\\  
-      R$^2$                               & 0.08550         & 0.03685          & 0.01678                 & 0.05667\\  
+      Bartik F-stat (1st stage)   & 66.769             & 66.769          & 66.769               & 66.769\\  
+      Observations                        & 1,637              & 1,637           & 1,637                & 1,637\\  
+      R$^2$                               & 0.08550            & 0.03685         & 0.01678              & 0.05667\\  
       \midrule \midrule
-      \multicolumn{5}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Clustered standard errors in parentheses}}\\
       \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
    \end{tabular}}
+   
+   \par \raggedright 
+   Sample: children ages 5--19 not currently enrolled. All specifications include development area and year fixed effects; standard errors clustered by development area.
 \end{table}
 
 

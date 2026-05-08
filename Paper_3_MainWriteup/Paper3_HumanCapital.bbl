@@ -60,52 +60,6 @@
       \endverb
       \keyw{notion,Human Capital/Education}
     \endentry
-    \entry{goldsmith-pinkham_bartik_2020}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=f3ca973d5895ae6e5e148903f7218eca}{%
-           family={Goldsmith-Pinkham},
-           familyi={G\bibinithyphendelim P\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=95a4c478dc1f368c14f4a266def33da7}{%
-           family={Sorkin},
-           familyi={S\bibinitperiod},
-           given={Isaac},
-           giveni={I\bibinitperiod}}}%
-        {{hash=d82e901e935249954400a31db4bed9d5}{%
-           family={Swift},
-           familyi={S\bibinitperiod},
-           given={Henry},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{e001c936d4a9015262ad3e3f8b188480}
-      \strng{fullhash}{3ce4feea136f7f4ee132c83fd6e48abb}
-      \strng{fullhashraw}{3ce4feea136f7f4ee132c83fd6e48abb}
-      \strng{bibnamehash}{e001c936d4a9015262ad3e3f8b188480}
-      \strng{authorbibnamehash}{e001c936d4a9015262ad3e3f8b188480}
-      \strng{authornamehash}{e001c936d4a9015262ad3e3f8b188480}
-      \strng{authorfullhash}{3ce4feea136f7f4ee132c83fd6e48abb}
-      \strng{authorfullhashraw}{3ce4feea136f7f4ee132c83fd6e48abb}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Bartik Instruments: What, When, Why, and How by Paul Goldsmith-Pinkham, Isaac Sorkin and Henry Swift. Published in volume 110, issue 8, pages 2586-2624 of American Economic Review, August 2020, Abstract: The Bartik instrument is formed by interacting local industry shares and national industry growt...}
-      \field{journaltitle}{Am. Econ. Rev.}
-      \field{month}{8}
-      \field{number}{8}
-      \field{title}{Bartik {Instruments}: {What}, {When}, {Why}, and {How}}
-      \field{volume}{110}
-      \field{year}{2020}
-      \field{pages}{2586\bibrangedash 2624}
-      \range{pages}{39}
-      \verb{file}
-      \verb Full Text:C\:\\Users\\mcket\\Zotero\\storage\\BLB6DXKZ\\Goldsmith-Pinkham et al. - 2020 - Bartik Instruments What, When, Why, and How.pdf:application/pdf
-      \endverb
-      \keyw{notion,More\_Updates}
-    \endentry
     \entry{shah_drought_2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=14a5b2834e6ed453a92b23030238997d}{%
@@ -151,6 +105,17 @@
       \keyw{notion,Human Capital/Education}
     \endentry
   \enddatalist
+  \missing{.}
+  \missing{adao_kolesar}
+  \missing{allen}
+  \missing{allen_barcelona_2021}
+  \missing{almagaro}
+  \missing{atkin_2016}
+  \missing{faber}
+  \missing{fan}
+  \missing{mcketty_2026}
+  \missing{peters}
+  \missing{shah_steinberg}
 \endrefsection
 \endinput
 

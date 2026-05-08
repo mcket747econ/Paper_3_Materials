@@ -1,32 +1,32 @@
-
+﻿
 \begin{table}[htbp]
-   \caption{\label{tab:expenditures_level_lag2} School Expenditure by Category, Level (Enrolled Sample, Real 2024 USD), IV Estimates (Lag 2)}
+   \caption{\label{tab:expenditures_level_lag2} School Expenditure by Category, IV Estimates (Lag 2)}
    \centering
    \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
       \tabularnewline \midrule \midrule
-      Dependent Variables:                & SCHOOL\_TUITION\_NOBOOKS   & SCHOOL\_BOOKS\_EXPENSES   & SCHOOL\_TRANSPORT\_EXPENSES   & SCHOOL\_UNIFORM\_EXPENSES   & SCHOOL\_LUNCHSNACKS\_EXPENSES\\    
-      Model:                              & (1)                        & (2)                       & (3)                           & (4)                         & (5)\\  
+      Dependent Variables:                & Tuition (USD) & Books (USD)  & Transport (USD) & Uniform (USD) & Lunch and snacks (USD)\\  
+      Model:                              & (1)           & (2)          & (3)             & (4)           & (5)\\  
       \midrule
       \emph{Variables}\\
-      Tourism exp., lag 2 (DA, M USD)     & 0.163                      & -0.148                    & -0.398                        & 0.091                       & 0.935\\   
-                                          & (0.370)                    & (0.128)                   & (0.697)                       & (0.229)                     & (0.899)\\   
-      Female                              & -4.24                      & 5.61$^{***}$              & 25.7$^{***}$                  & -8.41$^{***}$               & 14.9$^{**}$\\   
-                                          & (6.72)                     & (1.90)                    & (7.98)                        & (1.88)                      & (6.54)\\   
-      Age                                 & -7.23$^{***}$              & 1.17$^{***}$              & 31.9$^{***}$                  & 2.71$^{***}$                & 29.4$^{***}$\\   
-                                          & (0.774)                    & (0.246)                   & (2.48)                        & (0.275)                     & (1.27)\\   
-      \midrule
-      \emph{Fixed-effects}\\
-      DEV\_AREA                           & Yes                        & Yes                       & Yes                           & Yes                         & Yes\\  
-      YEAR                                & Yes                        & Yes                       & Yes                           & Yes                         & Yes\\  
+      Tourism exp., lag 2 (100M USD)      & 16.3          & -14.8        & -39.8           & 9.10          & 93.5\\   
+                                          & (37.0)        & (12.8)       & (69.7)          & (22.9)        & (89.9)\\   
+      Female                              & -4.24         & 5.61$^{***}$ & 25.7$^{***}$    & -8.41$^{***}$ & 14.9$^{**}$\\   
+                                          & (6.72)        & (1.90)       & (7.98)          & (1.88)        & (6.54)\\   
+      Age                                 & -7.23$^{***}$ & 1.17$^{***}$ & 31.9$^{***}$    & 2.71$^{***}$  & 29.4$^{***}$\\   
+                                          & (0.774)       & (0.246)      & (2.48)          & (0.275)       & (1.27)\\   
+      Mean of dep. var.                   & 48.388        & 70.385       & 258.767         & 88.556        & 464.417\\  
       \midrule
       \emph{Fit statistics}\\
-      F-test (1st stage), DA\_EXP\_lag2   & 993.40                     & 811.13                    & 773.80                        & 810.83                      & 804.73\\  
-      Observations                        & 9,246                      & 10,281                    & 10,283                        & 10,304                      & 10,337\\  
-      R$^2$                               & 0.03981                    & 0.06848                   & 0.08087                       & 0.04630                     & 0.11294\\  
+      Bartik F-stat (1st stage)   & 993.40        & 811.13       & 773.80          & 810.83        & 804.73\\  
+      Observations                        & 9,246         & 10,281       & 10,283          & 10,304        & 10,337\\  
+      R$^2$                               & 0.03981       & 0.06848      & 0.08087         & 0.04630       & 0.11294\\  
       \midrule \midrule
-      \multicolumn{6}{l}{\emph{Clustered (DEV\_AREA) standard-errors in parentheses}}\\
+      \multicolumn{6}{l}{\emph{Clustered standard errors in parentheses}}\\
       \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
    \end{tabular}}
+   
+   \par \raggedright 
+   Sample: enrolled children; real 2024 USD; 2014 excluded due to survey design. All specifications include development area and year fixed effects; standard errors clustered by development area.
 \end{table}
 
 

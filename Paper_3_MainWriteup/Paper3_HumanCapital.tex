@@ -17,7 +17,7 @@
 \usepackage{array, dcolumn, seqsplit, booktabs, threeparttable}
 %\usepackage{adjustbox}
 \usepackage[export]{adjustbox}
-\usepackage{tabularx}
+%\usepackage{tabularx}
 \usepackage{tabularray}
 \UseTblrLibrary{booktabs}
 \usepackage{subcaption}
@@ -65,9 +65,12 @@
 \newcommand*{\AppExhibitPath}{../Paper_3_Tables/Main_Appendix_Exhibits}
 \newcommand*{\TableSumPath}{../Paper_3_Tables/Summary_Stats}
 \newcommand*{\GraphPath}{../Paper_3_Graphs}
-\newcommand*{\TableLagOnePath}{../Paper_3_Tables/Main_Regression_Tables}
+\newcommand*{\TableLagOnePath}{../Paper_3_Tables/Lagged_1Year_Tables}
 \newcommand*{\TableLagTwoPath}{../Paper_3_Tables/Lagged_2Year_Tables}
 \newcommand*{\TableContempPath}{../Paper_3_Tables/Main_Regression_Tables}
+\newcommand*{\CoefplotLag1Path}{../Paper_3_Graphs/Lagged_1Year_Coefplots}
+\newcommand*{\CoefplotContempPath}{../Paper_3_Graphs/Contemp_Coefplots}
+\newcommand*{\CoefplotLag2Path}{../Paper_3_Graphs/Lagged_2Years_Coefplots}
 
 
 \usepackage[
@@ -88,28 +91,28 @@ uniquelist=false
 
 \AtBeginBibliography{\setcounter{maxnames}{99}}
 
-\AtEveryBibitem{%
-	\clearfield{doi}%
-	\clearfield{url}%
-	\clearfield{urldate}%
-	\clearfield{note}%
+\AtEveryBibitem{\%
+	\clearfield{doi}\%
+	\clearfield{url}\%
+	\clearfield{urldate}\%
+	\clearfield{note}\%
 }
 
 \DeclareNameAlias{author}{family-given}
 
 \providecommand*{\bibhyperref}[1]{\href{cite.\thefield{entrykey}}{#1}}
-\renewbibmacro*{textcite}{%
-	\bibhyperref{%
-		\printnames{labelname}%
+\renewbibmacro*{textcite}{\%
+	\bibhyperref{\%
+		\printnames{labelname}\%
 		\addspace
-		(\printfield{labelyear})%
-	}%
+		(\printfield{labelyear})\%
+	}\%
 }
 
-\renewbibmacro*{cite}{%
-	\bibhyperref{%
-		\printnames{labelname}\addspace\printfield{labelyear}%
-	}%
+\renewbibmacro*{cite}{\%
+	\bibhyperref{\%
+		\printnames{labelname}\addspace\printfield{labelyear}\%
+	}\%
 }
 
 
@@ -130,7 +133,7 @@ hypertexnames=true
 	\renewcommand*{\mkbibnamegiven}[1]{\textbf{#1}}%
 }
 
-% Patch footnotes to be justified
+
 \makeatletter
 \patchcmd{\@footnotetext}{\footnotesize}{\footnotesize\ignorespaces}{}{}
 \makeatother
@@ -144,7 +147,8 @@ hypertexnames=true
 
 \title{\textbf{Beaches or Books:}\\
 	\centerline{\textbf{Tourism and Human Capital Accumulation}\thanks{
-			mcketty@wisc.edu, matthewmcketty.com. I am grateful to my advisor, Jeremy Foltz, for his invaluable guidance throughout this project. I am deeply grateful for the guidance and support of my committee members: Dustin Frye, Priya Mukherjee, and Christopher Timmins. I also thank Paul Dower, Damien King, and Laura Schechter for their input, as well as Eric Dieckman for assistance with data architecture. I am grateful for the assistance of Antoinette Lyn from the Jamaican Ministry of Tourism. I am also grateful for financial assistance from the Department of Agricultural and Applied Economics, the Latin American, Caribbean and Iberian Studies Center, and the University of Wisconsin -- Madison Graduate School. }}}
+%			mcketty@wisc.edu, matthewmcketty.com. I am grateful to my advisor, Jeremy Foltz, for his invaluable guidance throughout this project. I am deeply grateful for the guidance and support of my committee members: Dustin Frye, Priya Mukherjee, and Christopher Timmins. I also thank Paul Dower, Damien King, and Laura Schechter for their input, as well as Eric Dieckman for assistance with data architecture. I am grateful for the assistance of Antoinette Lyn from the Jamaican Ministry of Tourism. I am also grateful for financial assistance from the Department of Agricultural and Applied Economics, the Latin American, Caribbean and Iberian Studies Center, and the University of Wisconsin -- Madison Graduate School.
+		 }}}
 
 \author{Matthew McKetty}
 \affil{University of Wisconsin -- Madison}
@@ -161,7 +165,7 @@ hypertexnames=true
 
 	\vspace{-2em}
 	\begin{center}
-		\section*{\large Abstract}
+		\section*{\texorpdfstring{\large Abstract}{Abstract}}
 		\addcontentsline{toc}{section}{Abstract}
 		\vspace{0.5em}
 		\begin{minipage}{0.85\textwidth}
@@ -170,7 +174,7 @@ hypertexnames=true
 			\linespread{1.0}\selectfont
 			\setlength{\parindent}{2em}
 			[Abstract placeholder.] 
-%			Tourism specialization has been widely promoted as a development strategy for lower- and middle-income countries, yet relatively little is known about how tourism growth affects household investment in human capital. This paper investigates the effect of tourism demand shocks on children's school attendance, educational attainment, exam performance, and school expenditures in Jamaica. Using a shift-share instrumental variable strategy that exploits exogenous variation in origin-country tourist arrivals interacted with pre-determined local exposure shares, I estimate the causal impact of changes in local tourism revenues on education outcomes for households in affected development areas. I find that [results placeholder]. These findings have implications for the design of development strategies in countries heavily reliant on tourism, and for understanding the conditions under which export-led service sector growth translates into investments in the next generation.
+			Tourism specialization has been widely promoted as a development strategy for lower- and middle-income countries, yet relatively little is known about how tourism growth affects household investment in human capital. This paper investigates the effect of tourism demand shocks on children's school attendance, educational attainment, exam performance, and school expenditures in Jamaica. Using a shift-share instrumental variable strategy that exploits exogenous variation in origin-country tourist arrivals interacted with pre-determined local exposure shares, I estimate the causal impact of changes in local tourism revenues on education outcomes for households in affected development areas. I find that [results placeholder]. These findings have implications for the design of development strategies in countries heavily reliant on tourism, and for understanding the conditions under which export-led service sector growth translates into investments in the next generation.
 		\end{minipage}
 	\end{center}
 
@@ -179,14 +183,32 @@ hypertexnames=true
 	\section{Introduction}
 	\setlength{\parindent}{20pt}
 
-	Increases in human capital are a key mechanism by which countries are able to raise productivity, grow their economies, and improve living standards. It is therefore important to understand the factors that determine the level of investment by households in the education of their children. Existing work has demonstrated the important role played by factors such as income constraints, expected returns to education, and contemporaneous shocks to economic opportunities \parencite{ shah_drought_2017, atkin_endogenous_2016}. The effect of positive economic shocks on schooling decisions are known to depend on whether the income effect of suddenly having greater available resources to spend on education dominates, or the substitution effect, of the increased opportunity cost of schooling in light of greater income opportunities in the short-term is dominant. While there has been significant work conducted studying the effects of such shocks to agriculture and manufacturing, less attention has been paid to the role of positive shocks to service sector industries on schooling decisions. This paper addresses this gap in the literature by studying the effect of specialization in tourism services on human capital investment in Jamaica. 
+	Increases in human capital are a key mechanism by which countries are able to raise productivity, grow their economies, and improve living standards. It is therefore important to understand the factors that determine the level of investment by households in the education of their children. Existing work has demonstrated the important role played by factors such as income constraints, expected returns to education, and contemporaneous shocks to economic opportunities \parencite{shah_drought_2017, atkin_endogenous_2016}. The effect of positive economic shocks on schooling decisions are known to depend on whether the income effect of suddenly having greater available resources to spend on education dominates, or the substitution effect, of the increased opportunity cost of schooling in light of greater income opportunities in the short-term is dominant. While there has been significant work conducted studying the effects of such shocks to agriculture and manufacturing, less attention has been paid to the role of positive shocks to service sector industries on schooling decisions. This paper addresses this gap in the literature by studying the effect of specialization in tourism services on human capital investment in Jamaica. 
 	
-	This paper answers the question: What is the impact of increases in the size of a local tourism industry on the decisions by households on how much to invest in education. Additionally, this paper studies how much the impacts of increases in the intensity of tourism vary depending on the stage of education. I employ two decades of rich tourism exit surveys spanning the year 2001-2021, which provide a detailed picture of tourist spending across Jamaican communities. I combine these with data from the Jamaica Survey of Living Conditions (JSLC) a representative household survey that provides thorough information on the spending by households on the education of individual children, as well as demographic insights such as the educational attainment and employment of parents. Linking households and tourism spending across spatially consistent units, I use a shift-share instrumental variable account for the likely endogeneity of development area tourism levels. I leverage exogenous variation in the number of tourists visiting Jamaica from specific regions of the world from year to year, and the heterogeneous preferences of tourists from various origin countries for where they choose to stay in Jamaica. 
-	
-	
-	The results show that higher one-year lagged area tourism levels produce no change in whether individuals aged between 5 and 19 are enrolled, nor any change in the reasons given for dropping out of school. Higher lagged area tourism revenues do reduce absenteeism, with an increase one-year lagged annual spending by tourists on area accommodations of 10 million U.S. Dollars resulting in a decrease in the likelihood of frequent or occasional absenteeism by .2 percent. This is largely driven by a decrease in frequent or occasional illness-related absenteeism by the same magnitude. At the same time, increases in
-	 
+ This paper answers three questions: (1) Does growth of local tourism services result in lower educational attainment for children in tourism-exposed localities? (2) Does tourism growth result in lower household investment in the education of their members? (3) Do these effects vary by education stage? Data on tourism levels come from exit surveys administered by the Jamaican Ministry of Tourism on representative samples of arriving tourists. Data on educational attainment and household investments come from the Jamaica Survey of Living Conditions (JSLC), a nationally representative household survey managed by the Statistical Institute of Jamaica (STATIN). The JSLC provides information on enrollment, absenteeism, grade level, type of school attended, and education spending at the individual level across categories such as tuition, textbooks, and transportation. I link households and tourism activity across spatially consistent units for the years 2006, 2010, 2012, 2014, 2018, and 2019, producing a repeated cross-section of over 11,000 school-aged children and young adults between the ages of 5 and 19. I use a shift-share instrumental variable to account for the likely endogeneity of development-area tourism levels, leveraging exogenous variation in the number of tourists arriving from specific regions of the world from year to year and the heterogeneous preferences of tourists from different origin countries for where they choose to stay in Jamaica.
+ 
+ 
+ The results show that higher one-year lagged area tourism levels produce no change in the likelihood that individuals aged 5 to 19 are enrolled in school, nor any change in the reasons given for dropping out. Higher lagged area tourism revenues do reduce absenteeism: a 10 million U.S. dollar increase in one-year lagged annual tourist spending on area accommodations decreases the likelihood of frequent or occasional absenteeism by 0.2 percent. This effect is largely driven by a decrease in illness-related absenteeism of the same magnitude. At the same time, increases in lagged area tourism are associated with a small increase in transportation-related absenteeism, an effect driven almost entirely by rural households, suggesting a potential crowding-out effect of local tourism activity.
+ 
+ 
+ The only observed effect of tourism on schooling expenditures is for textbooks, for which the effect is negative. A 10 million dollar increase in lagged tourism expenditures is associated with a decrease in textbook spending, suggesting a modest reduction in human capital investment. There is, however, no change in the likelihood that students at key high school branching points achieve different levels of exam performance. There is, however, a lower likelihood of college enrollment when prior-year tourism levels are higher. There is no change in the likelihood of enrollment in a vocational or skills-training program.
+ 
+ 
+ These results suggest a relatively minor impact of local tourism booms on educational decisions, a notable departure from prior work documenting that booms in lower-skilled job opportunities reduce educational attainment. I argue that these results highlight the important role played by job quality. In cases where newly created jobs are of lower quality, increased earnings may support educational attainment through pathways such as improved health. I also show how spillovers from a local sector boom can potentially crowd out student transportation options, thereby harming school attendance. The study also reveals important dimensions of heterogeneity: rural, low-skilled, and poorer households are most likely to experience changes in spending patterns.
+ 
+ 
+ This paper makes three contributions. First, it demonstrates that a positive shock to low- and middle-skilled job opportunities does not necessarily reduce educational attainment. Extensive prior work has shown that greater economic opportunities can induce students to leave school in favor of employment, particularly in manufacturing in middle-income countries \parencite{atkin_endogenous_2016, edmonds_trade_2010}. This paper presents a counter-example in Jamaica, an upper-middle-income nation that has experienced considerable growth in lower- and mid-skilled tourism services. Specifically, I show that in a setting where the quality of newly created jobs is low relative to the returns available from additional education, there is no increase in dropping out.
+ 
+It has been well established in the literature on human capital accumulation and economic development that the effects of positive income shocks on educational investment by financially constrained households depend on the relative strength of income and substitution effects \parencite{shah_drought_2017}. If the income effect dominates, greater earnings provide additional resources that households can allocate to their children’s schooling, and investment grows. If the substitution effect is larger, the higher opportunity cost of schooling causes children and young adults to forgo education and join the labor force. This “tug of war” is especially consequential for middle-income countries seeking to reach high-income status. Productivity growth driven by human capital accumulation is the key to making the middle-to-high income transition \parencite{nayyar_services-led_2023}, but many middle-income countries rely heavily on industries that incorporate large amounts of medium- and low-skilled labor. If growth in these sectors raises earnings and the income effect dominates, they can be drivers of greater schooling and robust economic growth. If, on the other hand, sectoral expansion induces students to leave school for the workforce, such growth may actually impede the human capital development that is crucial for structural transformation. This paper contributes to this debate by examining the expansion of tourism, the major tradable sector that has helped bring Jamaica to middle-income status—and within which the country has continuously struggled to grow beyond that level.
 
+Jamaica is an especially useful setting in which to consider how the comparative advantages that enable a country to reach middle-income status may also impede further growth. Like other middle-income countries, Jamaica has transitioned from being primarily resource-based to being a predominantly service-oriented economy, and it has similarly struggled with productivity growth. As in the case of other middle-income peers, Jamaica has been brought to this status in large part by a tradable sector that is heavily reliant on mid- and lower-skilled labor.
+
+This paper contributes to three main areas of the literature. First, it contributes to the literature on human capital investment and economic development. A large body of this research has studied how higher wages and greater economic opportunity can reduce investments in schooling. Seminal work by \textcite{shah_drought_2017} studied the impact of contemporaneous and lagged rainfall shocks on human capital accumulation in Bangladesh, showing that these shocks increased educational attainment through the substitution channel.
+
+
+This paper also contributes to the literature on services-led structural change. Some work in this literature has focused on the role of high-value services, such as information technology, in driving transformation and development in settings such as India \parencite{fan_growing_2023, peters_skipping_2026}. Other work has noted that service industries often lack the dual characteristics of high productivity growth and inclusion of lower-skilled labor that distinguish manufacturing. This study shows the micro-level impacts of specialization in a services sector that ranks highly on the latter dimension. Greater schooling is a prerequisite for developing human capital, and it is possible that inclusive labor-absorbing sectors such as tourism may create conditions that work against efforts to incentivize more education. The extent to which that is the case is of great importance to the long-run growth of many services-oriented middle-income countries.
+
+Finally, this paper contributes to the literature on tourism and economic development. To my knowledge, this is the first paper to address the human capital dimension of trade in tourism services. Some of this literature has focused on the long-run impacts of tourism and development in contexts such as Mexico \parencite{faber_tourism_2019}, while other work has examined the localized impacts of urban tourism on local consumption and welfare in Barcelona \parencite{allen_urban_2021} and Amsterdam \parencite{almagro_location_2025}. This paper considers the role that tourism plays in shaping schooling decisions in a middle-income, services-heavy economy that has struggled to achieve consistent growth. By analyzing the heterogeneous impacts of tourism services at different stages of schooling, I show that tourism-oriented development must consider how the growth of tourism job opportunities may support or undermine government efforts to strengthen human capital.
 
 
 	\newpage
@@ -194,47 +216,74 @@ hypertexnames=true
 
 	\subsection{Jamaica and Tourism}
 
-	[Context and background placeholder.]
+Jamaica is an upper-middle-income country in the northern Caribbean with an economy heavily based on services, which comprise approximately 70 percent of GDP. Tourism services account for 33 percent of GDP when factoring in backward linkages.\footnote{} Even as tourism has grown considerably over the past two decades\footnote{}, the country has struggled to achieve meaningful economic growth, with average GDP per capita oscillating between 1 and $-1$ percent since 2000. A commonly cited reason is Jamaica’s persistent challenge in expanding the skills and productivity of its workforce.
 
-	Jamaica is an upper-middle-income island nation of approximately three million people located in the Caribbean Sea. Tourism is the foundation of Jamaica's development strategy and its single largest foreign-exchange earner. The sector employs roughly one in four Jamaicans, either directly or indirectly, and tourism revenues as a share of GDP have consistently exceeded $20$ percent in recent years. The country specializes in beach-based, all-inclusive resort tourism, drawing visitors primarily from North America and Europe.
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.82\textwidth]{\GraphPath/Summary_Stats/tourism_by_year.png}
+		\caption{\label{fig:tourism_by_year} Mean Development-Area Tourism Expenditure by Year}
+		\par\raggedright\small Mean real accommodation expenditure (2024 USD) per development area by JSLC survey year. Error bars show $\pm$1 standard deviation across development areas.
+	\end{figure}
 
-	Tourism activity is highly heterogeneous across Jamaica's development areas --- the spatial units used by the Statistical Institute of Jamaica (STATIN) and the Social Development Commission (SDC) to group communities by geographic and socioeconomic characteristics. Resort towns such as Montego Bay, Negril, and Ocho Rios receive the vast majority of tourist overnight stays, while inland and rural development areas have much lower exposure to tourist spending. This geographic variation, combined with year-to-year variation in the origins of tourist arrivals, provides the identifying variation used in this paper.
-
-	\subsection{Human Capital, Household Income, and Tourism}
-
-%	[Literature review placeholder.]
-%
-%	A large literature in development economics documents the responsiveness of household investment in children's education to income shocks. Income transfers and conditional cash transfer programs have been shown to increase school enrollment and attendance \parencite[see, e.g.,][]{, fiszbein_conditional_2009}. The direction and magnitude of the effect of an income shock on education can, however, depend on the mechanism: an income gain that primarily accrues to adults who are not the child's primary caregiver, or that arrives through sectors with high child labor demand, may not translate into school investments \parencite{kruger_coffee_2007, edmonds_trade_2005}.
-%
-%	Tourism is an inherently labor-intensive sector and one in which low- to mid-skilled workers represent the majority of the workforce. Prior work has established that increases in local tourism revenues in Jamaica raise real per-capita consumption for urban households, with the benefits concentrated among workers in mid-skilled non-tourism occupations \parencite{mcketty_sun_2026}. Whether these income gains translate into household investments in children's education --- or whether they come at the cost of child labor substitution or reduced schooling time --- is the central question of this paper.
-%
-%	There is also a strand of literature on the effects of natural resource booms and export commodity shocks on human capital. \textcite{caselli_resource_2013} and \textcite{aragon_natural_2013} examine how resource booms affect local labor markets and household welfare. \textcite{atkin_endogenous_2016} finds that export manufacturing opportunities can reduce school attainment among young workers by raising the opportunity cost of schooling. An analogous concern exists for tourism: if tourism growth creates low-skill job opportunities for teenagers and young adults, it could raise the opportunity cost of schooling and reduce educational attainment even as it raises household income. Identifying which effect dominates is a key empirical question.
+	\subsection{Jamaican Education System}
 
 
-	\newpage
+	Schooling in Jamaica is compulsory from primary school beginning in grade 1 up until grade 11. The system is  divided into primary and secondary schools, with primary schools composing grades 1-6, and secondary schools comprising grades 7-13.  Early childhood education is notcompulsory. In secondary schools, the important milestone for preparing students for college attendance is the Caribbean Secondary Education Certificate examination, taken in the 11th grade.\footnote{\footnotesize This is based upon the British O-Level Examination. Completion of these exams is equivalent to receiving a high school diploma in the United States.} These exams cover five major subject areas and are the primary secondary credential.\footnote{\footnotesize Source:  } These examinations provide entry to skilled work, and are a necessary pre-requisite for those who want to continue on to university. 
+	
+	Successful completion of the CSEC exams grants access to Sixth Form: two years of additional study in three or four subject areas designed to prepare students for university. In the U.S. context, this is roughly equivalent to Advanced Placement or International Baccalaureate coursework. At the end of Sixth Form (grade 13), students sit the Caribbean Advanced Proficiency Exam (CAPE).
+	
+	Primary and secondary schooling is largely administered and nominally free, while early childhood education is primarily provided by private institutions with some government support. Significant costs remain for families, particularly at the secondary level, including uniforms, textbooks, transportation, and meals. Households spend the equivalent of 3 percent of GDP on early childhood, primary, and secondary education. Relative to the average GDP per capita in 2017 of approximately 3,053 USD, the household cost for one child represented 13 percent of GDP per capita for primary school and 20 percent for secondary education.\footnote{\footnotesize Source:} Financial constraints are accordingly the most commonly cited reason for leaving school before grade 11, as shown in Table \ref{tab:reasons_dropout}, with lunch, snacks, and transportation comprising the largest reported shares of schooling expenditures.
+	
+The government invests considerably in the education system, including through cash transfer programs to encourage attendance\footnote{}, Ministry of Education-funded lunch and snack programs\footnote{}, and support for low-income families to cover textbooks and other materials.\footnote{} Jamaica has spent more than many peer nations on education, with the education budget reaching approximately 5 percent of GDP. These supports may reduce dropout rates by easing the financial constraints facing families.
+
+	There is near-universal school attendance up to age 16 \parencite{world_bank_jamaica_2022}, but Jamaican students perform worse than those in peer nations on measures of learning.\footnote{} Jamaican students complete an average of 11.4 years of formal education, but only 7.1 Learning-Adjusted Years of Schooling (LAYS) \parencite{world_bank_jamaica_2022}, reflecting significant gaps in schooling quality. Another key challenge is secondary school completion and tertiary enrollment: approximately 90 percent of students complete secondary education, while only 27 percent enroll in tertiary institutions. The transition from secondary to tertiary education is therefore one of the most important margins to examine.
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.82\textwidth]{\GraphPath/Summary_Stats/enrollment_by_year.png}
+		\caption{\label{fig:enrollment_by_year} School Enrollment Rate by Year}
+		\par\raggedright\small Fraction of school-age children (ages 5--19) enrolled in school by JSLC survey year.
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.82\textwidth]{\GraphPath/Summary_Stats/absence_by_reason_annual.png}
+		\caption{\label{fig:absence_by_reason} Annual Kept-From-School Rate by Reason}
+		\par\raggedright\small Share of enrolled school-age children kept from school for each reason at least once since the start of the school year, pooled across JSLC waves.
+	\end{figure}
+
+	\subsection{Hypotheses Regarding Tourism and Human Capital Investments}
+	
+The literature on educational attainment stresses the importance of contemporaneous schooling costs for household and individual decisions about optimal education levels. In the Jamaican context, the main predictions are that, in the presence of significant household financial constraints, a positive shock to local employment and earnings will influence schooling by raising consumption, improving future human capital, decreasing the marginal utility of additional consumption, and potentially altering the net returns to schooling. I derive the following hypotheses:
+
+\begin{enumerate}
+	\item Decreased enrollment and attendance, and an increase in students dropping out to join the labor force.
+	\item For students who remain in school, a greater share sorting into vocational or skills training programs and fewer choosing to pursue a university degree.
+\end{enumerate}
+
+The first hypothesis reflects the finding in \textcite{mcketty_sun_2026} that increases in real expenditures resulting from higher tourism levels are approximately 1.8 percent per year and are heavily concentrated in food and healthcare. The utility gained from greater consumption and improved health may be perceived as more valuable than additional investment in schooling, particularly given the high investment threshold required to meaningfully improve educational performance. The second hypothesis reflects the expectation that, because of greater opportunities in vocational and technical fields and the high cost of college, more students will sort into those tracks rather than pursuing formal higher education.
+
+	
+	The first hypothesis stems from the fact that from the paper \textcite{mcketty_sun_2026} I know that the increase in real expenditures resulting from higher tourism levels is roughly 1.8 percent per year and is heavily spent on food and healthcare. The utility gained from consuming more and improving health for the future may be seen as more useful than additional investments in schooling given a potentially high threshold of investment needed to improve performance. Essentially, households will believe that too much investment is needed to make school a worthy route, and the increased earnings opportunities make work the better option. For hypothesis 2, I expect that because of greater opportunities in vocational or technical skills training, and because of the exorbitant cost of college education, more students will sort into those tracks than before and less towards college studies. 
+	
+	
 	\section{Data}
+	
+	Data on tourist expenditures come from exit surveys conducted by the Ministry of Tourism on a sample of departing tourists leaving through one of the island’s two international airports. Enumerators randomly select traveling parties to survey in the departure halls. Because all stopover tourists (visitors who spend more than 24 hours in Jamaica) must depart through these airports, the surveys obtain a representative sample of non-cruise visitors. Respondents answer detailed questions about their spending, demographics, and, critically, the hotel at which they stayed. This provides a representative picture of the distribution of tourist spending across Jamaican locales. I scale the survey estimates using aggregate arrival and spending data from annual reports published by the Ministry of Tourism. Tourism data span the years 2004–2006 and 2008–2019, covering approximately 50,000 traveling parties and 100,000 individuals.
+	
+	Education data come from the Jamaica Survey of Living Conditions, a nationally representative household survey conducted annually by the Statistical Institute of Jamaica. The JSLC collects questions at both the household and individual levels. In the education module, questions on enrollment are asked for all individuals. For currently enrolled children and youth, detailed questions cover the type of school attended, academic progress and exam performance, and spending by parents across categories such as tuition, textbooks, and transportation. Individuals no longer in school answer questions about their educational attainment, skill levels, and, for those who dropped out before grade 11, their reasons for doing so. The JSLC years used in this paper are 2006, 2010, 2012, 2014, 2018, and 2019, covering approximately 6,000 households and 11,000 school-aged children. Administrative shapefiles from STATIN enable me to link tourism spending and households across spatially consistent geographic units.
 
-	[Data section placeholder.]
-
-	\subsection*{Jamaica Survey of Living Conditions (JSLC)}
-
-	The primary household data source is the Jamaica Survey of Living Conditions (JSLC), a nationally representative rotating cross-sectional household survey conducted annually by the Statistical Institute of Jamaica and the Planning Institute of Jamaica. The JSLC collects detailed information on household consumption expenditures, income, employment, demographics, and --- critically for this paper --- a dedicated education module covering school enrollment, attendance, grade level, exam outcomes, and school-related expenditures. I use waves spanning $2006$--$2019$, excluding years $2005$, $2011$, and select survey years that lack key education variables.
-
-	The education module of the JSLC records, for each household member of school age, the type of school currently attended, the number of days sent to school in the reference week, reasons for any absences, and school-related expenditures on tuition, transport, uniforms, books, and lunch. For individuals no longer currently enrolled, the survey records the last grade and school type completed, years of schooling, and the reason for stopping attendance. National examination outcomes --- specifically, whether the respondent passed mathematics and English at the CSEC level --- are also recorded.
-
-	\subsection*{Ministry of Tourism Exit Surveys}
-
-	Tourist expenditure data come from the Ministry of Tourism (MOT) of Jamaica, which administers an exit survey to departing tourists at major ports of departure. These surveys record detailed information on tourist spending, country of origin, length of stay, accommodation type, and the geographic areas of the island visited. I use waves of the MOT exit survey spanning $2001$--$2019$.
-
-	Tourist spending is linked to development areas using information on accommodation location. I construct a measure of total tourist accommodation expenditures attributed to each development area in each year, $\text{DA\_EXP}_{dt}$, which is the primary continuous treatment variable in the analysis.
-
-	\subsection*{Shapefiles and Geographic Matching}
-
-	Development area boundaries from STATIN shapefiles are used to spatially match JSLC households to their development area and to allocate tourist spending to development areas. The JSLC reports development areas directly for the years covered, facilitating this linkage.
-
+	\IfFileExists{\TableSumPath/education_summary_stats.tex}{%
+		\input{\TableSumPath/education_summary_stats.tex}%
+	}{}
 
 	\newpage
 	\section{Empirical Approach}
+	
+	I calculate tourism at the development-area level because development areas are government-designated districts with similar economic and demographic characteristics. These areas provide a natural grouping for communities and economic activities, and include both rural and urban components, allowing for estimation of heterogeneous rural-urban impacts.
+	The main empirical specification is the following, where $ $ is an education outcome variable, $ $ is a vector of household controls, and $ $ is the lagged level of tourism. I cluster standard errors at the development-area level, and include development-area and year fixed effects ($$ and $$, respectively).
+	I use a one-year lag of tourism revenue, reflecting the empirical finding in the literature that schooling decisions are influenced by conditions in prior periods. I do not include additional lags because of likely serial correlation between immediately adjacent years. I run robustness checks using contemporaneous and two-year lags.
+	
 
 	\subsection{The Shift-Share Instrumental Variable Approach}
 
@@ -251,35 +300,48 @@ hypertexnames=true
 	The baseline estimating equation is:
 
 	\begin{equation}
-		Y_{idt} = \alpha + \beta \, \widehat{\text{DA\_EXP}}_{dt} + \mathbf{X}_{idt}' \gamma + \delta_d + \lambda_t + \varepsilon_{idt}
+		Y_{idt} = \alpha + \beta \, \widehat{\text{Tourism}}_{dt} + \mathbf{X}_{idt}' \gamma + \delta_d + \lambda_t + \varepsilon_{idt}
 	\end{equation}
 
 	\noindent where $Y_{idt}$ is an education outcome for individual $i$ in development area $d$ in year $t$; $\widehat{\text{DA\_EXP}}_{dt}$ is the fitted value of local tourism accommodation expenditures from the first stage using $B_{dt}$ as the excluded instrument; $\mathbf{X}_{idt}$ is a vector of individual and household controls; $\delta_d$ and $\lambda_t$ are development area and year fixed effects; and $\varepsilon_{idt}$ is a disturbance term clustered at the development area level.
-
-	\subsection{Identification Checks}
-
-	[Identification checks placeholder.]
-
-	The validity of the shift-share instrument rests on two conditions. First, the shifts (origin-country arrival changes) must be plausibly exogenous to local Jamaican development-area conditions. Year-to-year variation in Canadian, American, and European tourist arrivals is driven primarily by macroeconomic conditions, exchange rates, and travel costs in origin countries --- factors that are unlikely to directly affect school attendance or exam performance in specific Jamaican development areas. Second, the shares must be predetermined relative to the shocks; I use base-year shares constructed from the earliest available exit survey years to ensure this.
-
-	I test the exclusion restriction in several ways, following \textcite{goldsmith-pinkham_bartik_2020}. I verify that the instrument is uncorrelated with pre-trend changes in education outcomes, and I test for balance across pre-determined household characteristics.
-
-	\subsection{Interpreting the Coefficient}
-
-	The coefficient $\beta$ in equation (2) is interpreted as the causal effect of an additional million USD in development area tourism revenues on the education outcome $Y$, for households in that development area. This is a local average treatment effect (LATE) for households in development areas with variation in tourism revenues driven by origin-country arrival shocks.
+	
+	I use a one-year lag of tourism revenue, reflecting the empirical finding in the literature that schooling decisions are influenced by conditions in prior periods. I do not include additional lags because of likely serial correlation between immediately adjacent years. I run robustness checks using contemporaneous and two-year lags.
 
 
-	\newpage
+		Development-area tourism levels are likely correlated with unobserved features of these locales that also influence educational outcomes. More touristic development areas may, for example, have systematically better governance, resulting in both higher-quality schools and greater hotel investment. Such endogeneity would bias OLS estimates. To address this, I instrument area revenues using a shift-share instrumental variable. I exploit year-over-year variation in the intensity of tourist arrivals from different regions and countries, interacted with the heterogeneous preferences of tourists from different origin countries for different parts of Jamaica.
+		
+		The shift-share IV is constructed by interacting an exposure “share” component with aggregate “shifts” for each development area. The exposure share for development area $d$ is the share of its tourism revenues in a base year $t_0$ earned from tourists originating from region $r$. The shift measures the percentage change in spending by tourists from region $r$ across all of Jamaica (excluding area $d$) between year $t-1$ and the base year $t_0$. Exogeneity can be established either by arguing that the base-year exposure shares are orthogonal to the outcome or that the shocks themselves are orthogonal. This paper uses the shifts-based identification approach, which is the most appropriate given the context of tourist decision-making. Decisions by tourists to visit Jamaica are influenced by home-country economic conditions, conditions in competing destinations, and other factors that, conditional on year and area fixed effects, are plausibly exogenous to the development-area characteristics that influence educational investment.
+		
+		I estimate the effect of tourism on schooling using two-stage least squares. Following recommendations in the literature, I residualize the shocks to correct for serial correlation. To address potential correlation in shocks across development areas with similar exposure shares, I conduct robustness checks using \textcite{adao_shift-share_2019} shift-level regressions.
+
+
 	\section{Results}
+	
+	I first present findings on the effects of one-year lagged tourism levels on enrollment, attendance, and reasons for dropping out. I then discuss results for schooling expenditures. Finally, I present findings on educational attainment and exam performance.
 
 	\subsection{Baseline Findings: School Attendance and Enrollment}
 
-	[Results placeholder.]
+		Results for regressions of enrollment status for individuals aged 5 to 19 are shown in Table \ref{tab:enroll_tab}. There is no effect of prior-year development-area tourism expenditures on the likelihood that a child or adolescent is enrolled in school. All regressions include year and development-area fixed effects. The first column includes controls for sex and age; the second column adds a control for the number of enrolled siblings in the household.\footnote{} The final column restricts the sample to households with more than five members.\footnote{}
+		
+		Table \ref{tab:nonenroll_tab} presents regressions examining the effect of lagged tourism levels on the reasons non-enrolled students are not attending school, and finds no effect for any of the outcomes examined: money problems, family reasons, lack of interest, and pregnancy. Table \ref{tab:attendance} covers the effects of lagged tourism on attendance during the four weeks prior to the survey.\footnote{} There is no effect of tourism activity on the number of school days attended per week or on the likelihood of having been kept from school at least once.
 
 	\input{\TableLagOnePath/table1_enrollment.tex}
+	
+	Table \ref{tab:absence_reasons} covers the effects of lagged area tourism revenues on the frequency and reasons for absences. Column 1 shows that prior-year tourism revenues produce a statistically significant decrease in the likelihood that an enrolled student is absent occasionally or frequently for any reason: a 1 million dollar increase produces a 0.2 percent decrease in the likelihood of frequent or occasional absence. Column 4 indicates that this effect is driven by a decrease in illness-related absences, suggesting that additional income for local households is enabling better access to medical services. This is consistent with results from \textcite{mcketty_sun_2026}, which showed that higher local tourism revenues resulted in a real increase in household spending on healthcare.
+	
 	\input{\TableLagOnePath/table2_dropout_reasons.tex}
 	\input{\TableLagOnePath/table3_attendance_levels.tex}
+	
+	Interestingly, the table also shows that higher tourism is associated with a small but precisely estimated increase in the likelihood that students miss school occasionally or frequently because of transportation costs. Table \ref{tab:rural_attendance} shows that this effect is entirely driven by rural students. This may reflect localized inflationary pressure on transportation services resulting from area tourism activity, effectively “crowding out” local students.\footnote{} While the effect of higher local tourism on illness-related absenteeism outweighs the increase in transportation-related absences, this finding highlights an important potential spillover of greater specialization in local tourism services. Work by \textcite{allen_urban_2021} showed how tourist spending in specific neighborhoods of Barcelona crowded out local consumption in those areas. The finding here points to an analogous effect operating through local transportation services. This channel is particularly relevant given the spatial inequalities between urban and rural communities in Jamaica, where rural households are considerably poorer\footnote{} and must travel further to access education. Tourism growth, while boosting incomes for urban households, may also exacerbate inequality by pricing out those who are most reliant on transportation services and most likely to be poor and geographically distant from schools.
+	
 	\input{\TableLagOnePath/table4_attendance_reasons.tex}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot4_absence_reasons.png}
+		\caption{\label{fig:absence_reasons_coef} Absence Reasons: IV Coefficient Estimates}
+		\par\raggedright\small Tourism expenditure coefficients (one-year lag) from the IV regressions in Table~\ref{tab:absence_reasons}. Wide bars show 95\% confidence intervals; narrow bars show 90\% intervals. Dashed line marks zero.
+	\end{figure}
 
 	\FloatBarrier
 
@@ -300,29 +362,41 @@ hypertexnames=true
 	\input{\TableLagOnePath/table7_sixthform_tertiary.tex}
 	\input{\TableLagOnePath/table5_skills_program.tex}
 
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot7_tertiary.png}
+		\caption{\label{fig:tertiary_coef} Upper Secondary and Tertiary Attainment: IV Coefficient Estimates}
+		\par\raggedright\small Tourism expenditure coefficients (one-year lag) from the IV regressions in Table~\ref{tab:sixthform}. Wide bars show 95\% confidence intervals; narrow bars show 90\% intervals. Dashed line marks zero.
+	\end{figure}
+
 	\FloatBarrier
 
-	\subsection{Heterogeneous Impacts}
+	The final set of results covers the effects of area tourism levels on the educational tracks that individuals pursue. Table \ref{tab:exam_attainment} regresses indicators for completing different exams on prior-year development-area tourism levels. The exams examined are, in order, the Grade Nine Achievement Test (GNAT), the CXC Basic Exam, the CXC General, and an indicator for having passed both the math and English components.\footnote{\footnotesize The GNAT was used to place students into secondary high schools.} There is no effect across any of these examination levels, indicating that lagged tourism earnings do not affect the sorting of students across academic tracks at the high school level. Table \ref{tab:secondary_tertiary_attain}, however, shows a meaningful negative effect of area tourism levels on the likelihood that a college-age individual is currently enrolled in college. The mechanism is not immediately clear. One possibility is that a surge of opportunities in mid-skilled occupations draws young people away from formal tertiary education and into the workforce or other forms of training. Table \ref{tab:skilled_enrollment} tests whether higher tourism earnings are associated with greater participation in skills-training programs; all coefficients are insignificant, indicating no tourism-induced push toward technical or vocational programs.
 
-	[Heterogeneous impacts placeholder: by urban/rural, by household income quartile, by age group, by parental education.]
-
-	\subsection{Robustness to Alternative Explanations}
-
-	[Robustness placeholder.]
 
 
 	\newpage
-	\section{Discussion}
+	\section{Discussion and Conclusion}
+	
+	This paper has studied the relationship between tourism-sector specialization and educational attainment and investment by households in Jamaica. I combined granular surveys of tourist spending with household survey data covering absenteeism, school supply expenditures, and academic performance from primary through tertiary levels of education. Using regression analysis, I evaluate the effect of lagged area-level tourism earnings on enrollment, attendance, selection into different academic tracks, and financial investments in schooling.
+	
+	I find that lagged tourism largely produces little to no effect on schooling attainment and household investment across academic stages. I estimate precise zeros for the effects of tourism on enrollment across grade-school levels. Prior-year tourism levels also have little effect on the reasons given for not being in school, with a notably absent effect on the likelihood of dropping out because of financial problems. I do, however, observe some statistically significant effects on absenteeism: higher prior-year tourism levels are associated with a 0.2 percent decrease in frequent or occasional absences, driven by a reduction in illness-related absences. This is consistent with findings from \textcite{mcketty_sun_2026}, which showed that tourism resulted in increased household healthcare spending. On the other hand, greater development-area tourist activity is associated with a 0.02 percent increase in the likelihood of occasional or more frequent absences due to transportation costs, an effect concentrated entirely among rural households. Additionally, greater tourism expenditures are associated with lower textbook spending and a lower likelihood of college enrollment.
+	
+	
+	The analysis also reveals ways in which higher tourism activity can reduce educational investment and attainment. Higher lagged tourism levels are associated with lower textbook spending, driven by a statistically significant increase in the share of enrolled students who spend nothing on textbooks. One interpretation is that this reflects a lower perceived need for educational materials given reduced incentives to pursue formal education. This interpretation is somewhat tempered by the absence of any effect of tourism on sixth-form enrollment. The negative effect on college enrollment may indicate that tourism opportunities reduce attainment primarily at the margin between tertiary education and entering the workforce. The finding that tourism is associated with a small but statistically significant increase in transportation-related absences among rural students points to an important mechanism by which tourism specialization—and service-sector specialization more broadly, given the in-person nature of service consumption—can exacerbate existing inequalities. The crowding out of local transportation by tourism is consistent with prior work on the sector and provides evidence of a channel through which positive shocks to local sectors can negatively affect educational attainment.
+	
+	The core takeaway is that tourism-sector specialization has primarily little to no effect on educational attainment and investment in Jamaica, and that the observed effects are mixed. There is no evidence that lagged tourism levels increase the likelihood of students dropping out during grade school. Through better access to healthcare, some children may improve attendance, which is important for academic achievement; but potential inflationary pressure on transportation may harm attendance for rural students. While dropping out appears largely unaffected, there may be an effect at the margin between secondary schooling and tertiary education.
+	These findings depart from those of prior work on development and human capital accumulation. Unlike studies such as \textcite{shah_drought_2017} and \textcite{atkin_endogenous_2016}, there is no evidence here that greater tourism activity leads more students to leave school. Reinforcing this, I observe no effect of lagged tourism on students missing school to work, and no change in the probability of leaving school because of financial constraints. Instead, the analysis reveals that growth in a sector dominated by middle- and lower-skilled labor can marginally improve attendance through better access to healthcare.\footnote{} This pathway differs from the more commonly observed income-channel effects, in which higher household earnings reduce the need for children to work or free up additional resources for schooling. Here, more income enables better medical care, which in turn reduces illness-related absences.
+	
+	Another distinguishing feature of the results is the concentration of potential substitution-channel effects at the margin between sixth form and college. The negative effect of lagged tourism on college enrollment may be consistent with substitution from higher education to the workforce. This interpretation is reinforced by the absence of any effect of tourism on enrollment in skills or training programs. The negative effect on textbook spending could also reflect a lowering of investment in materials that support continued study. Firmer conclusions are difficult to draw from the estimated effects alone.
+	
+	This study cannot directly explain the absence of broader effects on academic outcomes, but several factors are worth considering. First, unemployment was persistently high during the study period, averaging 10 percent between 2010 and 2019. There may therefore have been limited work available for children and young adults in the tourism sector’s mid- and lower-skilled jobs given the large supply of excess labor. Second, the quality of tourism-sector jobs may be accurately perceived as low in terms of wages and advancement potential.\footnote{} Discontentment among tourism workers has been well documented in the Jamaican media. Third, because tourism is largely composed of mid-skilled jobs requiring completion of 11th grade, a boom in tourism services may not reduce the likelihood of completing secondary education, but instead affect whether students choose to pursue tertiary education. The real challenge may be that gains in mid-skilled services leave secondary school completion largely unchanged—or even strengthen it—while limiting incentives to progress further, producing a kind of “secondary education trap” that could prove challenging for the long-term growth of middle-income nations like Jamaica.
+	
+	The growth of human capital in middle-income countries depends heavily on micro-level household decisions about how much education to obtain and how much to invest at each stage. Tourism services are of growing importance in these economies, but we know little about how the growth of this industry alters household incentives regarding education at both the extensive and intensive margins. The results of this paper demonstrate the potential for income effects to operate through channels such as health, and for substitution effects to operate at the margin between secondary schooling and university education. Specific to tourism and other consumer services, the data also show how local sector booms can alter the provision of services in local communities, potentially disadvantaging the most vulnerable.
+	
+	For policymakers considering tourism specialization as a development strategy, the results on local service provision underscore the need to consider how booms in sectors that require in-person consumption can produce positive spillovers for some while creating challenges for others. For researchers, a productive line of inquiry would examine the distributional impacts of different service-sector categories on human capital accumulation, with attention to how crowding out of local services may constrain educational access through effects on transportation costs or other goods and services. Such work could illuminate a tension between the income effects of local service-sector expansion and localized inflation.
+	
 
-	[Discussion placeholder.]
-
-	\subsection{Implications for Policy and Research}
-
-	[Policy implications placeholder.]
-
-	\subsection{Conclusion}
-
-	[Conclusion placeholder.]
 
 
 	\newpage
@@ -369,6 +443,182 @@ hypertexnames=true
 	\input{\TableLagTwoPath/table6_exams_lag2.tex}
 	\input{\TableLagTwoPath/table7_sixthform_tertiary_lag2.tex}
 	\input{\TableLagTwoPath/table5_skills_program_lag2.tex}
+
+	\FloatBarrier
+
+	\subsection{Coefficient Plots: One-Year Lag Specification}
+
+	Figures~\ref{fig:coef_enr_lag1}--\ref{fig:coef_explog_lag1} display coefficient plots for all main regression outcomes under the primary one-year lagged specification. Each figure plots the tourism expenditure IV coefficient with 95\% (wide) and 90\% (narrow) confidence intervals. Columns correspond to the specifications shown in the numbered tables above.
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot1_enrollment.png}
+		\caption{\label{fig:coef_enr_lag1} Enrollment: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot2_dropout_reasons.png}
+		\caption{\label{fig:coef_drop_lag1} Dropout Reasons: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot3_attendance.png}
+		\caption{\label{fig:coef_att_lag1} Attendance Levels: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot4_absence_reasons.png}
+		\caption{\label{fig:coef_abs_lag1} Absence Reasons: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot5_skills.png}
+		\caption{\label{fig:coef_skills_lag1} Skills Program: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot6_exams.png}
+		\caption{\label{fig:coef_exam_lag1} Examination Attainment: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot7_tertiary.png}
+		\caption{\label{fig:coef_tert_lag1} Tertiary Attainment: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot8_expenditures_level.png}
+		\caption{\label{fig:coef_explvl_lag1} Expenditure Levels: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag1Path/plot9_expenditures_log.png}
+		\caption{\label{fig:coef_explog_lag1} Log Expenditures: IV Coefficient Estimates (Lag 1)}
+	\end{figure}
+
+	\FloatBarrier
+
+	\subsection{Coefficient Plots: Contemporaneous Specification}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot1_enrollment_contemp.png}
+		\caption{\label{fig:coef_enr_ct} Enrollment: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot2_dropout_reasons_contemp.png}
+		\caption{\label{fig:coef_drop_ct} Dropout Reasons: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot3_attendance_contemp.png}
+		\caption{\label{fig:coef_att_ct} Attendance Levels: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot4_absence_reasons_contemp.png}
+		\caption{\label{fig:coef_abs_ct} Absence Reasons: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot5_skills_contemp.png}
+		\caption{\label{fig:coef_skills_ct} Skills Program: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot6_exams_contemp.png}
+		\caption{\label{fig:coef_exam_ct} Examination Attainment: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot7_tertiary_contemp.png}
+		\caption{\label{fig:coef_tert_ct} Tertiary Attainment: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot8_expenditures_level_contemp.png}
+		\caption{\label{fig:coef_explvl_ct} Expenditure Levels: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotContempPath/plot9_expenditures_log_contemp.png}
+		\caption{\label{fig:coef_explog_ct} Log Expenditures: IV Coefficient Estimates (Contemporaneous)}
+	\end{figure}
+
+	\FloatBarrier
+
+	\subsection{Coefficient Plots: Two-Year Lag Specification}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot1_enrollment_lag2.png}
+		\caption{\label{fig:coef_enr_lag2} Enrollment: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot2_dropout_reasons_lag2.png}
+		\caption{\label{fig:coef_drop_lag2} Dropout Reasons: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot3_attendance_lag2.png}
+		\caption{\label{fig:coef_att_lag2} Attendance Levels: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot4_absence_reasons_lag2.png}
+		\caption{\label{fig:coef_abs_lag2} Absence Reasons: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot5_skills_lag2.png}
+		\caption{\label{fig:coef_skills_lag2} Skills Program: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot6_exams_lag2.png}
+		\caption{\label{fig:coef_exam_lag2} Examination Attainment: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot7_tertiary_lag2.png}
+		\caption{\label{fig:coef_tert_lag2} Tertiary Attainment: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot8_expenditures_level_lag2.png}
+		\caption{\label{fig:coef_explvl_lag2} Expenditure Levels: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=0.85\textwidth]{\CoefplotLag2Path/plot9_expenditures_log_lag2.png}
+		\caption{\label{fig:coef_explog_lag2} Log Expenditures: IV Coefficient Estimates (Lag 2)}
+	\end{figure}
 
 	\FloatBarrier
 
