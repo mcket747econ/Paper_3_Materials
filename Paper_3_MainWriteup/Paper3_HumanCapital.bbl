@@ -19,6 +19,171 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{adao_shift-share_2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d6cd36effb9fe74b394e8394e3e14539}{%
+           family={Adão},
+           familyi={A\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18fccda38f1f34c8603a86fc23652233}{%
+           family={Kolesár},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f005e6c3ec9ffdba7b3f5b87092c5b6a}{%
+           family={Morales},
+           familyi={M\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{08580ac4c5408669f6957cf679a2e928}
+      \strng{fullhash}{be4a78d7eae77b03b22cd755b12d42e3}
+      \strng{fullhashraw}{be4a78d7eae77b03b22cd755b12d42e3}
+      \strng{bibnamehash}{08580ac4c5408669f6957cf679a2e928}
+      \strng{authorbibnamehash}{08580ac4c5408669f6957cf679a2e928}
+      \strng{authornamehash}{08580ac4c5408669f6957cf679a2e928}
+      \strng{authorfullhash}{be4a78d7eae77b03b22cd755b12d42e3}
+      \strng{authorfullhashraw}{be4a78d7eae77b03b22cd755b12d42e3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We study inference in shift-share regression designs, such as when a regional outcome is regressed on a weighted average of sectoral shocks, using regional sector shares as weights. We conduct a placebo exercise in which we estimate the effect of a shift-share regressor constructed with randomly generated sectoral shocks on actual labor market outcomes across U.S. Commuting Zones. Tests based on commonly used standard errors with 5\textbackslash\% nominal significance level reject the null of no effect in up to 55\textbackslash\% of the placebo samples. We use a stylized economic model to show that this overrejection problem arises because regression residuals are correlated across regions with similar sectoral shares, independently of their geographic location. We derive novel inference methods that are valid under arbitrary cross-regional correlation in the regression residuals. We show using popular applications of shift-share designs that our methods may lead to substantially wider confidence intervals in practice.}
+      \field{eprintclass}{econ}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0033-5533, 1531-4650}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{Shift-{{Share Designs}}}
+      \field{title}{Shift-{{Share Designs}}: {{Theory}} and {{Inference}}}
+      \field{urlday}{19}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{134}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1949\bibrangedash 2010}
+      \range{pages}{62}
+      \verb{doi}
+      \verb 10.1093/qje/qjz025
+      \endverb
+      \verb{eprint}
+      \verb 1806.07928
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\6L3Q6689\\Adão et al. - 2019 - Shift-Share Designs Theory and Inference.pdf;C\:\\Users\\mcket\\Zotero\\storage\\HUKQ2QTG\\1806.html
+      \endverb
+      \keyw{Economics - Econometrics}
+    \endentry
+    \entry{allen_urban_2021}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c6da22fb2258db0db845299a5091c5c7}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Treb},
+           giveni={T\bibinitperiod}}}%
+        {{hash=941d5258824b9f9f7aba2c251c748602}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e572ddade26a1e549898b64f2063bb21}{%
+           family={Ganapati},
+           familyi={G\bibinitperiod},
+           given={Sharat},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3bc6452165160648c4da5208a7a234be}{%
+           family={Graziano},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c631588b005eab4d3bc026f58189680a}{%
+           family={Madera},
+           familyi={M\bibinitperiod},
+           given={Rocio},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9dff41c6aec8c8327d74ad6f5b4fe45f}{%
+           family={{Montoriol-Garriga}},
+           familyi={M\bibinitperiod},
+           given={Judit},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{10a53f2b38ef3606a85ec77a12d9ed70}
+      \strng{fullhash}{07fe31b99bcb383b1e3854285784dfae}
+      \strng{fullhashraw}{07fe31b99bcb383b1e3854285784dfae}
+      \strng{bibnamehash}{10a53f2b38ef3606a85ec77a12d9ed70}
+      \strng{authorbibnamehash}{10a53f2b38ef3606a85ec77a12d9ed70}
+      \strng{authornamehash}{10a53f2b38ef3606a85ec77a12d9ed70}
+      \strng{authorfullhash}{07fe31b99bcb383b1e3854285784dfae}
+      \strng{authorfullhashraw}{07fe31b99bcb383b1e3854285784dfae}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Urban {{Welfare}}: {{Tourism}} in {{Barcelona}}}
+      \field{year}{2021}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\VZHMKUF6\Allen et al. - Urban Welfare Tourism in Barcelona.pdf
+      \endverb
+      \keyw{notion}
+    \endentry
+    \entry{almagro_location_2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=aa6f436c3e26f2d998760c0eee9d4214}{%
+           family={Almagro},
+           familyi={A\bibinitperiod},
+           given={Milena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f89a2220ead7fb8f28601016305cfaf5}{%
+           family={{Domínguez-Iino}},
+           familyi={D\bibinitperiod},
+           given={Tomás},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{fullhash}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{fullhashraw}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{bibnamehash}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{authorbibnamehash}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{authornamehash}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{authorfullhash}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{authorfullhashraw}{5ee12068faa75b043d41e6ba5b1b3844}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper shows the endogeneity of amenities plays a crucial role in determining the welfare distribution of a city's residents. We quantify this mechanism by building a dynamic model of residential choice with heterogeneous households, where consumption amenities are the equilibrium outcome of a market for non-tradables. We estimate our model using Dutch microdata and leveraging variation in Amsterdam's spatial distribution of tourists as a demand shifter, finding significant heterogeneity in residents' preferences over amenities and in the supply responses of amenities to changes in demand composition. This two-way heterogeneity dictates the degree of horizontal differentiation across neighborhoods, residential sorting, and inequality. Finally, we show the distributional effects of mass tourism depend on this heterogeneity: following rent increases due to growing tourist demand for housing, younger residents---whose amenity preferences are closest to tourists---are compensated by amenities tilting in their favor, while the losses of older residents are amplified.}
+      \field{issn}{1468-0262}
+      \field{journaltitle}{Econometrica}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shorttitle}{Location {{Sorting}} and {{Endogenous Amenities}}}
+      \field{title}{Location {{Sorting}} and {{Endogenous Amenities}}: {{Evidence From Amsterdam}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{93}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{1031\bibrangedash 1071}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.3982/ECTA21394
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\BXK6GNBA\\Almagro and Domínguez-Iino - 2025 - Location Sorting and Endogenous Amenities Evidenc.pdf;C\:\\Users\\mcket\\Zotero\\storage\\W7GVY9FB\\ECTA21394.html
+      \endverb
+      \keyw{endogenous amenities,gentrification,Residential choice,short-term rentals,tourism,urban inequality}
+    \endentry
     \entry{atkin_endogenous_2016}{article}{}{}
       \name{author}{1}{}{%
         {{hash=f673f9090cb4a1f7275c7106b927c6e0}{%
@@ -43,7 +208,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{American Economic Review}
       \field{month}{8}
-      \field{title}{Endogenous {Skill} {Acquisition} and {Export} {Manufacturing} in {Mexico}}
+      \field{title}{Endogenous {{Skill Acquisition}} and {{Export Manufacturing}} in {{Mexico}}}
       \field{urlday}{9}
       \field{urlmonth}{3}
       \field{urlyear}{2020}
@@ -56,9 +221,339 @@
       \verb 10.1257/aer.20120901
       \endverb
       \verb{file}
-      \verb Full Text:C\:\\Users\\mcket\\Zotero\\storage\\9PGIMU9M\\Atkin - 2016 - Endogenous Skill Acquisition and Export Manufactur.pdf:application/pdf
+      \verb C:\Users\mcket\Zotero\storage\9PGIMU9M\Atkin - 2016 - Endogenous Skill Acquisition and Export Manufactur.pdf
       \endverb
-      \keyw{notion,Human Capital/Education}
+      \keyw{Human Capital/Education,notion}
+    \endentry
+    \entry{beshir_price_2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=100ef8af2615533b59444ea909e3301d}{%
+           family={Beshir},
+           familyi={B\bibinitperiod},
+           given={Habtamu\bibnamedelima Ali},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=415eeabcb830cb78048b2fd9dc90e940}{%
+           family={Maystadt},
+           familyi={M\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{eb421597e7ac598f496c279090415400}
+      \strng{fullhash}{eb421597e7ac598f496c279090415400}
+      \strng{fullhashraw}{eb421597e7ac598f496c279090415400}
+      \strng{bibnamehash}{eb421597e7ac598f496c279090415400}
+      \strng{authorbibnamehash}{eb421597e7ac598f496c279090415400}
+      \strng{authornamehash}{eb421597e7ac598f496c279090415400}
+      \strng{authorfullhash}{eb421597e7ac598f496c279090415400}
+      \strng{authorfullhashraw}{eb421597e7ac598f496c279090415400}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The effect of economic shocks on human capital is theoretically ambiguous due to opposing income and substitution effects. Using child-level information on schooling, child labor, and cognitive development, we investigate the effect of cocoa price fluctuations on human capital production in Ghana. We demonstrate that the timing of the price shock matters. For school-aged children, the substitution effect dominates: a price boom decreases schooling and increases child labor. An increase of 1 standard deviation in the current-year real producer price of cocoa significantly decreases current school attendance by 8.6 percentage points and the likelihood of being in the correct grade in the following year by 5.5 percentage points. For preschool-aged children, however, the income effect dominates: early-life and in utero booms in the real producer price of cocoa significantly increase Raven/IQ scores and grade attainment.}
+      \field{issn}{0013-0079}
+      \field{journaltitle}{Economic Development and Cultural Change}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{Price {{Shocks}} and {{Human Capital}}}
+      \field{title}{Price {{Shocks}} and {{Human Capital}}: {{Timing Matters}}}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{72}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1567\bibrangedash 1583}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1086/724388
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\Z3LC5ZAY\Beshir and Maystadt - 2024 - Price Shocks and Human Capital Timing Matters.pdf
+      \endverb
+    \endentry
+    \entry{edmonds_trade_2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c10f0b291b2d89d2d3006e2f4bd46d71}{%
+           family={Edmonds},
+           familyi={E\bibinitperiod},
+           given={Eric\bibnamedelima V},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=166f940f04565f3e492cf1f11b547864}{%
+           family={Pavcnik},
+           familyi={P\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ffe78407724fe2566516c3974c6edd36}{%
+           family={Topalova},
+           familyi={T\bibinitperiod},
+           given={Petia},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b490498e08cc42a35459d53a4230aada}
+      \strng{fullhash}{5d67c007038bda1630d17107667f2cee}
+      \strng{fullhashraw}{5d67c007038bda1630d17107667f2cee}
+      \strng{bibnamehash}{b490498e08cc42a35459d53a4230aada}
+      \strng{authorbibnamehash}{b490498e08cc42a35459d53a4230aada}
+      \strng{authornamehash}{b490498e08cc42a35459d53a4230aada}
+      \strng{authorfullhash}{5d67c007038bda1630d17107667f2cee}
+      \strng{authorfullhashraw}{5d67c007038bda1630d17107667f2cee}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Applied Economics}
+      \field{month}{10}
+      \field{title}{Trade {{Adjustment}} and {{Human Capital Investments}}: {{Evidence}} from {{Indian Tariff Reform}}}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{2}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{42\bibrangedash 75}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1257/app.2.4.42
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\2LHMGCTJ\Edmonds et al. - 2010 - Trade Adjustment and Human Capital Investments Ev.pdf
+      \endverb
+      \keyw{Human Capital/Education,notion}
+    \endentry
+    \entry{faber_tourism_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c39a05f1e2277f9f4c7b136149278734}{%
+           family={Faber},
+           familyi={F\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2bc0027e05656869527eeda5ff73ede9}{%
+           family={Gaubert},
+           familyi={G\bibinitperiod},
+           given={Cecile},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{fullhash}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{fullhashraw}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{bibnamehash}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{authorbibnamehash}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{authornamehash}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{authorfullhash}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \strng{authorfullhashraw}{8d5eb9c26a9d0b364aabfc925c347b7e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{6}
+      \field{title}{Tourism and {{Economic Development}}: {{Evidence}} from {{Mexico}}'s {{Coastline}}}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{2245\bibrangedash 2293}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.1257/aer.20161434
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\DFLDWQSP\Faber and Gaubert - 2019 - Tourism and Economic Development Evidence from Me.pdf
+      \endverb
+      \keyw{notion,Tourism}
+    \endentry
+    \entry{fan_growing_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dd728076f918c948d9964d8d683431ac}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Tianyu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a2485cb9a6567160e7daa53b65b248ee}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6cc3533f668b4975b6726d75b5e1815a}{%
+           family={Zilibotti},
+           familyi={Z\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{217aab536ebf869f966280456112e4c7}
+      \strng{fullhash}{de13f1f7d9e91bf599db6faae26415ce}
+      \strng{fullhashraw}{de13f1f7d9e91bf599db6faae26415ce}
+      \strng{bibnamehash}{217aab536ebf869f966280456112e4c7}
+      \strng{authorbibnamehash}{217aab536ebf869f966280456112e4c7}
+      \strng{authornamehash}{217aab536ebf869f966280456112e4c7}
+      \strng{authorfullhash}{de13f1f7d9e91bf599db6faae26415ce}
+      \strng{authorfullhashraw}{de13f1f7d9e91bf599db6faae26415ce}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural transformation in most currently developing countries takes the form of a rapid rise in services but limited industrialization. In this paper, we propose a new methodology to structurally estimate productivity growth in service industries that circumvents the notorious difficulties in measuring quality improvements. In our theory, the expansion of the service sector is both a consequence---due to income effects---and a cause---due to productivity growth---of the development process. We estimate the model using Indian household data. We find that productivity growth in nontradable consumer services such as retail, restaurants, or residential real estate was an important driver of structural transformation and rising living standards between 1987 and 2011. However, the welfare gains were heavily skewed toward high-income urban dwellers.}
+      \field{issn}{1468-0262}
+      \field{journaltitle}{Econometrica}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{title}{Growing {{Like India}}---the {{Unequal Effects}} of {{Service-Led Growth}}}
+      \field{volume}{91}
+      \field{year}{2023}
+      \field{pages}{1457\bibrangedash 1494}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.3982/ECTA20964
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\J2ERVGTV\\Fan et al. - 2023 - Growing Like India—the Unequal Effects of Service-Led Growth.pdf;C\:\\Users\\mcket\\Zotero\\storage\\FPJUP3VJ\\ECTA20964.html
+      \endverb
+      \keyw{Consumer services,development,economic growth,India,inequality,non-homothetic preferences,notion,productivity,spatial equilibrium,structural change,welfare}
+    \endentry
+    \entry{mcketty_sun_2026}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=6308d4c05561ed70d846a26b35eae784}{%
+           family={McKetty},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6308d4c05561ed70d846a26b35eae784}
+      \strng{fullhash}{6308d4c05561ed70d846a26b35eae784}
+      \strng{fullhashraw}{6308d4c05561ed70d846a26b35eae784}
+      \strng{bibnamehash}{6308d4c05561ed70d846a26b35eae784}
+      \strng{authorbibnamehash}{6308d4c05561ed70d846a26b35eae784}
+      \strng{authornamehash}{6308d4c05561ed70d846a26b35eae784}
+      \strng{authorfullhash}{6308d4c05561ed70d846a26b35eae784}
+      \strng{authorfullhashraw}{6308d4c05561ed70d846a26b35eae784}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Sun, {{Sand}}, and {{Services}}: {{Tourism}} and {{Household Welfare}} in {{Jamaica}}}
+      \field{year}{2026}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\CIGDWHI3\Mcketty - 2026 - Sun, Sand, and Services Tourism and Household Welfare in Jamaica.pdf
+      \endverb
+    \endentry
+    \entry{nayyar_services-led_2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=1a6fac81c68da8f68e7010547653d98c}{%
+           family={Nayyar},
+           familyi={N\bibinitperiod},
+           given={Gaurav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d0ba495fbe6cefeeef17dfdf948c097f}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Elwyn},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The World Bank}%
+      }
+      \strng{namehash}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{fullhash}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{fullhashraw}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{bibnamehash}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{authorbibnamehash}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{authornamehash}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{authorfullhash}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{authorfullhashraw}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{series}{Policy {{Research Working Papers}}}
+      \field{shorttitle}{Services-{{Led Growth}}}
+      \field{title}{Services-{{Led Growth}}: {{Better Prospects}} after the {{Pandemic}}?}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1596/1813-9450-10382
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\H5ZBG9W7\Nayyar and Davies - 2023 - Services-Led Growth Better Prospects after the Pandemic.pdf
+      \endverb
+    \endentry
+    \entry{peters_skipping_2026}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=a2485cb9a6567160e7daa53b65b248ee}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=baa7a7c3092dd856752017aec3e3b5dd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Youdan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6cc3533f668b4975b6726d75b5e1815a}{%
+           family={Zilibotti},
+           familyi={Z\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{708f45b7a0f76cd0ccda62365c8ff784}
+      \strng{fullhash}{5e9909e12fb28ca1a13d840b932a7a2f}
+      \strng{fullhashraw}{5e9909e12fb28ca1a13d840b932a7a2f}
+      \strng{bibnamehash}{708f45b7a0f76cd0ccda62365c8ff784}
+      \strng{authorbibnamehash}{708f45b7a0f76cd0ccda62365c8ff784}
+      \strng{authornamehash}{708f45b7a0f76cd0ccda62365c8ff784}
+      \strng{authorfullhash}{5e9909e12fb28ca1a13d840b932a7a2f}
+      \strng{authorfullhashraw}{5e9909e12fb28ca1a13d840b932a7a2f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In today's developing world, many economies appear to bypass industrialization and transition directly from agriculture to services. The largest rise in service employment has occurred in non-tradable consumer services, such as retail and hospitality, especially in urban areas, where many cities resemble consumer hubs built around local demand. These patterns of growth raise fundamental questions: Can service-led growth sustain a growth of living standards over time? Is service-led growth inherently biased toward affluent urban consumers? What role should policy play? We propose a parsimonious general equilibrium framework that incorporates non-homothetic preferences and locally non-tradable consumer services. Our framework bridges macro and micro perspectives, and enables counterfactual and welfare analysis that accounts for both individual and spatial heterogeneity. We relate our framework to the recent literature and suggest several extensions and directions of future research.}
+      \field{eprinttype}{National Bureau of Economic Research}
+      \field{month}{1}
+      \field{number}{34692}
+      \field{series}{Working {{Paper Series}}}
+      \field{shorttitle}{Skipping the {{Factory}}}
+      \field{title}{Skipping the {{Factory}}: {{Service-Led Growth}} and {{Structural Transformation}} in the {{Developing World}}}
+      \field{type}{Working {{Paper}}}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w34692
+      \endverb
+      \verb{eprint}
+      \verb 34692
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\B3XEG2AC\Peters et al. - 2026 - Skipping the Factory Service-Led Growth and Structural Transformation in the Developing World.pdf
+      \endverb
     \endentry
     \entry{shah_drought_2017}{article}{}{}
       \name{author}{2}{}{%
@@ -89,33 +584,68 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitlesource}{shorttitle}
       \field{abstract}{Higher wages are generally thought to increase human capital production, particularly in the developing world. We introduce a simple model of human capital production in which investments and time allocation differ by age. Using data on test scores and schooling from rural India, we show that higher wages increase human capital investment in early life (in utero to age 2) but decrease human capital from age 5 to 16. Children switch out of school into productive work when rainfall is higher. The opportunity cost of schooling, even for fairly young children, is an important factor in determining overall human capital investment.}
-      \field{journaltitle}{J. Polit. Econ.}
+      \field{issn}{0022-3808}
+      \field{journaltitle}{Journal of Political Economy}
       \field{month}{4}
       \field{number}{2}
-      \field{title}{Drought of {Opportunities}: {Contemporaneous} and {Long}-{Term} {Impacts} of {Rainfall} {Shocks} on {Human} {Capital}}
+      \field{shorttitle}{Drought of {{Opportunities}}}
+      \field{title}{Drought of {{Opportunities}}: {{Contemporaneous}} and {{Long-Term Impacts}} of {{Rainfall Shocks}} on {{Human Capital}}}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
       \field{volume}{125}
       \field{year}{2017}
+      \field{urldateera}{ce}
       \field{pages}{527\bibrangedash 561}
       \range{pages}{35}
-      \verb{file}
-      \verb Full Text:C\:\\Users\\mcket\\Zotero\\storage\\EQCZV53P\\Shah and Steinberg - 2017 - Drought of Opportunities Contemporaneous and Long.pdf:application/pdf
+      \verb{doi}
+      \verb 10.1086/690828
       \endverb
-      \keyw{notion,Human Capital/Education}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\ZYNA2NRU\Shah and Steinberg - 2017 - Drought of Opportunities Contemporaneous and Long-Term Impacts of Rainfall Shocks on Human Capital.pdf
+      \endverb
+    \endentry
+    \entry{world_bank_jamaica_2022}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The World Bank}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jamaica - {{Systematic Country Diagnostic}}: {{Boosting Recovery}} and {{Sustainable Economic Growth}}}
+      \field{type}{techreport}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\BAJUGS9V\World Bank - 2022 - Jamaica - Systematic Country Diagnostic Boosting .pdf
+      \endverb
+      \keyw{notion}
     \endentry
   \enddatalist
-  \missing{.}
-  \missing{adao_kolesar}
-  \missing{allen}
-  \missing{allen_barcelona_2021}
-  \missing{almagaro}
-  \missing{atkin_2016}
-  \missing{faber}
-  \missing{fan}
-  \missing{mcketty_2026}
-  \missing{peters}
-  \missing{shah_steinberg}
 \endrefsection
 \endinput
 
