@@ -2382,21 +2382,22 @@
     <bcf:citekey order="5" intorder="1">shah_drought_2017</bcf:citekey>
     <bcf:citekey order="6" intorder="1">atkin_endogenous_2016</bcf:citekey>
     <bcf:citekey order="7" intorder="1">beshir_price_2024</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">fan_growing_2023</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">peters_skipping_2026</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">faber_tourism_2019</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">allen_urban_2021</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">almagro_location_2025</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">world_bank_jamaica_2022</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">carrillo_present_2020</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">fan_growing_2023</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">peters_skipping_2026</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">faber_tourism_2019</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">allen_urban_2021</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">almagro_location_2025</bcf:citekey>
     <bcf:citekey order="13" intorder="1">world_bank_jamaica_2022</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">mcketty_sun_2026</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">world_bank_jamaica_2022</bcf:citekey>
     <bcf:citekey order="15" intorder="1">mcketty_sun_2026</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">adao_shift-share_2019</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">mcketty_sun_2026</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">allen_urban_2021</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">mcketty_sun_2026</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">shah_drought_2017</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">atkin_endogenous_2016</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">mcketty_sun_2026</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">adao_shift-share_2019</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">mcketty_sun_2026</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">allen_urban_2021</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">mcketty_sun_2026</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">shah_drought_2017</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">atkin_endogenous_2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
