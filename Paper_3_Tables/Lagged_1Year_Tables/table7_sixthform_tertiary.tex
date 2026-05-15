@@ -1,34 +1,22 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:sixthform} Upper Secondary and Tertiary Attainment, IV Estimates}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables: & At least CAPE/A-Level & At least degree & \multicolumn{3}{c}{Currently in college}\\
-      Model:                              & (1)           & (2)           & (3)           & (4)            & (5)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp., lag 1 (100M USD)      & -0.035        & -0.001        & -0.051$^{**}$ & -0.045$^{**}$  & -0.127\\   
-                                          & (0.026)       & (0.012)       & (0.023)       & (0.022)        & (0.212)\\   
-      Female                              & 0.029$^{***}$ & 0.009$^{***}$ & 0.036$^{***}$ & 0.040$^{***}$  & 0.028\\   
-                                          & (0.005)       & (0.002)       & (0.006)       & (0.006)        & (0.018)\\   
-      Age                                 & 0.010$^{***}$ & 0.004$^{***}$ & -0.0003       & -0.002$^{*}$   & -0.0005\\   
-                                          & (0.002)       & (0.0008)      & (0.0007)      & (0.0009)       & (0.002)\\   
-      No. children under 19 (HH)          &               &               &               & -0.011$^{***}$ &   \\   
-                                          &               &               &               & (0.003)        &   \\   
-      Mean of dep. var.                   & 0.049         & 0.010         & 0.067         & 0.067          & 0.030\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 740.58        & 740.58        & 740.58        & 740.54         & 21.572\\  
-      Observations                        & 7,799         & 7,799         & 7,799         & 7,799          & 304\\  
-      R$^2$                               & 0.04962       & 0.02682       & 0.03124       & 0.03663        & 0.24402\\  
-      \midrule \midrule
-      \multicolumn{6}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: ages 16--25. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & \makecell{At least\\ CAPE/A-Level} & At least degree & \multicolumn{3}{c}{\makecell{Currently\\ in college}}\\
+   Model:                                            & (1)           & (2)           & (3)           & (4)            & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   \makecell[l]{Tourism exp.,\\ lag 1 (100M USD)}    & -0.035        & -0.001        & -0.051$^{**}$ & -0.045$^{**}$  & -0.127\\   
+                                                     & (0.026)       & (0.012)       & (0.023)       & (0.022)        & (0.212)\\   
+   Female                                            & 0.029$^{***}$ & 0.009$^{***}$ & 0.036$^{***}$ & 0.040$^{***}$  & 0.028\\   
+                                                     & (0.005)       & (0.002)       & (0.006)       & (0.006)        & (0.018)\\   
+   Age                                               & 0.010$^{***}$ & 0.004$^{***}$ & -0.0003       & -0.002$^{*}$   & -0.0005\\   
+                                                     & (0.002)       & (0.0008)      & (0.0007)      & (0.0009)       & (0.002)\\   
+   No. children under 19 (HH)                        &               &               &               & -0.011$^{***}$ &   \\   
+                                                     &               &               &               & (0.003)        &   \\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                 & 740.58        & 740.58        & 740.58        & 740.54         & 21.572\\  
+   Observations                                      & 7,799         & 7,799         & 7,799         & 7,799          & 304\\  
+   R$^2$                                             & 0.04962       & 0.02682       & 0.03124       & 0.03663        & 0.24402\\  
+   Mean of dep. var.                                 & 0.049         & 0.010         & 0.067         & 0.067          & 0.030\\  
+\bottomrule
+\end{tabular}

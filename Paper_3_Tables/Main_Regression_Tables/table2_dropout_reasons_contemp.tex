@@ -1,32 +1,22 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:dropout_reasons_contemp} Dropout Reasons, IV Estimates (Contemporaneous)}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables:            & Dropout: financial & Dropout: family & Dropout: no interest & Dropout: pregnancy\\  
-      Model:                          & (1)                & (2)             & (3)                  & (4)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp. (100M USD)         & -0.376             & -0.076          & -0.011               & 0.333\\   
-                                      & (0.346)            & (0.161)         & (0.191)              & (0.333)\\   
-      Female                          & -0.034$^{***}$     & -0.005          & -0.041$^{***}$       & 0.081$^{***}$\\   
-                                      & (0.013)            & (0.009)         & (0.009)              & (0.011)\\   
-      Age                             & -0.002             & -0.004$^{**}$   & -0.005               & -0.004$^{*}$\\   
-                                      & (0.003)            & (0.002)         & (0.003)              & (0.002)\\   
-      Mean of dep. var.               & 0.039              & 0.020           & 0.044                & 0.044\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 5.5600             & 5.5600          & 5.5600               & 5.5600\\  
-      Observations                    & 1,655              & 1,655           & 1,655                & 1,655\\  
-      R$^2$                           & -0.35754           & -0.00468        & 0.04308              & -0.24539\\  
-      \midrule \midrule
-      \multicolumn{5}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: children ages 5--19 not currently enrolled. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                                           & \makecell{Dropout:\\ financial}    & \makecell{Dropout:\\ family}    & \makecell{Dropout:\\ no interest}    & \makecell{Dropout:\\ pregnancy}\\     
+   Model:                                                         & (1)                                & (2)                             & (3)                                  & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.\\ (100M USD)}}     & -0.386                             & -0.070                          & -0.004                               & 0.315\\   
+                                                                  & (0.361)                            & (0.154)                         & (0.184)                              & (0.310)\\   
+   Female                                                         & -0.034$^{***}$                     & -0.005                          & -0.041$^{***}$                       & 0.081$^{***}$\\   
+                                                                  & (0.013)                            & (0.009)                         & (0.009)                              & (0.011)\\   
+   Age                                                            & -0.002                             & -0.004$^{**}$                   & -0.005                               & -0.004$^{*}$\\   
+                                                                  & (0.003)                            & (0.002)                         & (0.003)                              & (0.002)\\   
+   No. enrolled siblings (HH)                                     & 0.006                              & -0.004                          & -0.005                               & 0.011$^{*}$\\   
+                                                                  & (0.006)                            & (0.003)                         & (0.003)                              & (0.006)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                  & 5.6526                             & 5.6526                          & 5.6526                               & 5.6526\\  
+   Observations                                                   & 1,655                              & 1,655                           & 1,655                                & 1,655\\  
+   R$^2$                                                          & -0.37923                           & 0.00446                         & 0.04463                              & -0.20542\\  
+   Mean of dep. var.                                              & 0.039                              & 0.020                           & 0.044                                & 0.044\\  
+\bottomrule
+\end{tabular}

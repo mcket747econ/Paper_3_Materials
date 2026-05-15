@@ -1,34 +1,22 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:skills_lag2} Skills Program Enrollment and Completion, IV Estimates (Lag 2)}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables: & \multicolumn{2}{c}{Enrolled in skills program} & \multicolumn{2}{c}{Skills program diploma}\\
-      Model:                              & (1)     & (2)           & (3)           & (4)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp., lag 2 (100M USD)      & -0.029  & -0.029        & -0.243        & -0.052\\   
-                                          & (0.120) & (0.120)       & (0.302)       & (0.506)\\   
-      Female                              & 0.003   & 0.003         & -0.004        & -0.073\\   
-                                          & (0.003) & (0.002)       & (0.012)       & (0.049)\\   
-      Age                                 & -0.0004 & -0.0005       & 0.017$^{***}$ & 0.013\\   
-                                          & (0.001) & (0.001)       & (0.004)       & (0.015)\\   
-      No. enrolled siblings (HH)          &         & -0.001$^{**}$ &               &   \\   
-                                          &         & (0.0005)      &               &   \\   
-      Mean of dep. var.                   & 0.003   & 0.003         & 0.077         & 0.037\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 9.2335  & 9.2371        & 14.644        & 7.4653\\  
-      Observations                        & 1,576   & 1,576         & 1,866         & 107\\  
-      R$^2$                               & 0.13100 & 0.13116       & 0.11263       & 0.46376\\  
-      \midrule \midrule
-      \multicolumn{5}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: children ages 5--19. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & \multicolumn{2}{c}{\makecell{Enrolled in\\ skills program}} & \makecell{Skills program\\ diploma}\\
+   Model:                                                                & (1)           & (2)           & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.,\\ lag 2 (100M USD)}}     & -0.029        & -0.029        & -0.246\\   
+                                                                         & (0.120)       & (0.120)       & (0.302)\\   
+   Female                                                                & 0.003         & 0.003         & -0.005\\   
+                                                                         & (0.002)       & (0.002)       & (0.012)\\   
+   Age                                                                   & -0.0005       & -0.0005       & 0.017$^{***}$\\   
+                                                                         & (0.001)       & (0.001)       & (0.004)\\   
+   No. enrolled siblings (HH)                                            & -0.001$^{**}$ & -0.001$^{**}$ & -0.009\\   
+                                                                         & (0.0005)      & (0.0005)      & (0.005)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                     & 9.2371        & 9.2371        & 14.643\\  
+   Observations                                                          & 1,576         & 1,576         & 1,866\\  
+   R$^2$                                                                 & 0.13116       & 0.13116       & 0.11363\\  
+   Mean of dep. var.                                                     & 0.003         & 0.003         & 0.077\\  
+\bottomrule
+\end{tabular}

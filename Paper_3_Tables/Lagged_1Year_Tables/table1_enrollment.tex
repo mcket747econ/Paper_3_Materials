@@ -1,38 +1,31 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:enrollment} School Enrollment, IV Estimates}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variable: & \multicolumn{3}{c}{Enrolled in school}\\
-      Model:                              & (1)            & (2)            & (3)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp., lag 1 (100M USD)      & -0.007         & -0.007         & 0.080\\   
-                                          & (0.036)        & (0.036)        & (0.385)\\   
-      Female                              & 0.006$^{*}$    & 0.006$^{*}$    & 0.014\\   
-                                          & (0.003)        & (0.003)        & (0.025)\\   
-      Age                                 & -0.038$^{***}$ & -0.038$^{***}$ & -0.043$^{***}$\\   
-                                          & (0.001)        & (0.001)        & (0.003)\\   
-      No. enrolled siblings (HH)          &                & -0.0002        &   \\   
-                                          &                & (0.002)        &   \\   
-      Mean of dep. var.                   & 0.879          & 0.879          & 0.878\\  
-      \midrule
-      \emph{Fixed-effects}\\
-      Development area          & Yes            & Yes            & Yes\\  
-      Year                        & Yes            & Yes            & Yes\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 1,028.8        & 1,030.2        & 44.088\\  
-      Observations                        & 13,518         & 13,518         & 861\\  
-      R$^2$                               & 0.25524        & 0.25524        & 0.31733\\  
-      \midrule \midrule
-      \multicolumn{4}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: children ages 5--19. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                                                  & \makecell{Enrolled\\ in school}    & \makecell{Currently in\\ sixth form}    & \makecell{Currently\\ in college}\\     
+   Model:                                                                & (1)                                & (2)                                     & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.,\\ lag 1 (100M USD)}}     & -0.007                             & 0.034                                   & -0.065$^{**}$\\   
+                                                                         & (0.036)                            & (0.034)                                 & (0.031)\\   
+   Female                                                                & 0.006$^{*}$                        & 0.007                                   & 0.045$^{***}$\\   
+                                                                         & (0.003)                            & (0.006)                                 & (0.007)\\   
+   Age                                                                   & -0.038$^{***}$                     & 0.004$^{*}$                             & -0.006$^{***}$\\   
+                                                                         & (0.001)                            & (0.002)                                 & (0.001)\\   
+   No. enrolled siblings (HH)                                            & -0.0002                            & -0.002                                  & -0.006$^{**}$\\   
+                                                                         & (0.002)                            & (0.003)                                 & (0.003)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   Development area                                                      & Yes                                & Yes                                     & Yes\\  
+   Year                                                                  & Yes                                & Yes                                     & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                     & 1,030.2                            & 446.07                                  & 567.73\\  
+   Observations                                                          & 13,518                             & 5,494                                   & 5,985\\  
+   R$^2$                                                                 & 0.25524                            & 0.16714                                 & 0.03906\\  
+\midrule
+\emph{Sample}\\
+School-age (5--19) & Yes & No & No   \\   
+Upper secondary (14--19) & No & Yes & No   \\   
+College-age (17--27) & No & No & Yes   \\   
+   Mean of dep. var.                                                     & 0.879                              & 0.062                                   & 0.070\\  
+\bottomrule
+\end{tabular}
