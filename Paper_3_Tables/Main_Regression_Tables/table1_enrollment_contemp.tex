@@ -1,34 +1,22 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:enrollment_contemp} School Enrollment, IV Estimates (Contemporaneous)}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variable: & \multicolumn{3}{c}{Enrolled in school}\\
-      Model:                          & (1)            & (2)            & (3)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp. (100M USD)         & -0.248         & -0.247         & 1.97\\   
-                                      & (0.409)        & (0.404)        & (1.72)\\   
-      Female                          & 0.006$^{*}$    & 0.006$^{*}$    & 0.028\\   
-                                      & (0.003)        & (0.003)        & (0.023)\\   
-      Age                             & -0.038$^{***}$ & -0.038$^{***}$ & -0.041$^{***}$\\   
-                                      & (0.0010)       & (0.0010)       & (0.004)\\   
-      No. enrolled siblings (HH)      &                & 0.002          &   \\   
-                                      &                & (0.004)        &   \\   
-      Mean of dep. var.               & 0.879          & 0.879          & 0.878\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 33.869         & 34.270         & 13.844\\  
-      Observations                    & 13,687         & 13,687         & 882\\  
-      R$^2$                           & 0.17705        & 0.17776        & -0.13419\\  
-      \midrule \midrule
-      \multicolumn{4}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: children ages 5--19. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{\makecell{Enrolled\\ in school}}\\
+   Model:                                                         & (1)            & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.\\ (100M USD)}}     & -0.247         & -0.247\\   
+                                                                  & (0.404)        & (0.404)\\   
+   Female                                                         & 0.006$^{*}$    & 0.006$^{*}$\\   
+                                                                  & (0.003)        & (0.003)\\   
+   Age                                                            & -0.038$^{***}$ & -0.038$^{***}$\\   
+                                                                  & (0.0010)       & (0.0010)\\   
+   No. enrolled siblings (HH)                                     & 0.002          & 0.002\\   
+                                                                  & (0.004)        & (0.004)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                  & 34.270         & 34.270\\  
+   Observations                                                   & 13,687         & 13,687\\  
+   R$^2$                                                          & 0.17776        & 0.17776\\  
+   Mean of dep. var.                                              & 0.879          & 0.879\\  
+\bottomrule
+\end{tabular}

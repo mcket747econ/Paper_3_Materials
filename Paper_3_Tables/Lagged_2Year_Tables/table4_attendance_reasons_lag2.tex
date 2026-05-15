@@ -1,32 +1,22 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:absence_reasons_lag2} School Absence Reasons, IV Estimates (Lag 2)}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lcccccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables:                & Kept out, any reason & Kept out, money & Kept out, transport    & Kept out, illness & Kept out, work          & Kept out, money\\  
-      Model:                              & (1)                  & (2)             & (3)                    & (4)               & (5)                     & (6)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp., lag 2 (100M USD)      & 0.130                & -0.153          & -0.004                 & 0.369             & -0.0008                 & 2.00\\   
-                                          & (0.210)              & (0.108)         & (0.021)                & (0.319)           & (0.002)                 & (2.87)\\   
-      Female                              & -0.026$^{***}$       & -0.017$^{**}$   & $-5.64\times 10^{-5}$  & -0.003            & -0.0004                 & -0.051\\   
-                                          & (0.006)              & (0.007)         & (0.001)                & (0.006)           & (0.0004)                & (0.039)\\   
-      Age                                 & -0.002               & 0.001           & 0.0004$^{***}$         & -0.004$^{***}$    & $3.59\times 10^{-5}$    & 0.007\\   
-                                          & (0.001)              & (0.0009)        & (0.0001)               & (0.0006)          & ($5.32\times 10^{-5}$)  & (0.006)\\   
-      Mean of dep. var.                   & 0.188                & 0.108           & 0.003                  & 0.063             & 0.001                   & 0.184\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 439.38               & 439.38          & 439.38                 & 439.38            & 439.38                  & 18.957\\  
-      Observations                        & 11,881               & 11,881          & 11,881                 & 11,881            & 11,881                  & 756\\  
-      R$^2$                               & 0.13048              & 0.05276         & 0.01873                & -0.04748          & 0.00630                 & -0.21224\\  
-      \midrule \midrule
-      \multicolumn{7}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{7}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: enrolled children; absence measured by annual recall (occasional or frequent). All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                                                  & \makecell{Kept out,\\ any reason}    & \makecell{Kept out,\\ money}    & \makecell{Kept out,\\ transport}    & \makecell{Kept out,\\ illness}    & \makecell{Kept out,\\ work}\\     
+   Model:                                                                & (1)                                  & (2)                             & (3)                                 & (4)                               & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.,\\ lag 2 (100M USD)}}     & 0.129                                & -0.154                          & -0.004                              & 0.369                             & -0.0008\\   
+                                                                         & (0.211)                              & (0.105)                         & (0.021)                             & (0.319)                           & (0.002)\\   
+   Female                                                                & -0.026$^{***}$                       & -0.016$^{**}$                   & $-5.49\times 10^{-5}$               & -0.003                            & -0.0004\\   
+                                                                         & (0.006)                              & (0.007)                         & (0.001)                             & (0.006)                           & (0.0004)\\   
+   Age                                                                   & -0.002                               & 0.002                           & 0.0004$^{***}$                      & -0.004$^{***}$                    & $3.56\times 10^{-5}$\\    
+                                                                         & (0.001)                              & (0.0009)                        & (0.0001)                            & (0.0006)                          & ($5.29\times 10^{-5}$)\\    
+   No. enrolled siblings (HH)                                            & 0.015$^{***}$                        & 0.022$^{***}$                   & 0.0005                              & -0.004                            & $-8.92\times 10^{-5}$\\    
+                                                                         & (0.004)                              & (0.005)                         & (0.0006)                            & (0.003)                           & (0.0002)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                     & 439.36                               & 439.36                          & 439.36                              & 439.36                            & 439.36\\  
+   Observations                                                          & 11,881                               & 11,881                          & 11,881                              & 11,881                            & 11,881\\  
+   R$^2$                                                                 & 0.13273                              & 0.06072                         & 0.01883                             & -0.04711                          & 0.00632\\  
+   Mean of dep. var.                                                     & 0.188                                & 0.108                           & 0.003                               & 0.063                             & 0.001\\  
+\bottomrule
+\end{tabular}

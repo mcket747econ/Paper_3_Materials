@@ -52,7 +52,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We study inference in shift-share regression designs, such as when a regional outcome is regressed on a weighted average of sectoral shocks, using regional sector shares as weights. We conduct a placebo exercise in which we estimate the effect of a shift-share regressor constructed with randomly generated sectoral shocks on actual labor market outcomes across U.S. Commuting Zones. Tests based on commonly used standard errors with 5\textbackslash\% nominal significance level reject the null of no effect in up to 55\textbackslash\% of the placebo samples. We use a stylized economic model to show that this overrejection problem arises because regression residuals are correlated across regions with similar sectoral shares, independently of their geographic location. We derive novel inference methods that are valid under arbitrary cross-regional correlation in the regression residuals. We show using popular applications of shift-share designs that our methods may lead to substantially wider confidence intervals in practice.}
-      \field{day}{1}
       \field{eprintclass}{econ}
       \field{eprinttype}{arXiv}
       \field{issn}{0033-5533, 1531-4650}
@@ -66,7 +65,6 @@
       \field{urlyear}{2025}
       \field{volume}{134}
       \field{year}{2019}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{1949\bibrangedash 2010}
       \range{pages}{62}
@@ -78,12 +76,6 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\mcket\\Zotero\\storage\\6L3Q6689\\Adão et al. - 2019 - Shift-Share Designs Theory and Inference.pdf;C\:\\Users\\mcket\\Zotero\\storage\\HUKQ2QTG\\1806.html
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1806.07928
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1806.07928
       \endverb
       \keyw{Economics - Econometrics}
     \endentry
@@ -115,8 +107,8 @@
            given={Rocio},
            giveni={R\bibinitperiod}}}%
         {{hash=9dff41c6aec8c8327d74ad6f5b4fe45f}{%
-           family={Montoriol-Garriga},
-           familyi={M\bibinithyphendelim G\bibinitperiod},
+           family={{Montoriol-Garriga}},
+           familyi={M\bibinitperiod},
            given={Judit},
            giveni={J\bibinitperiod}}}%
       }
@@ -137,68 +129,56 @@
       \field{month}{3}
       \field{title}{Urban {{Welfare}}: {{Tourism}} in {{Barcelona}}}
       \field{year}{2021}
-      \field{dateera}{ce}
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\VZHMKUF6\Allen et al. - Urban Welfare Tourism in Barcelona.pdf
       \endverb
       \keyw{notion}
     \endentry
-    \entry{almagro_location_2025}{article}{}{}
+    \entry{aragon_natural_2013}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=aa6f436c3e26f2d998760c0eee9d4214}{%
-           family={Almagro},
+        {{hash=d7fa78414f799f628252940e725bd370}{%
+           family={Aragón},
            familyi={A\bibinitperiod},
-           given={Milena},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f89a2220ead7fb8f28601016305cfaf5}{%
-           family={Domínguez-Iino},
-           familyi={D\bibinithyphendelim I\bibinitperiod},
-           given={Tomás},
-           giveni={T\bibinitperiod}}}%
+           given={Fernando\bibnamedelima M.},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cca09ae4784c198471183a7de9e1ed26}{%
+           family={Rud},
+           familyi={R\bibinitperiod},
+           given={Juan\bibnamedelima Pablo},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{fullhash}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{fullhashraw}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{bibnamehash}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{authorbibnamehash}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{authornamehash}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{authorfullhash}{5ee12068faa75b043d41e6ba5b1b3844}
-      \strng{authorfullhashraw}{5ee12068faa75b043d41e6ba5b1b3844}
+      \strng{namehash}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{fullhash}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{fullhashraw}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{bibnamehash}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{authorbibnamehash}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{authornamehash}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{authorfullhash}{edcc4cd4d24d9af14b995ee82c8476db}
+      \strng{authorfullhashraw}{edcc4cd4d24d9af14b995ee82c8476db}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper shows the endogeneity of amenities plays a crucial role in determining the welfare distribution of a city's residents. We quantify this mechanism by building a dynamic model of residential choice with heterogeneous households, where consumption amenities are the equilibrium outcome of a market for non-tradables. We estimate our model using Dutch microdata and leveraging variation in Amsterdam's spatial distribution of tourists as a demand shifter, finding significant heterogeneity in residents' preferences over amenities and in the supply responses of amenities to changes in demand composition. This two-way heterogeneity dictates the degree of horizontal differentiation across neighborhoods, residential sorting, and inequality. Finally, we show the distributional effects of mass tourism depend on this heterogeneity: following rent increases due to growing tourist demand for housing, younger residents—whose amenity preferences are closest to tourists—are compensated by amenities tilting in their favor, while the losses of older residents are amplified.}
-      \field{issn}{1468-0262}
-      \field{journaltitle}{Econometrica}
-      \field{langid}{english}
-      \field{number}{3}
-      \field{shorttitle}{Location {{Sorting}} and {{Endogenous Amenities}}}
-      \field{title}{Location {{Sorting}} and {{Endogenous Amenities}}: {{Evidence From Amsterdam}}}
-      \field{urlday}{25}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{volume}{93}
-      \field{year}{2025}
-      \field{dateera}{ce}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Journal: Economic Policy}
+      \field{month}{5}
+      \field{title}{Natural {{Resources}} and {{Local Communities}}: {{Evidence}} from a {{Peruvian Gold Mine}}}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{volume}{5}
+      \field{year}{2013}
       \field{urldateera}{ce}
-      \field{pages}{1031\bibrangedash 1071}
-      \range{pages}{41}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
       \verb{doi}
-      \verb 10.3982/ECTA21394
+      \verb 10.1257/pol.5.2.1
       \endverb
       \verb{file}
-      \verb C\:\\Users\\mcket\\Zotero\\storage\\BXK6GNBA\\Almagro and Domínguez-Iino - 2025 - Location Sorting and Endogenous Amenities Evidenc.pdf;C\:\\Users\\mcket\\Zotero\\storage\\W7GVY9FB\\ECTA21394.html
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\NJ2A4T4F\\Aragón and Rud - 2013 - Natural Resources and Local Communities Evidence .pdf;C\:\\Users\\mcket\\Zotero\\storage\\P924TJJG\\Aragón and Rud - 2013 - Natural Resources and Local Communities Evidence .pdf
       \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA21394
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA21394
-      \endverb
-      \keyw{endogenous amenities,gentrification,Residential choice,short-term rentals,tourism,urban inequality}
+      \keyw{notion}
     \endentry
     \entry{atkin_endogenous_2016}{article}{}{}
       \name{author}{1}{}{%
@@ -225,9 +205,12 @@
       \field{journaltitle}{American Economic Review}
       \field{month}{8}
       \field{title}{Endogenous {{Skill Acquisition}} and {{Export Manufacturing}} in {{Mexico}}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
       \field{volume}{106}
       \field{year}{2016}
-      \field{dateera}{ce}
+      \field{urldateera}{ce}
       \field{pages}{2046\bibrangedash 2085}
       \range{pages}{40}
       \verb{doi}
@@ -237,6 +220,68 @@
       \verb C:\Users\mcket\Zotero\storage\FBTH8VTF\atkin-2016-endogenous-skill-acquisition-and-export-manufacturing-in-mexico.pdf
       \endverb
       \keyw{Human Capital/Education,notion}
+    \endentry
+    \entry{bau_human_2020}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=8a173bb0234b27b2038232989d7c5bfa}{%
+           family={Bau},
+           familyi={B\bibinitperiod},
+           given={Natalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7b64b03e57d490c6fefc6b2a436f28e7}{%
+           family={Rotemberg},
+           familyi={R\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=14a5b2834e6ed453a92b23030238997d}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6fc552f3fcf7da820ac99c99eafbf324}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Bryce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{bcee398cb153519bf50c74ed9972d5ee}
+      \strng{fullhash}{59b33d55281abcadcbb770d5a8a10b54}
+      \strng{fullhashraw}{59b33d55281abcadcbb770d5a8a10b54}
+      \strng{bibnamehash}{bcee398cb153519bf50c74ed9972d5ee}
+      \strng{authorbibnamehash}{bcee398cb153519bf50c74ed9972d5ee}
+      \strng{authornamehash}{bcee398cb153519bf50c74ed9972d5ee}
+      \strng{authorfullhash}{59b33d55281abcadcbb770d5a8a10b54}
+      \strng{authorfullhashraw}{59b33d55281abcadcbb770d5a8a10b54}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Policies that improve human capital in early life are a promising tool for altering the lifelong trajectories of disadvantaged children. However, in many low-income countries, children and their parents face trade-offs between schooling and productive work. If there are positive returns to human capital in child labor, then children who receive more of some types of early life investments, such as those that improve health or nutrition, may attend less school. Exploiting early life rainfall shocks in India as a source of exogenous variation in early life investment, we show that child labor attenuates the positive effects of early life investment and increased early life investment increases school dropout in districts with high child labor. This lower investment in education has persistent long-term consequences in adulthood, resulting in lower household consumption. We show that our results are robust to instrumenting for child labor prevalence using local crop mix. Reductions in educational investment in response to positive early life shocks appear to reduce overall welfare in high-child labor districts.}
+      \field{eprinttype}{National Bureau of Economic Research}
+      \field{month}{5}
+      \field{number}{27241}
+      \field{series}{Working {{Paper Series}}}
+      \field{title}{Human {{Capital Investment}} in the {{Presence}} of {{Child Labor}}}
+      \field{type}{Working {{Paper}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w27241
+      \endverb
+      \verb{eprint}
+      \verb 27241
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\38F8KT38\Bau et al. - 2020 - Human Capital Investment in the Presence of Child Labor.pdf
+      \endverb
     \endentry
     \entry{beshir_price_2024}{article}{}{}
       \name{author}{2}{}{%
@@ -280,7 +325,6 @@
       \field{urlyear}{2026}
       \field{volume}{72}
       \field{year}{2024}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{1567\bibrangedash 1583}
       \range{pages}{17}
@@ -290,11 +334,95 @@
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\Z3LC5ZAY\Beshir and Maystadt - 2024 - Price Shocks and Human Capital Timing Matters.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://www.journals.uchicago.edu/doi/10.1086/724388
+    \endentry
+    \entry{bonilla_mejia_mining_2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=af6e95e68fb17e6367589a1823e1c6e4}{%
+           family={Bonilla\bibnamedelima Mejía},
+           familyi={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{fullhash}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{fullhashraw}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{bibnamehash}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{authorbibnamehash}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{authornamehash}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{authorfullhash}{af6e95e68fb17e6367589a1823e1c6e4}
+      \strng{authorfullhashraw}{af6e95e68fb17e6367589a1823e1c6e4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I estimate the local effects of gold mining on human capital accumulation in contexts where small-scale and illegal mining is prevalent. Evidence is based on high-resolution imagery of gold mining and rich administrative data from Colombia. I exploit the exogeneity of international prices and gold deposits to identify causal effects. Results indicate that mining increases enrollment in primary school and reduces dropout rates throughout the school cycle. However, it also reduces standardized test scores and college enrollment, particularly in academic degrees and STEM fields. I explore different mechanisms that could explain these results. Child labor is overall unaffected, but young adults between 19 and 25 are more likely to work in the mining sector. While municipal revenue and expenditure increases in mining municipalities, there are no substantial improvements in education spending or school inputs. Mining also intensifies violence, with potentially adverse effects on education.}
+      \field{journaltitle}{J. Dev. Econ.}
+      \field{month}{6}
+      \field{title}{Mining and Human Capital Accumulation: {{Evidence}} from the {{Colombian}} Gold Rush}
+      \field{volume}{145}
+      \field{year}{2020}
+      \field{pages}{102471}
+      \range{pages}{1}
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\GBNTCER4\\Bonilla Mejía - 2020 - Mining and human capital accumulation Evidence fr.pdf;C\:\\Users\\mcket\\Zotero\\storage\\9M72ST74\\S0304387820300468.html
       \endverb
-      \verb{url}
-      \verb https://www.journals.uchicago.edu/doi/10.1086/724388
+      \keyw{Colombia,Gold mining,Human capital,Natural resources,notion}
+    \endentry
+    \entry{cai_migration_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=03f6acbb3fd550109f8552e9b2ba0af8}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Shu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=84000a762dc4d501039baa5d3ade4eff}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Xinzheng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d00ff86a7e391e4908709fc67674438e}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Zhufeng},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{67b32fc6a07f7b0385e2731a28882dd7}
+      \strng{fullhash}{6d4703e3c5d070b19f2c2a6a17985c32}
+      \strng{fullhashraw}{6d4703e3c5d070b19f2c2a6a17985c32}
+      \strng{bibnamehash}{67b32fc6a07f7b0385e2731a28882dd7}
+      \strng{authorbibnamehash}{67b32fc6a07f7b0385e2731a28882dd7}
+      \strng{authornamehash}{67b32fc6a07f7b0385e2731a28882dd7}
+      \strng{authorfullhash}{6d4703e3c5d070b19f2c2a6a17985c32}
+      \strng{authorfullhashraw}{6d4703e3c5d070b19f2c2a6a17985c32}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We examine the impact of export shocks proxied by destination countries' tariffs on the post middle school enrollment of the rural population in China. We complement the literature by examining the across-region spillover effects of export shocks through initial migration networks. We find that the reduction of export tariffs at both the local and migration-destination prefectures significantly decreases post middle school enrollment of the 16--18 years old cohort, but the latter is stronger. Further analysis suggests that employment in the secondary industry rises significantly with the reduction of export tariffs, which improves job opportunities and thus increases the post middle school dropout rate.}
+      \field{issn}{01475967}
+      \field{journaltitle}{Journal of Comparative Economics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shorttitle}{Migration Networks, Export Shocks, and Human Capital Acquisition}
+      \field{title}{Migration Networks, Export Shocks, and Human Capital Acquisition: {{Evidence}} from {{China}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{52}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{568\bibrangedash 589}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.jce.2024.04.001
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\ZGHENC8T\Cai et al. - 2024 - Migration networks, export shocks, and human capital acquisition Evidence from China.pdf
       \endverb
     \endentry
     \entry{carrillo_present_2020}{article}{}{}
@@ -322,7 +450,7 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This paper examines the long-run impacts of income shocks by exploiting variation in coffee cultivation patterns within Colombia and world coffee prices during cohorts’ school-going years. The results indicate that cohorts that faced higher returns to coffee-related work in childhood completed fewer years of schooling and have lower adult earnings scores. Several pieces of evidence suggest that these results reflect changes in educational decisions induced by temporary changes in the opportunity cost of schooling. These findings are consistent with the possibility that students may ignore or heavily discount the future consequences of dropout decisions when faced with immediate income gains.}
+      \field{abstract}{This paper examines the long-run impacts of income shocks by exploiting variation in coffee cultivation patterns within Colombia and world coffee prices during cohorts' school-going years. The results indicate that cohorts that faced higher returns to coffee-related work in childhood completed fewer years of schooling and have lower adult earnings scores. Several pieces of evidence suggest that these results reflect changes in educational decisions induced by temporary changes in the opportunity cost of schooling. These findings are consistent with the possibility that students may ignore or heavily discount the future consequences of dropout decisions when faced with immediate income gains.}
       \field{issn}{0734-306X}
       \field{journaltitle}{Journal of Labor Economics}
       \field{month}{10}
@@ -334,7 +462,6 @@
       \field{urlyear}{2026}
       \field{volume}{38}
       \field{year}{2020}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{1127\bibrangedash 1265}
       \range{pages}{139}
@@ -344,12 +471,90 @@
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\Z4IATFGN\Carrillo - 2020 - Present Bias and Underinvestment in Education Long-Run Effects of Childhood Exposure to Booms in Co.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://www.journals.uchicago.edu/doi/full/10.1086/706535
+    \endentry
+    \entry{corden_booming_1982}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=175f6abd9bf6b93ff6662e2cd94ec864}{%
+           family={Corden},
+           familyi={C\bibinitperiod},
+           given={W\bibnamedelima Max},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b704dc4d6c0edef30854b869c05022b2}{%
+           family={Neary},
+           familyi={N\bibinitperiod},
+           given={J\bibnamedelima Peter},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {[Royal Economic Society, Wiley]}%
+      }
+      \strng{namehash}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{fullhash}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{fullhashraw}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{bibnamehash}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{authorbibnamehash}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{authornamehash}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{authorfullhash}{b0b1b65a52fb6232bb0885a28f934caf}
+      \strng{authorfullhashraw}{b0b1b65a52fb6232bb0885a28f934caf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econ. J. Nepal}
+      \field{number}{368}
+      \field{title}{Booming {{Sector}} and {{De-Industrialisation}} in a {{Small Open Economy}}}
+      \field{volume}{92}
+      \field{year}{1982}
+      \field{pages}{825\bibrangedash 848}
+      \range{pages}{24}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\77SLZP9M\Corden and Neary - 1982 - Booming Sector and De-Industrialisation in a Small.pdf
       \endverb
-      \verb{url}
-      \verb https://www.journals.uchicago.edu/doi/full/10.1086/706535
+      \keyw{notion,Trade Literature}
+    \endentry
+    \entry{edmonds_child_2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c10f0b291b2d89d2d3006e2f4bd46d71}{%
+           family={Edmonds},
+           familyi={E\bibinitperiod},
+           given={Eric\bibnamedelima V},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=166f940f04565f3e492cf1f11b547864}{%
+           family={Pavcnik},
+           familyi={P\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Economic Association}%
+      }
+      \strng{namehash}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{fullhash}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{fullhashraw}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{bibnamehash}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{authorbibnamehash}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{authornamehash}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{authorfullhash}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \strng{authorfullhashraw}{0416ce597ae4f0cd49b201a5e1d81b7e}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Econ. Perspect.}
+      \field{number}{1}
+      \field{title}{Child {{Labor}} in the {{Global Economy}}}
+      \field{volume}{19}
+      \field{year}{2005}
+      \field{pages}{199\bibrangedash 220}
+      \range{pages}{22}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\RQD7RY38\Edmonds and Pavcnik - 2005 - Child Labor in the Global Economy.pdf
       \endverb
+      \keyw{More_Updates,notion}
     \endentry
     \entry{edmonds_trade_2010}{article}{}{}
       \name{author}{3}{}{%
@@ -386,9 +591,12 @@
       \field{journaltitle}{American Economic Journal: Applied Economics}
       \field{month}{10}
       \field{title}{Trade {{Adjustment}} and {{Human Capital Investments}}: {{Evidence}} from {{Indian Tariff Reform}}}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
       \field{volume}{2}
       \field{year}{2010}
-      \field{dateera}{ce}
+      \field{urldateera}{ce}
       \field{pages}{42\bibrangedash 75}
       \range{pages}{34}
       \verb{doi}
@@ -428,10 +636,9 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{American Economic Review}
       \field{month}{6}
-      \field{title}{Tourism and {{Economic Development}}: {{Evidence}} from {{Mexico}}’s {{Coastline}}}
+      \field{title}{Tourism and {{Economic Development}}: {{Evidence}} from {{Mexico}}'s {{Coastline}}}
       \field{volume}{109}
       \field{year}{2019}
-      \field{dateera}{ce}
       \field{pages}{2245\bibrangedash 2293}
       \range{pages}{49}
       \verb{doi}
@@ -439,12 +646,6 @@
       \endverb
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\DFLDWQSP\Faber and Gaubert - 2019 - Tourism and Economic Development Evidence from Me.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://economics.mit.edu/files/11206
-      \endverb
-      \verb{url}
-      \verb http://economics.mit.edu/files/11206
       \endverb
       \keyw{notion,Tourism}
     \endentry
@@ -480,15 +681,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Structural transformation in most currently developing countries takes the form of a rapid rise in services but limited industrialization. In this paper, we propose a new methodology to structurally estimate productivity growth in service industries that circumvents the notorious difficulties in measuring quality improvements. In our theory, the expansion of the service sector is both a consequence—due to income effects—and a cause—due to productivity growth—of the development process. We estimate the model using Indian household data. We find that productivity growth in nontradable consumer services such as retail, restaurants, or residential real estate was an important driver of structural transformation and rising living standards between 1987 and 2011. However, the welfare gains were heavily skewed toward high-income urban dwellers.}
+      \field{abstract}{Structural transformation in most currently developing countries takes the form of a rapid rise in services but limited industrialization. In this paper, we propose a new methodology to structurally estimate productivity growth in service industries that circumvents the notorious difficulties in measuring quality improvements. In our theory, the expansion of the service sector is both a consequence---due to income effects---and a cause---due to productivity growth---of the development process. We estimate the model using Indian household data. We find that productivity growth in nontradable consumer services such as retail, restaurants, or residential real estate was an important driver of structural transformation and rising living standards between 1987 and 2011. However, the welfare gains were heavily skewed toward high-income urban dwellers.}
       \field{issn}{1468-0262}
       \field{journaltitle}{Econometrica}
       \field{langid}{english}
       \field{number}{4}
-      \field{title}{Growing {{Like India}}—the {{Unequal Effects}} of {{Service-Led Growth}}}
+      \field{title}{Growing {{Like India}}---the {{Unequal Effects}} of {{Service-Led Growth}}}
       \field{volume}{91}
       \field{year}{2023}
-      \field{dateera}{ce}
       \field{pages}{1457\bibrangedash 1494}
       \range{pages}{38}
       \verb{doi}
@@ -498,6 +698,109 @@
       \verb C\:\\Users\\mcket\\Zotero\\storage\\J2ERVGTV\\Fan et al. - 2023 - Growing Like India—the Unequal Effects of Service-Led Growth.pdf;C\:\\Users\\mcket\\Zotero\\storage\\FPJUP3VJ\\ECTA20964.html
       \endverb
       \keyw{Consumer services,development,economic growth,India,inequality,non-homothetic preferences,notion,productivity,spatial equilibrium,structural change,welfare}
+    \endentry
+    \entry{heath_manufacturing_2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d7506dacf36716218a5cd587b17601bf}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=33bc0c41a64e1330d6f1f6757f7398eb}{%
+           family={Mobarak},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi Mushfiq},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{fullhash}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{fullhashraw}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{bibnamehash}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{authorbibnamehash}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{authornamehash}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{authorfullhash}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \strng{authorfullhashraw}{7f664bcb8eb66bbc74864c8f4207eea6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Development Economics}
+      \field{month}{1}
+      \field{title}{Manufacturing {{Growth}} and {{The Lives}} of {{Bangladeshi Women}}}
+      \field{volume}{115}
+      \field{year}{2015}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\XZTCWUUC\_.pdf
+      \endverb
+    \endentry
+    \entry{jamaican_ministry_of_tourism_annual_2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=91d689d139090e7831e789e99ac1624e}{%
+           family={{Jamaican Ministry of Tourism}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Jamaican Ministry of Tourism}%
+      }
+      \strng{namehash}{91d689d139090e7831e789e99ac1624e}
+      \strng{fullhash}{91d689d139090e7831e789e99ac1624e}
+      \strng{fullhashraw}{91d689d139090e7831e789e99ac1624e}
+      \strng{bibnamehash}{91d689d139090e7831e789e99ac1624e}
+      \strng{authorbibnamehash}{91d689d139090e7831e789e99ac1624e}
+      \strng{authornamehash}{91d689d139090e7831e789e99ac1624e}
+      \strng{authorfullhash}{91d689d139090e7831e789e99ac1624e}
+      \strng{authorfullhashraw}{91d689d139090e7831e789e99ac1624e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Annual {{Travel Statistics}} 2024}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\9K42WHSW\_.pdf
+      \endverb
+    \endentry
+    \entry{king_evolution_2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=021e6871f63e69bee7b7522e28dd3b7e}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of the West Indies}%
+      }
+      \strng{namehash}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{fullhash}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{fullhashraw}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{bibnamehash}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{authorbibnamehash}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{authornamehash}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{authorfullhash}{021e6871f63e69bee7b7522e28dd3b7e}
+      \strng{authorfullhashraw}{021e6871f63e69bee7b7522e28dd3b7e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Soc. Econ. Stud.}
+      \field{number}{1}
+      \field{title}{The {{Evolution}} of {{Structural Adjustment}} and {{Stabilisation Policy}} in {{Jamaica}}}
+      \field{volume}{50}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 53}
+      \range{pages}{53}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\5Z3EGEWR\King - 2001 - The Evolution of Structural Adjustment and Stabili.pdf
+      \endverb
+      \keyw{Dissertation Proposal,notion}
     \endentry
     \entry{mcketty_sun_2026}{unpublished}{}{}
       \name{author}{1}{}{%
@@ -524,18 +827,22 @@
       \field{month}{2}
       \field{title}{Sun, {{Sand}}, and {{Services}}: {{Tourism}} and {{Household Welfare}} in {{Jamaica}}}
       \field{year}{2026}
-      \field{dateera}{ce}
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\CIGDWHI3\Mcketty - 2026 - Sun, Sand, and Services Tourism and Household Welfare in Jamaica.pdf
       \endverb
     \endentry
-    \entry{nayyar_services-led_2023}{book}{}{}
-      \name{author}{2}{}{%
+    \entry{nayyar_at_2021}{book}{}{}
+      \name{author}{3}{}{%
         {{hash=1a6fac81c68da8f68e7010547653d98c}{%
            family={Nayyar},
            familyi={N\bibinitperiod},
            given={Gaurav},
            giveni={G\bibinitperiod}}}%
+        {{hash=cf38d9070caecab107ada18ba1255b72}{%
+           family={{Hallward-Driemeier}},
+           familyi={H\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod}}}%
         {{hash=d0ba495fbe6cefeeef17dfdf948c097f}{%
            family={Davies},
            familyi={D\bibinitperiod},
@@ -545,47 +852,79 @@
       \list{publisher}{1}{%
         {The World Bank}%
       }
-      \strng{namehash}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{fullhash}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{fullhashraw}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{bibnamehash}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{authorbibnamehash}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{authornamehash}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{authorfullhash}{4c4e2e4bb8cee3a38d82da45819483ab}
-      \strng{authorfullhashraw}{4c4e2e4bb8cee3a38d82da45819483ab}
+      \strng{namehash}{01c4aa7ecc9599c023f9b01f5e332b06}
+      \strng{fullhash}{f67f589213a227c2bd54048adc8e4066}
+      \strng{fullhashraw}{f67f589213a227c2bd54048adc8e4066}
+      \strng{bibnamehash}{01c4aa7ecc9599c023f9b01f5e332b06}
+      \strng{authorbibnamehash}{01c4aa7ecc9599c023f9b01f5e332b06}
+      \strng{authornamehash}{01c4aa7ecc9599c023f9b01f5e332b06}
+      \strng{authorfullhash}{f67f589213a227c2bd54048adc8e4066}
+      \strng{authorfullhashraw}{f67f589213a227c2bd54048adc8e4066}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.}
-      \field{day}{27}
+      \field{isbn}{978-1-4648-1671-0}
       \field{langid}{english}
-      \field{month}{3}
-      \field{series}{Policy {{Research Working Papers}}}
-      \field{shorttitle}{Services-{{Led Growth}}}
-      \field{title}{Services-{{Led Growth}}: {{Better Prospects}} after the {{Pandemic}}?}
-      \field{urlday}{27}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
+      \field{month}{9}
+      \field{shorttitle}{At {{Your Service}}?}
+      \field{title}{At {{Your Service}}?: {{The Promise}} of {{Services-Led Development}}}
+      \field{year}{2021}
       \verb{doi}
-      \verb 10.1596/1813-9450-10382
+      \verb 10.1596/978-1-4648-1671-0
       \endverb
       \verb{file}
-      \verb C:\Users\mcket\Zotero\storage\H5ZBG9W7\Nayyar and Davies - 2023 - Services-Led Growth Better Prospects after the Pandemic.pdf
+      \verb C:\Users\mcket\Zotero\storage\DRYRJDB2\Nayyar et al. - 2021 - At Your Service The Promise of Services-Led Development.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://openknowledge.worldbank.org/handle/10986/39609
+      \keyw{notion}
+    \endentry
+    \entry{nguyen_export_2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9bb0c7a6a372372b1d6493b5b23fff4a}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Anh\bibnamedelimb Phuoc\bibnamedelima Thien},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{fullhash}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{fullhashraw}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{bibnamehash}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{authorbibnamehash}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{authornamehash}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{authorfullhash}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \strng{authorfullhashraw}{9bb0c7a6a372372b1d6493b5b23fff4a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper examines the impact of export expansion on human capital investment in Vietnam induced by the U.S-Vietnam Bilateral Trade Agreement (BTA). Using a rich household survey, I show that provinces more exposed to the tariff reduction from the BTA experienced a small decline in school attendance for children aged between 10--17 years old and a corresponding increase in children's market work participation. This adverse BTA effect is on average stronger for boys, older children and households with low-educated head, indicating a dominating substitution effect that increases the opportunity costs of schooling. However, this masks a substantial heterogeneity across the gender-age dimension. Specifically, I find that while the BTA shock causes older boys to take market work for pay, it increases employment in household business for young girls and makes them substitute into domestic work.}
+      \field{issn}{02649993}
+      \field{journaltitle}{Economic Modelling}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shorttitle}{Export Expansion and Children's School-Work Decision}
+      \field{title}{Export Expansion and Children's School-Work Decision: {{Evidence}} from {{Vietnam}}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{152}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{107261}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.econmod.2025.107261
       \endverb
-      \verb{url}
-      \verb https://openknowledge.worldbank.org/handle/10986/39609
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\YY2KY6EN\Nguyen - 2025 - Export expansion and children’s school-work decision Evidence from Vietnam.pdf
       \endverb
     \endentry
-    \entry{peters_skipping_2026}{online}{}{}
+    \entry{peters_skipping_2026}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=a2485cb9a6567160e7daa53b65b248ee}{%
            family={Peters},
@@ -603,6 +942,9 @@
            given={Fabrizio},
            giveni={F\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research}%
+      }
       \strng{namehash}{708f45b7a0f76cd0ccda62365c8ff784}
       \strng{fullhash}{5e9909e12fb28ca1a13d840b932a7a2f}
       \strng{fullhashraw}{5e9909e12fb28ca1a13d840b932a7a2f}
@@ -617,20 +959,18 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In today’s developing world, many economies appear to bypass industrialization and transition directly from agriculture to services. The largest rise in service employment has occurred in non-tradable consumer services, such as retail and hospitality, especially in urban areas, where many cities resemble consumer hubs built around local demand. These patterns of growth raise fundamental questions: Can service-led growth sustain a growth of living standards over time? Is service-led growth inherently biased toward affluent urban consumers? What role should policy play? We propose a parsimonious general equilibrium framework that incorporates non-homothetic preferences and locally non-tradable consumer services. Our framework bridges macro and micro perspectives, and enables counterfactual and welfare analysis that accounts for both individual and spatial heterogeneity. We relate our framework to the recent literature and suggest several extensions and directions of future research.}
+      \field{abstract}{In today's developing world, many economies appear to bypass industrialization and transition directly from agriculture to services. The largest rise in service employment has occurred in non-tradable consumer services, such as retail and hospitality, especially in urban areas, where many cities resemble consumer hubs built around local demand. These patterns of growth raise fundamental questions: Can service-led growth sustain a growth of living standards over time? Is service-led growth inherently biased toward affluent urban consumers? What role should policy play? We propose a parsimonious general equilibrium framework that incorporates non-homothetic preferences and locally non-tradable consumer services. Our framework bridges macro and micro perspectives, and enables counterfactual and welfare analysis that accounts for both individual and spatial heterogeneity. We relate our framework to the recent literature and suggest several extensions and directions of future research.}
       \field{eprinttype}{National Bureau of Economic Research}
       \field{month}{1}
       \field{number}{34692}
-      \field{pubstate}{prepublished}
       \field{series}{Working {{Paper Series}}}
       \field{shorttitle}{Skipping the {{Factory}}}
       \field{title}{Skipping the {{Factory}}: {{Service-Led Growth}} and {{Structural Transformation}} in the {{Developing World}}}
-      \field{type}{Working Paper}
+      \field{type}{Working {{Paper}}}
       \field{urlday}{24}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2026}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.3386/w34692
@@ -641,12 +981,42 @@
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\B3XEG2AC\Peters et al. - 2026 - Skipping the Factory Service-Led Growth and Structural Transformation in the Developing World.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://www.nber.org/papers/w34692
+    \endentry
+    \entry{rodrik_premature_2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=838c73523715fb8fdf83d1d7a57cc6bd}{%
+           family={Rodrik},
+           familyi={R\bibinitperiod},
+           given={Dani},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{fullhash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{fullhashraw}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{bibnamehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authorbibnamehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authornamehash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authorfullhash}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \strng{authorfullhashraw}{838c73523715fb8fdf83d1d7a57cc6bd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I document a significant deindustrialization trend in recent decades that goes considerably beyond the advanced, post-industrial economies. The hump-shaped relationship between industrialization (measured by employment or output shares) and incomes has shifted downwards and moved closer to the origin. This means countries are running out of industrialization opportunities sooner and at much lower levels of income compared to the experience of early industrializers. Asian countries and manufactures exporters have been largely insulated from those trends, while Latin American countries have been especially hard hit. Advanced economies have lost considerable employment (especially of the low-skill type), but they have done surprisingly well in terms of manufacturing output shares at constant prices. While these trends are not very recent, the evidence suggests both globalization and labor-saving technological progress in manufacturing have been behind these developments. The paper briefly considers some of the economic and political implications of these trends.}
+      \field{journaltitle}{J. Econ. Growth}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Premature Deindustrialization}
+      \field{volume}{21}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\6XNI99D2\Rodrik - 2016 - Premature deindustrialization.pdf
       \endverb
-      \verb{url}
-      \verb https://www.nber.org/papers/w34692
-      \endverb
+      \keyw{014,Deindustrialization,Dissertation Proposal,Economic growth,Human Capital/Education,Industrialization,More_Updates,notion}
     \endentry
     \entry{shah_drought_2017}{article}{}{}
       \name{author}{2}{}{%
@@ -690,7 +1060,6 @@
       \field{urlyear}{2026}
       \field{volume}{125}
       \field{year}{2017}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \field{pages}{527\bibrangedash 561}
       \range{pages}{35}
@@ -700,12 +1069,42 @@
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\ZYNA2NRU\Shah and Steinberg - 2017 - Drought of Opportunities Contemporaneous and Long-Term Impacts of Rainfall Shocks on Human Capital.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://www.journals.uchicago.edu/doi/full/10.1086/690828
+    \endentry
+    \entry{venables_using_2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8439e59065381dcf4bdd913e708f694b}{%
+           family={Venables},
+           familyi={V\bibinitperiod},
+           given={Anthony\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{fullhash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{fullhashraw}{8439e59065381dcf4bdd913e708f694b}
+      \strng{bibnamehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authorbibnamehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authornamehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authorfullhash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authorfullhashraw}{8439e59065381dcf4bdd913e708f694b}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using Natural Resources for Development: Why Has It Proven So Difficult? by Anthony J. Venables. Published in volume 30, issue 1, pages 161-84 of Journal of Economic Perspectives, Winter 2016, Abstract: Developing economies have found it hard to use natural resource wealth to improve their economic...}
+      \field{journaltitle}{J. Econ. Perspect.}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Using {{Natural Resources}} for {{Development}}: {{Why Has It Proven So Difficult}}?}
+      \field{volume}{30}
+      \field{year}{2016}
+      \field{pages}{161\bibrangedash 184}
+      \range{pages}{24}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\N62ZTVIZ\Venables - 2016 - Using Natural Resources for Development Why Has I.pdf
       \endverb
-      \verb{url}
-      \verb https://www.journals.uchicago.edu/doi/full/10.1086/690828
-      \endverb
+      \keyw{notion}
     \endentry
     \entry{world_bank_jamaica_2022}{report}{}{}
       \name{author}{1}{}{%
@@ -734,22 +1133,59 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jamaica - {{Systematic Country Diagnostic}}: {{Boosting Recovery}} and {{Sustainable Economic Growth}}}
+      \field{type}{techreport}
       \field{urlday}{25}
       \field{urlmonth}{9}
       \field{urlyear}{2023}
       \field{year}{2022}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\BAJUGS9V\World Bank - 2022 - Jamaica - Systematic Country Diagnostic Boosting .pdf
       \endverb
-      \verb{urlraw}
-      \verb https://openknowledge.worldbank.org/server/api/core/bitstreams/08372d91-d4dd-5b6a-961e-1e3ec71557e8/content
-      \endverb
-      \verb{url}
-      \verb https://openknowledge.worldbank.org/server/api/core/bitstreams/08372d91-d4dd-5b6a-961e-1e3ec71557e8/content
-      \endverb
       \keyw{notion}
+    \endentry
+    \entry{zimmermann_remember_2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1fb0ef8251c8360bf4c65c71e34440ed}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{fullhash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{fullhashraw}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{bibnamehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authorbibnamehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authornamehash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authorfullhash}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \strng{authorfullhashraw}{1fb0ef8251c8360bf4c65c71e34440ed}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite long-standing international agreements like the Millennium Development Goals, 264 million children in developing countries are not enrolled in school, and children in rural areas remain twice as likely to be out of school as children in urban areas. One potential explanation for this pattern is that children's education in rural areas is vulnerable to weather shocks, but there is no consensus about whether rainfall shocks help or harm school enrollment in the existing literature. This paper explores whether changes in the relationship between rainfall shocks and schooling outcomes over time can explain the different results in the literature by using household survey data from India across three decades. My study finds that adverse rainfall shocks have an increasingly stronger positive impact on school enrollment over time, whereas enrollment is increasingly falling after positive rainfall shocks. This effect is stronger for girls than for boys, more pronounced for older children, and is consistent with an increase in the importance of opportunity costs of a child's time in more recent years. Children may have to drop out of school when employment opportunities are more readily available after a positive rainfall shock, but are able to go to school when jobs are scarce. These results offer a potential explanation for the different results in the literature, where studies on countries with higher economic development tend to find results consistent with an opportunity cost story, whereas this is not the case for studies on countries with a lower level of development. The results suggest that policymakers need to pay close attention to the obstacles faced by girls and older children to make access to education universal, and should develop policy tools that incentivize households to send their children to school even when employment opportunities are readily available.}
+      \field{issn}{0305750X}
+      \field{journaltitle}{World Development}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{Remember When It Rained -- {{Schooling}} Responses to Shocks in {{India}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{126}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{104705}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.worlddev.2019.104705
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\DGUPJCTV\Zimmermann - 2020 - Remember when it rained – Schooling responses to shocks in India.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

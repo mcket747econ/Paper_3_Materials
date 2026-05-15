@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.6.11)  12 MAY 2026 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.26)  15 MAY 2026 00:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,14 +11,14 @@ Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count268
-\c@section=\count269
-\c@subsection=\count270
-\c@subsubsection=\count271
-\c@paragraph=\count272
-\c@subparagraph=\count273
-\c@figure=\count274
-\c@table=\count275
+\c@part=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen146
@@ -27,12 +27,10 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
+
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
@@ -43,9 +41,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count276
-\Gm@cntv=\count277
-\c@Gm@tempcnt=\count278
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
 \Gm@bindingoffset=\dimen147
 \Gm@wd@mp=\dimen148
 \Gm@odd@mp=\dimen149
@@ -59,7 +57,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count279
+\c@float@type=\count283
 \float@exts=\toks21
 \float@box=\box53
 \@float@everytoks=\toks22
@@ -70,12 +68,7 @@ Package: placeins 2005/04/18  v 2.2
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-6.
-
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
+)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip51
@@ -96,14 +89,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count280
+\inf@bad=\count284
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count281
-\leftroot@=\count282
+\uproot@=\count285
+\leftroot@=\count286
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count283
-\DOTSCASE@=\count284
+\classnum@=\count287
+\DOTSCASE@=\count288
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -116,20 +109,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen157
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count285
+\macc@depth=\count289
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count286
+\c@MaxMatrixCols=\count290
 \dotsspace@=\muskip17
-\c@parentequation=\count287
-\dspbrk@lvl=\count288
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
 \tag@help=\toks24
-\row@=\count289
-\column@=\count290
-\maxfields@=\count291
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
 \andhelp@=\toks25
 \eqnshift@=\dimen158
 \alignsep@=\dimen159
@@ -145,17 +138,17 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count292
+\lst@mode=\count296
 \lst@gtempboxa=\box57
 \lst@token=\toks28
-\lst@length=\count293
+\lst@length=\count297
 \lst@currlwidth=\dimen164
-\lst@column=\count294
-\lst@pos=\count295
+\lst@column=\count298
+\lst@pos=\count299
 \lst@lostspace=\dimen165
 \lst@width=\dimen166
-\lst@newlines=\count296
-\lst@lineno=\count297
+\lst@newlines=\count300
+\lst@lineno=\count301
 \lst@maxwidth=\dimen167
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -163,8 +156,8 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count298
-\lst@skipnumbers=\count299
+\c@lstnumber=\count302
+\lst@skipnumbers=\count303
 \lst@framebox=\box58
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -206,10 +199,10 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen168
 \Gin@req@width=\dimen169
@@ -226,9 +219,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count300
-\c@@ppsavesec=\count301
-\c@@ppsaveapp=\count302
+\c@@pps=\count304
+\c@@ppsavesec=\count305
+\c@@ppsaveapp=\count306
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\fileconten
 ts.sty
@@ -265,7 +258,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count303
+\etb@tempcnta=\count307
 )) (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen170
@@ -295,12 +288,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen179
 \cmidrulekern=\dimen180
 \defaultaddspace=\dimen181
-\@cmidla=\count304
-\@cmidlb=\count305
+\@cmidla=\count308
+\@cmidlb=\count309
 \@aboverulesep=\dimen182
 \@belowrulesep=\dimen183
-\@thisruleclass=\count306
-\@lastruleclass=\count307
+\@thisruleclass=\count310
+\@lastruleclass=\count311
 \@thisrulewidth=\dimen184
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepar
@@ -318,7 +311,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 )
-\XKV@depth=\count308
+\XKV@depth=\count312
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
@@ -337,10 +330,10 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@lly=\dimen186
 \tc@urx=\dimen187
 \tc@ury=\dimen188
-Package trimclip Info: Using driver 'tc-xetex.def'.
+Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
-File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen189
 \adjbox@Height=\dimen190
@@ -353,20 +346,20 @@ File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count309
+\c@checkoddpage=\count313
 ) (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box63
-\sift@deathcycles=\count310
+\sift@deathcycles=\count314
 \@vwid@loff=\dimen197
 \@vwid@roff=\dimen198
 ))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
 ty
-Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count311
-\l__tblr_c_int=\count312
-\l__tblr_r_int=\count313
+Package: tabularray 2025-03-11 v2025A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count315
+\l__tblr_c_int=\count316
+\l__tblr_r_int=\count317
 \l__tblr_d_dim=\dimen199
 \l__tblr_h_dim=\dimen256
 \l__tblr_o_dim=\dimen257
@@ -381,36 +374,36 @@ Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
 \l__tblr_b_box=\box65
 \l__tblr_c_box=\box66
 \l__tblr_d_box=\box67
-\c@tblrcount=\count314
-\c@rownum=\count315
-\c@colnum=\count316
-\c@rowcount=\count317
-\c@colcount=\count318
+\c@tblrcount=\count318
+\c@rownum=\count319
+\c@colnum=\count320
+\c@rowcount=\count321
+\c@colcount=\count322
 \abovesep=\dimen265
 \belowsep=\dimen266
 \leftsep=\dimen267
 \rightsep=\dimen268
-\gTblrLevelInt=\count319
-\g__tblr_data_row_key_count_int=\count320
-\g__tblr_data_column_key_count_int=\count321
-\g__tblr_data_cell_key_count_int=\count322
-\g__tblr_array_int=\count323
-\l__tblr_key_count_int=\count324
-\l__tblr_key_quotient_int=\count325
-\l__tblr_key_quotient_two_int=\count326
-\l__tblr_key_remainder_int=\count327
-\g__tblr_data_str_value_count_int=\count328
-\lTblrChildTotalInt=\count329
-\lTblrChildHtotalInt=\count330
-\lTblrChildVtotalInt=\count331
-\l__child_diff_h_int=\count332
-\l__child_diff_v_int=\count333
-\l__child_sign_h_int=\count334
-\l__child_sign_v_int=\count335
-\l__child_step_int=\count336
+\gTblrLevelInt=\count323
+\g__tblr_data_row_key_count_int=\count324
+\g__tblr_data_column_key_count_int=\count325
+\g__tblr_data_cell_key_count_int=\count326
+\g__tblr_array_int=\count327
+\l__tblr_key_count_int=\count328
+\l__tblr_key_quotient_int=\count329
+\l__tblr_key_quotient_two_int=\count330
+\l__tblr_key_remainder_int=\count331
+\g__tblr_data_str_value_count_int=\count332
+\lTblrChildTotalInt=\count333
+\lTblrChildHtotalInt=\count334
+\lTblrChildVtotalInt=\count335
+\l__child_diff_h_int=\count336
+\l__child_diff_v_int=\count337
+\l__child_sign_h_int=\count338
+\l__child_sign_v_int=\count339
+\l__child_step_int=\count340
 \lTblrDefaultHruleWidthDim=\dimen269
 \lTblrDefaultVruleWidthDim=\dimen270
-\l__tblr_split_balance_int=\count337
+\l__tblr_split_balance_int=\count341
 \l__tblr_strut_dp_dim=\dimen271
 \l__tblr_strut_ht_dim=\dimen272
 \g__tblr_cell_wd_dim=\dimen273
@@ -424,8 +417,8 @@ Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
 \l__tblr_hfuzz_dim=\dimen278
 \l__tblr_caption_box=\box71
 \l__tblr_caption_left_box=\box72
-\lTblrRowHeadInt=\count338
-\lTblrRowFootInt=\count339
+\lTblrRowHeadInt=\count342
+\lTblrRowFootInt=\count343
 \l__tblr_row_head_box=\box73
 \l__tblr_row_foot_box=\box74
 \l__tblr_row_head_foot_dim=\dimen279
@@ -437,18 +430,18 @@ Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
 \l__tblr_table_middlefoot_box=\box79
 \l__tblr_table_lastfoot_box=\box80
 \l__tblr_remain_height_dim=\dimen281
-\l__tblr_long_from_int=\count340
-\l__tblr_long_to_int=\count341
-\l__tblr_curr_i_int=\count342
-\l__tblr_prev_i_int=\count343
-\lTblrTablePageInt=\count344
+\l__tblr_long_from_int=\count344
+\l__tblr_long_to_int=\count345
+\l__tblr_curr_i_int=\count346
+\l__tblr_prev_i_int=\count347
+\lTblrTablePageInt=\count348
 \l__tblr_table_head_box=\box81
 \l__tblr_table_foot_box=\box82
 \l__tblr_table_head_foot_dim=\dimen282
 \l__tblr_table_head_body_foot_dim=\dimen283
 \l__tblr_table_box=\box83
-\lTblrRowFirstInt=\count345
-\lTblrRowLastInt=\count346
+\lTblrRowFirstInt=\count349
+\lTblrRowLastInt=\count350
 \l__tblr_table_hlines_box=\box84
 \l__tblr_hline_box=\box85
 \l__tblr_row_box=\box86
@@ -468,8 +461,8 @@ Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
 \l__tblr_row_vpace_dim=\dimen294
 \l__tblr_vline_aboveskip_dim=\dimen295
 \l__tblr_vline_belowskip_dim=\dimen296
-\lTblrCellRowSpanInt=\count347
-\lTblrCellColSpanInt=\count348
+\lTblrCellRowSpanInt=\count351
+\lTblrCellColSpanInt=\count352
 \l__tblr_cell_wd_dim=\dimen297
 \l__tblr_cell_ht_dim=\dimen298
 \lTblrCellAboveBorderWidthDim=\dimen299
@@ -503,32 +496,32 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen316
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count349
-\c@continuedfloat=\count350
+\c@caption@flags=\count353
+\c@continuedfloat=\count354
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: threeparttable package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count351
+\c@subfigure=\count355
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count352
+\c@subtable=\count356
 ) (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip59
 \@affilsep=\skip60
-\c@Maxaffil=\count353
-\c@authors=\count354
-\c@affil=\count355
+\c@Maxaffil=\count357
+\c@authors=\count358
+\c@affil=\count359
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count356
-\csq@gtype=\count357
-\csq@glevel=\count358
-\csq@qlevel=\count359
-\csq@maxlvl=\count360
-\csq@tshold=\count361
+\csq@reset=\count360
+\csq@gtype=\count361
+\csq@glevel=\count362
+\csq@qlevel=\count363
+\csq@maxlvl=\count364
+\csq@tshold=\count365
 \csq@ltx@everypar=\toks38
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -543,25 +536,25 @@ File: csquotes.cfg
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count362
-\cp@tempcnt=\count363
+\c@cp@cntr=\count366
+\cp@tempcnt=\count367
 LaTeX Info: Redefining \checkoddpage on input line 59.
 ) (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-05-22 v3.4.12 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count364
-\l__siunitx_number_exponent_fixed_int=\count365
-\l__siunitx_number_min_decimal_int=\count366
-\l__siunitx_number_min_integer_int=\count367
-\l__siunitx_number_round_precision_int=\count368
-\l__siunitx_number_lower_threshold_int=\count369
-\l__siunitx_number_upper_threshold_int=\count370
-\l__siunitx_number_group_first_int=\count371
-\l__siunitx_number_group_size_int=\count372
-\l__siunitx_number_group_minimum_int=\count373
+\l__siunitx_number_uncert_offset_int=\count368
+\l__siunitx_number_exponent_fixed_int=\count369
+\l__siunitx_number_min_decimal_int=\count370
+\l__siunitx_number_min_integer_int=\count371
+\l__siunitx_number_round_precision_int=\count372
+\l__siunitx_number_lower_threshold_int=\count373
+\l__siunitx_number_upper_threshold_int=\count374
+\l__siunitx_number_group_first_int=\count375
+\l__siunitx_number_group_size_int=\count376
+\l__siunitx_number_group_minimum_int=\count377
 \l__siunitx_angle_tmp_dim=\dimen317
 \l__siunitx_angle_marker_box=\box92
 \l__siunitx_angle_unit_box=\box93
-\l__siunitx_compound_count_int=\count374
+\l__siunitx_compound_count_int=\count378
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
@@ -574,7 +567,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 ))
 \l__siunitx_table_tmp_box=\box94
 \l__siunitx_table_tmp_dim=\dimen318
@@ -586,14 +579,14 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 \l__siunitx_table_after_box=\box99
 \l__siunitx_table_before_dim=\dimen320
 \l__siunitx_table_carry_dim=\dimen321
-\l__siunitx_unit_tmp_int=\count375
-\l__siunitx_unit_position_int=\count376
-\l__siunitx_unit_total_int=\count377
+\l__siunitx_unit_tmp_int=\count379
+\l__siunitx_unit_position_int=\count380
+\l__siunitx_unit_total_int=\count381
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip61
-\multirow@cntb=\count378
+\multirow@cntb=\count382
 \multirow@dima=\skip62
 \bigstrutjot=\dimen322
 )
@@ -648,40 +641,34 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen334
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count379
-\c@pgf@countb=\count380
-\c@pgf@countc=\count381
-\c@pgf@countd=\count382
+\c@pgf@counta=\count383
+\c@pgf@countb=\count384
+\c@pgf@countc=\count385
+\c@pgf@countd=\count386
 \t@pgf@toka=\toks43
 \t@pgf@tokb=\toks44
 \t@pgf@tokc=\toks45
-\pgf@sys@id@count=\count383
+\pgf@sys@id@count=\count387
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-pdftex.def
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-xetex.def
-File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-)
-\pgfsys@objnum=\count384
 )))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count385
-\pgfsyssoftpath@bigbuffer@items=\count386
+\pgfsyssoftpath@smallbuffer@items=\count388
+\pgfsyssoftpath@bigbuffer@items=\count389
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -693,9 +680,10 @@ Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 274.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
@@ -713,12 +701,10 @@ e.sty
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-04-29 L3 programming layer (loader) 
 
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
-ex.def
-File: l3backend-xetex.def 2025-04-14 L3 backend support: XeTeX
-\g__graphics_track_int=\count387
-\g__pdfannot_backend_int=\count388
-\g__pdfannot_backend_link_int=\count389
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count390
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
 ))
@@ -733,7 +719,7 @@ code.tex)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen335
-\pgfmath@count=\count390
+\pgfmath@count=\count391
 \pgfmath@box=\box101
 \pgfmath@toks=\toks46
 \pgfmath@stack@operand=\toks47
@@ -761,7 +747,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count391
+\c@pgfmathroundto@lastzeros=\count392
 ))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -801,7 +787,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box102
 \pgf@hbox=\box103
 \pgf@layerbox@main=\box104
-\pgf@picture@serial@count=\count392
+\pgf@picture@serial@count=\count393
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -836,8 +822,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen359
-\pgf@sys@shading@range@num=\count393
-\pgf@shadingcount=\count394
+\pgf@sys@shading@range@num=\count394
+\pgf@shadingcount=\count395
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -907,7 +893,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count395
+\pgf@plot@mark@count=\count396
 \pgfplotmarksize=\dimen364
 )
 \tikz@lastx=\dimen365
@@ -922,19 +908,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box108
 \tikz@tempbox=\box109
 \tikz@tempbox@bg=\box110
-\tikztreelevel=\count396
-\tikznumberofchildren=\count397
-\tikznumberofcurrentchild=\count398
-\tikz@fig@count=\count399
+\tikztreelevel=\count397
+\tikznumberofchildren=\count398
+\tikznumberofcurrentchild=\count399
+\tikz@fig@count=\count400
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count400
-\pgfmatrixcurrentcolumn=\count401
-\pgf@matrix@numberofcolumns=\count402
+\pgfmatrixcurrentrow=\count401
+\pgfmatrixcurrentcolumn=\count402
+\pgf@matrix@numberofcolumns=\count403
 )
-\tikz@expandcount=\count403
+\tikz@expandcount=\count404
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -951,8 +937,7 @@ F (HO)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
-
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -960,7 +945,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count404
+\c@r@tfl@t=\count405
 \rotFPtop=\skip63
 \rotFPbot=\skip64
 \rot@float@box=\box111
@@ -969,7 +954,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen373
-\c@nlinenum=\count405
+\c@nlinenum=\count406
 \TeXr@lab=\toks52
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
@@ -978,17 +963,17 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTright=\skip66
 \LTpre=\skip67
 \LTpost=\skip68
-\LTchunksize=\count406
+\LTchunksize=\count407
 \LTcapwidth=\dimen374
 \LT@head=\box112
 \LT@firsthead=\box113
 \LT@foot=\box114
 \LT@lastfoot=\box115
 \LT@gbox=\box116
-\LT@cols=\count407
-\LT@rows=\count408
-\c@LT@tables=\count409
-\c@LT@chunks=\count410
+\LT@cols=\count408
+\LT@rows=\count409
+\c@LT@tables=\count410
+\c@LT@chunks=\count411
 \LT@p@ftn=\toks53
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
@@ -1020,7 +1005,7 @@ Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count411
+\lrq@indent=\count412
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1029,49 +1014,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count412
-\c@listtotal=\count413
-\c@listcount=\count414
-\c@liststart=\count415
-\c@liststop=\count416
-\c@citecount=\count417
-\c@citetotal=\count418
-\c@multicitecount=\count419
-\c@multicitetotal=\count420
-\c@instcount=\count421
-\c@maxnames=\count422
-\c@minnames=\count423
-\c@maxitems=\count424
-\c@minitems=\count425
-\c@citecounter=\count426
-\c@maxcitecounter=\count427
-\c@savedcitecounter=\count428
-\c@uniquelist=\count429
-\c@uniquename=\count430
-\c@refsection=\count431
-\c@refsegment=\count432
-\c@maxextratitle=\count433
-\c@maxextratitleyear=\count434
-\c@maxextraname=\count435
-\c@maxextradate=\count436
-\c@maxextraalpha=\count437
-\c@abbrvpenalty=\count438
-\c@highnamepenalty=\count439
-\c@lownamepenalty=\count440
-\c@maxparens=\count441
-\c@parenlevel=\count442
-\blx@tempcnta=\count443
-\blx@tempcntb=\count444
-\blx@tempcntc=\count445
-\c@blx@maxsection=\count446
-\blx@maxsegment@0=\count447
-\blx@notetype=\count448
-\blx@parenlevel@text=\count449
-\blx@parenlevel@foot=\count450
-\blx@sectionciteorder@0=\count451
-\blx@sectionciteorderinternal@0=\count452
-\blx@entrysetcounter=\count453
-\blx@biblioinstance=\count454
+\c@tabx@nest=\count413
+\c@listtotal=\count414
+\c@listcount=\count415
+\c@liststart=\count416
+\c@liststop=\count417
+\c@citecount=\count418
+\c@citetotal=\count419
+\c@multicitecount=\count420
+\c@multicitetotal=\count421
+\c@instcount=\count422
+\c@maxnames=\count423
+\c@minnames=\count424
+\c@maxitems=\count425
+\c@minitems=\count426
+\c@citecounter=\count427
+\c@maxcitecounter=\count428
+\c@savedcitecounter=\count429
+\c@uniquelist=\count430
+\c@uniquename=\count431
+\c@refsection=\count432
+\c@refsegment=\count433
+\c@maxextratitle=\count434
+\c@maxextratitleyear=\count435
+\c@maxextraname=\count436
+\c@maxextradate=\count437
+\c@maxextraalpha=\count438
+\c@abbrvpenalty=\count439
+\c@highnamepenalty=\count440
+\c@lownamepenalty=\count441
+\c@maxparens=\count442
+\c@parenlevel=\count443
+\blx@tempcnta=\count444
+\blx@tempcntb=\count445
+\blx@tempcntc=\count446
+\c@blx@maxsection=\count447
+\blx@maxsegment@0=\count448
+\blx@notetype=\count449
+\blx@parenlevel@text=\count450
+\blx@parenlevel@foot=\count451
+\blx@sectionciteorder@0=\count452
+\blx@sectionciteorderinternal@0=\count453
+\blx@entrysetcounter=\count454
+\blx@biblioinstance=\count455
 \labelnumberwidth=\skip70
 \labelalphawidth=\skip71
 \biblabelsep=\skip72
@@ -1083,9 +1068,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count455
-\c@maxcomprange=\count456
-\c@mincompwidth=\count457
+\c@mincomprange=\count456
+\c@maxcomprange=\count457
+\c@mincompwidth=\count458
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1096,74 +1081,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count458
-\c@savedafterword=\count459
-\c@annotator=\count460
-\c@savedannotator=\count461
-\c@author=\count462
-\c@savedauthor=\count463
-\c@bookauthor=\count464
-\c@savedbookauthor=\count465
-\c@commentator=\count466
-\c@savedcommentator=\count467
-\c@editor=\count468
-\c@savededitor=\count469
-\c@editora=\count470
-\c@savededitora=\count471
-\c@editorb=\count472
-\c@savededitorb=\count473
-\c@editorc=\count474
-\c@savededitorc=\count475
-\c@foreword=\count476
-\c@savedforeword=\count477
-\c@holder=\count478
-\c@savedholder=\count479
-\c@introduction=\count480
-\c@savedintroduction=\count481
-\c@namea=\count482
-\c@savednamea=\count483
-\c@nameb=\count484
-\c@savednameb=\count485
-\c@namec=\count486
-\c@savednamec=\count487
-\c@translator=\count488
-\c@savedtranslator=\count489
-\c@shortauthor=\count490
-\c@savedshortauthor=\count491
-\c@shorteditor=\count492
-\c@savedshorteditor=\count493
-\c@labelname=\count494
-\c@savedlabelname=\count495
-\c@institution=\count496
-\c@savedinstitution=\count497
-\c@lista=\count498
-\c@savedlista=\count499
-\c@listb=\count500
-\c@savedlistb=\count501
-\c@listc=\count502
-\c@savedlistc=\count503
-\c@listd=\count504
-\c@savedlistd=\count505
-\c@liste=\count506
-\c@savedliste=\count507
-\c@listf=\count508
-\c@savedlistf=\count509
-\c@location=\count510
-\c@savedlocation=\count511
-\c@organization=\count512
-\c@savedorganization=\count513
-\c@origlocation=\count514
-\c@savedoriglocation=\count515
-\c@origpublisher=\count516
-\c@savedorigpublisher=\count517
-\c@publisher=\count518
-\c@savedpublisher=\count519
-\c@language=\count520
-\c@savedlanguage=\count521
-\c@origlanguage=\count522
-\c@savedoriglanguage=\count523
-\c@pageref=\count524
-\c@savedpageref=\count525
+\c@afterword=\count459
+\c@savedafterword=\count460
+\c@annotator=\count461
+\c@savedannotator=\count462
+\c@author=\count463
+\c@savedauthor=\count464
+\c@bookauthor=\count465
+\c@savedbookauthor=\count466
+\c@commentator=\count467
+\c@savedcommentator=\count468
+\c@editor=\count469
+\c@savededitor=\count470
+\c@editora=\count471
+\c@savededitora=\count472
+\c@editorb=\count473
+\c@savededitorb=\count474
+\c@editorc=\count475
+\c@savededitorc=\count476
+\c@foreword=\count477
+\c@savedforeword=\count478
+\c@holder=\count479
+\c@savedholder=\count480
+\c@introduction=\count481
+\c@savedintroduction=\count482
+\c@namea=\count483
+\c@savednamea=\count484
+\c@nameb=\count485
+\c@savednameb=\count486
+\c@namec=\count487
+\c@savednamec=\count488
+\c@translator=\count489
+\c@savedtranslator=\count490
+\c@shortauthor=\count491
+\c@savedshortauthor=\count492
+\c@shorteditor=\count493
+\c@savedshorteditor=\count494
+\c@labelname=\count495
+\c@savedlabelname=\count496
+\c@institution=\count497
+\c@savedinstitution=\count498
+\c@lista=\count499
+\c@savedlista=\count500
+\c@listb=\count501
+\c@savedlistb=\count502
+\c@listc=\count503
+\c@savedlistc=\count504
+\c@listd=\count505
+\c@savedlistd=\count506
+\c@liste=\count507
+\c@savedliste=\count508
+\c@listf=\count509
+\c@savedlistf=\count510
+\c@location=\count511
+\c@savedlocation=\count512
+\c@organization=\count513
+\c@savedorganization=\count514
+\c@origlocation=\count515
+\c@savedoriglocation=\count516
+\c@origpublisher=\count517
+\c@savedorigpublisher=\count518
+\c@publisher=\count519
+\c@savedpublisher=\count520
+\c@language=\count521
+\c@savedlanguage=\count522
+\c@origlanguage=\count523
+\c@savedoriglanguage=\count524
+\c@pageref=\count525
+\c@savedpageref=\count526
 \shorthandwidth=\skip78
 \shortjournalwidth=\skip79
 \shortserieswidth=\skip80
@@ -1178,11 +1163,6 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip89
 \localshortauthorwidth=\skip90
 \localshorteditorwidth=\skip91
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.de
-f)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1193,19 +1173,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count526
-\c@textcitetotal=\count527
-\c@textcitemaxnames=\count528
-\c@biburlbigbreakpenalty=\count529
-\c@biburlbreakpenalty=\count530
-\c@biburlnumpenalty=\count531
-\c@biburlucpenalty=\count532
-\c@biburllcpenalty=\count533
+\c@textcitecount=\count527
+\c@textcitetotal=\count528
+\c@textcitemaxnames=\count529
+\c@biburlbigbreakpenalty=\count530
+\c@biburlbreakpenalty=\count531
+\c@biburlnumpenalty=\count532
+\c@biburlucpenalty=\count533
+\c@biburllcpenalty=\count534
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count534
+\c@smartand=\count535
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1219,8 +1199,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count535
-\c@bbx:relatedtotal=\count536
+\c@bbx:relatedcount=\count536
+\c@bbx:relatedtotal=\count537
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1242,8 +1222,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
 (biblatex)             2025-04-29 L3 programming layer (loader) 
@@ -1276,7 +1255,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count537
+\c@section@level=\count538
 )
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
@@ -1284,16 +1263,20 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen375
-\Hy@linkcounter=\count538
-\Hy@pagecounter=\count539
+\Hy@linkcounter=\count539
+\Hy@pagecounter=\count540
  (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-05-20 v7.01m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count540
+\Hy@SavedSpaceFactor=\count541
  (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-05-20 v7.01m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
 Package hyperref Info: Option `bookmarks' set `false' on input line 4040.
@@ -1305,7 +1288,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks OFF on input line 4430.
-\c@Hy@tempcnt=\count541
+\c@Hy@tempcnt=\count542
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen376
 
@@ -1317,7 +1300,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count542
+\Fld@menulength=\count543
 \Field@Width=\dimen377
 \Fld@charsize=\dimen378
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -1332,18 +1315,15 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count543
-\c@Item=\count544
-\c@Hfootnote=\count545
+\Hy@abspage=\count544
+\c@Item=\count545
+\c@Hfootnote=\count546
 )
-Package hyperref Info: Driver (autodetected): hxetex.
-(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2025-05-20 v7.01m Hyperref driver for XeTeX
-\pdfm@box=\box117
-\c@Hy@AnnotLevel=\count546
-\HyField@AnnotCount=\count547
-\Fld@listcount=\count548
-\c@bookmark@seq@number=\count549
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-05-20 v7.01m Hyperref driver for pdfTeX
+\Fld@listcount=\count547
+\c@bookmark@seq@number=\count548
 
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -1380,8 +1360,6 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
 LaTeX Font Info:    ... okay on input line 144.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 144.
 LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
 LaTeX Font Info:    ... okay on input line 144.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
@@ -1392,9 +1370,9 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 144.
 LaTeX Font Info:    ... okay on input line 144.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1425,13 +1403,40 @@ LaTeX Font Info:    ... okay on input line 144.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count550
+\c@lstlisting=\count549
+
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count550
+\scratchdimen=\dimen379
+\scratchbox=\box117
+\nofMPsegments=\count551
+\nofMParguments=\count552
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count553
+\MPscratchDim=\dimen380
+\MPnumerator=\count554
+\makeMPintoPDFobject=\count555
+\everyMPtoPDFconversion=\toks56
+)
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen379
-\caption@adjustwidth@linewidth=\dimen380
+\caption@adjustwidth@hsize=\dimen381
+\caption@adjustwidth@linewidth=\dimen382
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
+
 (C:\Users\mcket\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
@@ -1452,8 +1457,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 x
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `Paper3_HumanCapital.bcf'.
@@ -1494,195 +1498,165 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
 
 [1
 
-]
+{C:/Users/mcket/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-Missing character: There is no ’ in font ec-lmr12!
-Missing character: There is no “ in font ec-lmr12!
-Missing character: There is no ” in font ec-lmr12!
-Missing character: There is no — in font ec-lmr12!
-
 
 [3]
 
 [4]
-Missing character: There is no ’ in font ec-lmr12!
-
 
 [5]
-File: ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png Graphic file (type bm
-p)
-<../Paper_3_Graphs/Summary_Stats/tourism_by_year.png>
+<../Paper_3_Graphs/Summary_Stats/tourism_by_year.png, id=112, 469.755pt x 289.0
+8pt>
+File: ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png Graphic file (type pn
+g)
+<use ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png  u
+sed on input line 233.
+(pdftex.def)             Requested size: 385.20255pt x 237.04712pt.
 
 
-[6]
+[6 <../Paper_3_Graphs/Summary_Stats/tourism_by_year.png>]
 
 LaTeX Warning: Reference `tab:reasons_dropout' on page 7 undefined on input lin
-e 215.
+e 245.
 
 
 
 [7]
+<../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png, id=144, 469.755p
+t x 289.08pt>
 File: ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png Graphic file
- (type bmp)
-<../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>
+ (type png)
+<use ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annu
+al.png  used on input line 260.
+(pdftex.def)             Requested size: 385.20255pt x 237.04712pt.
 
 
-[8]
+[8 <../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>]
 
 [9]
-Missing character: There is no ’ in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
-Missing character: There is no – in font ec-lmr12!
-
 
 [10]
 
 [11]
-Overfull \hbox (1.57169pt too wide) in paragraph at lines 285--286
-\T1/lmr/m/n/12 where $\OML/cmm/m/it/12 Y[]$ \T1/lmr/m/n/12 is an ed-u-ca-tion o
-ut-come for in-di-vid-ual $\OML/cmm/m/it/12 i$ \T1/lmr/m/n/12 in de-vel-op-ment
- area $\OML/cmm/m/it/12 d$ \T1/lmr/m/n/12 in year $\OML/cmm/m/it/12 t$\T1/lmr/m
-/n/12 ; $[][]$
- []
-
-Missing character: There is no “ in font ec-lmr12!
-Missing character: There is no ” in font ec-lmr12!
-Missing character: There is no “ in font ec-lmr12!
-Missing character: There is no ” in font ec-lmr12!
-
 
 [12]
-
-LaTeX Warning: Reference `tab:enroll_tab' on page 13 undefined on input line 30
-3.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 303.
-
-
-LaTeX Warning: Reference `tab:nonenroll_tab' on page 13 undefined on input line
- 305.
-
-
-LaTeX Warning: Reference `tab:attendance' on page 13 undefined on input line 30
-5.
-
-
 
 [13] (../Paper_3_Tables/Lagged_1Year_Tables/table1_enrollment.tex)
 
 [14] (../Paper_3_Tables/Lagged_1Year_Tables/table2_dropout_reasons.tex)
-(../Paper_3_Tables/Lagged_1Year_Tables/table3_attendance_levels.tex)
 
-LaTeX Warning: Reference `tab:rural_attendance' on page 15 undefined on input l
-ine 314.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 371.
 
-Missing character: There is no “ in font ec-lmr12!
-Missing character: There is no ” in font ec-lmr12!
-(../Paper_3_Tables/Lagged_1Year_Tables/table4_attendance_reasons.tex
+(../Paper_3_Tables/Lagged_1Year_Tables/table4_attendance_reasons.tex)
 
-[15])
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
-c file (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-[16]
 
-[17] (../Paper_3_Tables/Lagged_1Year_Tables/table8_expenditures_level.tex)
-(../Paper_3_Tables/Lagged_1Year_Tables/table9_expenditures_log.tex)
+[15]
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png, id=2
+14, 469.755pt x 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png 
+Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transp
+ort_urbanrural.png  used on input line 392.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+ (../Paper_3_Tables/Lagged_1Year_Tables/table8_expenditures_level.tex)
+
+[16 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>]
 (../Paper_3_Tables/Lagged_1Year_Tables/table6_exams.tex)
-(../Paper_3_Tables/Lagged_1Year_Tables/table7_sixthform_tertiary.tex)
-(../Paper_3_Tables/Lagged_1Year_Tables/table5_skills_program.tex)
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
-(type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[17]
 
 [18]
 
 [19]
-
-[20]
-
-LaTeX Warning: Reference `tab:exam_attainment' on page 21 undefined on input li
-ne 351.
-
-
-LaTeX Warning: Reference `tab:secondary_tertiary_attain' on page 21 undefined o
-n input line 351.
-
-
-LaTeX Warning: Reference `tab:skilled_enrollment' on page 21 undefined on input
- line 351.
-
-
-
-[21]
-Missing character: There is no — in font ec-lmr12!
-Missing character: There is no — in font ec-lmr12!
-
-
-[22]
-Overfull \hbox (1.44041pt too wide) in paragraph at lines 369--370
-[]\T1/lmr/m/n/12 Another dis-tin-guish-ing fea-ture of the re-sults is the con-
+Overfull \hbox (1.33063pt too wide) in paragraph at lines 457--458
+[]\T1/cmr/m/n/12 Another dis-tin-guish-ing fea-ture of the re-sults is the con-
 cen-tra-tion of po-ten-tial substitution-
  []
 
-Missing character: There is no ’ in font ec-lmr12!
-Missing character: There is no — in font ec-lmr12!
-Missing character: There is no — in font ec-lmr12!
-Missing character: There is no “ in font ec-lmr12!
-Missing character: There is no ” in font ec-lmr12!
 
+
+[20]
+
+[21]
+
+[22]
 
 [23]
 
-[24]
-Missing character: There is no ’ in font ec-lmr12!
-Missing character: There is no — in font ec-lmr12!
+[24] (../Paper_3_Tables/Lagged_1Year_Tables/table5_skills_program.tex)
+(../Paper_3_Tables/Lagged_1Year_Tables/table3_attendance_levels.tex)
+(../Paper_3_Tables/Lagged_1Year_Tables/table9_expenditures_log.tex)
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png, id=274, 469.755pt
+ x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
+(type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiar
+y.png  used on input line 519.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
-Overfull \hbox (5.74796pt too wide) in paragraph at lines 382--382
-[][]\T1/lmr/bx/n/12 Nayyar\T1/lmr/m/n/12 , \T1/lmr/bx/n/12 Gau-rav \T1/lmr/m/n/
-12 and \T1/lmr/bx/n/12 Davies\T1/lmr/m/n/12 , \T1/lmr/bx/n/12 El-wyn \T1/lmr/m/
-n/12 (Mar. 27, 2023). \T1/lmr/m/it/12 Services-Led Growth: Bet-ter Prospects
+
+LaTeX Warning: Reference `tab:sixthform' on page 25 undefined on input line 521
+.
+
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png, id=275, 46
+9.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
+c file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence
+_reasons.png  used on input line 527.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+(../Paper_3_Tables/Lagged_1Year_Tables/table4b_transport_urbanrural.tex)
+(../Paper_3_Tables/Main_Regression_Tables/table1_enrollment_contemp.tex
+Underfull \hbox (badness 1472) in paragraph at lines 22--22
+[]\T1/cmr/m/n/12 Table 10: |School En-roll-ment, IV Es-ti-mates
  []
 
-
-
-[25]
-
-[26] (../Paper_3_Tables/Main_Regression_Tables/table1_enrollment_contemp.tex)
-(../Paper_3_Tables/Main_Regression_Tables/table2_dropout_reasons_contemp.tex)
+) (../Paper_3_Tables/Main_Regression_Tables/table2_dropout_reasons_contemp.tex)
 (../Paper_3_Tables/Main_Regression_Tables/table3_attendance_levels_contemp.tex)
 
 (../Paper_3_Tables/Main_Regression_Tables/table4_attendance_reasons_contemp.tex
 )
+(../Paper_3_Tables/Main_Regression_Tables/table4b_transport_urbanrural_contemp.
+tex)
 (../Paper_3_Tables/Main_Regression_Tables/table8_expenditures_level_contemp.tex
 ) (../Paper_3_Tables/Main_Regression_Tables/table9_expenditures_log_contemp.tex
-) (../Paper_3_Tables/Main_Regression_Tables/table6_exams_contemp.tex)
+)
+Overfull \hbox (5.46654pt too wide) in paragraph at lines 634--642
+ [] 
+ []
+
+(../Paper_3_Tables/Main_Regression_Tables/table6_exams_contemp.tex)
 (../Paper_3_Tables/Main_Regression_Tables/table7_sixthform_tertiary_contemp.tex
 ) (../Paper_3_Tables/Main_Regression_Tables/table5_skills_program_contemp.tex)
 
-[27]
+[25]
 
-[28]
+[26]
+
+[27 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>]
+
+[28 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>]
 
 [29]
 
 [30]
 
-[31] (../Paper_3_Tables/Lagged_2Year_Tables/table1_enrollment_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table2_dropout_reasons_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table3_attendance_levels_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table4_attendance_reasons_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table8_expenditures_level_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table9_expenditures_log_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table6_exams_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table7_sixthform_tertiary_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table5_skills_program_lag2.tex)
+[31]
 
 [32]
 
@@ -1693,42 +1667,29 @@ n/12 (Mar. 27, 2023). \T1/lmr/m/it/12 Services-Led Growth: Bet-ter Prospects
 [35]
 
 [36]
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png Graphic fil
-e (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png Graphi
-c file (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png Graphic fil
-e (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
-c file (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png Graphic file (t
-ype bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png Graphic file (ty
-pe bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
-(type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png Gra
-phic file (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png>
-File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png Graph
-ic file (type bmp)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png>
-
 
 [37]
 
 [38]
 
-[39]
+[39] (../Paper_3_Tables/Lagged_2Year_Tables/table1_enrollment_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table2_dropout_reasons_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table3_attendance_levels_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table4_attendance_reasons_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table4b_transport_urbanrural_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table8_expenditures_level_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table9_expenditures_log_lag2.tex)
+Overfull \hbox (52.3146pt too wide) in paragraph at lines 763--771
+ [] 
+ []
 
-[40]
+(../Paper_3_Tables/Lagged_2Year_Tables/table6_exams_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table7_sixthform_tertiary_lag2.tex)
+(../Paper_3_Tables/Lagged_2Year_Tables/table5_skills_program_lag2.tex)
+
+[40
+
+]
 
 [41]
 
@@ -1737,38 +1698,8 @@ ic file (type bmp)
 [43]
 
 [44]
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png Graphic 
-file (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png Gra
-phic file (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png Graphic 
-file (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png Gra
-phic file (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png Graphic file
- (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png Graphic file 
-(type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png Graphic fi
-le (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png 
-Graphic file (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png>
-File: ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png Gr
-aphic file (type bmp)
-<../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png>
 
-
-[45
-
-]
+[45]
 
 [46]
 
@@ -1777,56 +1708,307 @@ aphic file (type bmp)
 [48]
 
 [49]
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png, id=446, 469.755
+pt x 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png Graphic fil
+e (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollm
+ent.png  used on input line 819.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png, id=447, 46
+9.755pt x 292.6935pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png Graphi
+c file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout
+_reasons.png  used on input line 825.
+(pdftex.def)             Requested size: 399.29463pt x 248.79063pt.
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png, id=448, 469.755
+pt x 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png Graphic fil
+e (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attenda
+nce.png  used on input line 831.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
+c file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence
+_reasons.png  used on input line 837.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png 
+Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transp
+ort_urbanrural.png  used on input line 843.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png, id=449, 469.755pt x
+ 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png Graphic file (t
+ype png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.
+png  used on input line 849.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png, id=450, 469.755pt x 
+408.3255pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png Graphic file (ty
+pe png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.p
+ng  used on input line 855.
+(pdftex.def)             Requested size: 399.29463pt x 347.07831pt.
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
+(type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiar
+y.png  used on input line 861.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png, id=451,
+ 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png Gra
+phic file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expendi
+tures_level.png  used on input line 867.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png, id=452, 4
+69.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png Graph
+ic file (type png)
+<use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expendi
+tures_log.png  used on input line 873.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
-[50]
 
-[51]
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png Graph
-ic file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png 
-Graphic file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png Graph
-ic file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png 
-Graphic file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png Graphic f
-ile (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png Graphic fi
-le (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png Graphic
- file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.p
-ng Graphic file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.png>
-File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png
- Graphic file (type bmp)
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png>
+[50 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png>]
 
+[51 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png> <../Pa
+per_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png>]
 
-[52
+[52]
 
-]
-
-[53]
+[53 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png> <../Paper_3_Gra
+phs/Lagged_1Year_Coefplots/plot6_exams.png>]
 
 [54]
 
-[55]
+[55 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png>]
 
-[56]
+[56 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png>]
+<../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png, id=493, 469.
+755pt x 216.81pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png Graphic 
+file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_c
+ontemp.png  used on input line 883.
+(pdftex.def)             Requested size: 399.29463pt x 184.28935pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png, id=494,
+ 469.755pt x 292.6935pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png Gra
+phic file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reas
+ons_contemp.png  used on input line 889.
+(pdftex.def)             Requested size: 399.29463pt x 248.79063pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png, id=495, 469.
+755pt x 234.8775pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png Graphic 
+file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_c
+ontemp.png  used on input line 895.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png, id=496,
+ 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png Gra
+phic file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reas
+ons_contemp.png  used on input line 901.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.png, i
+d=497, 469.755pt x 234.8775pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.p
+ng Graphic file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.pn
+g>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_u
+rbanrural_contemp.png  used on input line 907.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png, id=498, 469.755p
+t x 234.8775pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png Graphic file
+ (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_conte
+mp.png  used on input line 913.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png, id=499, 469.755pt
+ x 408.3255pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png Graphic file 
+(type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contem
+p.png  used on input line 919.
+(pdftex.def)             Requested size: 399.29463pt x 347.07831pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png, id=500, 469.75
+5pt x 350.5095pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png Graphic fi
+le (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_con
+temp.png  used on input line 925.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png, id=5
+01, 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png 
+Graphic file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures
+_level_contemp.png  used on input line 931.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png, id=502
+, 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png Gr
+aphic file (type png)
+<use ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures
+_log_contemp.png  used on input line 937.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
-[57]
 
-[58]
+[57
 
-[59
+ <../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png>]
+
+[58 <../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png> <..
+/Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png>]
+
+[59 <../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png> <..
+/Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.png>]
+
+[60 <../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png> <../Paper_3_
+Graphs/Contemp_Coefplots/plot6_exams_contemp.png>]
+
+[61 <../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png>]
+
+[62 <../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png>]
+
+
+[63 <../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png>]
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png, id=543, 4
+69.755pt x 216.81pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png Graph
+ic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enroll
+ment_lag2.png  used on input line 947.
+(pdftex.def)             Requested size: 399.29463pt x 184.28935pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png, id=5
+44, 469.755pt x 292.6935pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png 
+Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropou
+t_reasons_lag2.png  used on input line 953.
+(pdftex.def)             Requested size: 399.29463pt x 248.79063pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png, id=545, 4
+69.755pt x 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png Graph
+ic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attend
+ance_lag2.png  used on input line 959.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png, id=5
+46, 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png 
+Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absenc
+e_reasons_lag2.png  used on input line 965.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag2.png
+, id=547, 469.755pt x 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag
+2.png Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag2
+.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_trans
+port_urbanrural_lag2.png  used on input line 971.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png, id=548, 469.7
+55pt x 234.8775pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png Graphic f
+ile (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills
+_lag2.png  used on input line 977.
+(pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png, id=549, 469.75
+5pt x 408.3255pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png Graphic fi
+le (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_
+lag2.png  used on input line 983.
+(pdftex.def)             Requested size: 399.29463pt x 347.07831pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png, id=550, 469
+.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png Graphic
+ file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertia
+ry_lag2.png  used on input line 989.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.png, i
+d=551, 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.p
+ng Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.pn
+g>
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expend
+itures_level_lag2.png  used on input line 995.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png, id=
+552, 469.755pt x 350.5095pt>
+File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png
+ Graphic file (type png)
+<use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png>
+
+Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expend
+itures_log_lag2.png  used on input line 1001.
+(pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
+
+
+[64
+
+ <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png>]
+
+[65 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png> 
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png>]
+
+[66 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png> 
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag2.png
+>]
+
+[67 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png> <../Paper
+_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png>]
+
+[68 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png>]
+
+[69 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.pn
+g>]
+
+[70 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png>
+]
+
+[71
 
 ] (Paper3_HumanCapital.aux)
  ***********
@@ -1846,12 +2028,43 @@ Package logreq Info: Writing requests to 'Paper3_HumanCapital.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40392 strings out of 405039
- 834012 string characters out of 5499318
- 1644632 words of memory out of 5000000
- 66435 multiletter control sequences out of 15000+600000
- 683931 words of font info for 108 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 128i,12n,132p,1697b,5760s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 41277 strings out of 469923
+ 865647 string characters out of 5469170
+ 1670190 words of memory out of 5000000
+ 67201 multiletter control sequences out of 15000+600000
+ 650884 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,19n,132p,2045b,2316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+1095.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecti1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1095.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\mcket\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\mcket\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\mcket\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\mcket\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
+mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\
+Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
+><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/mcket/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/mcket/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mcket/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mcket/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m
+cket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on Paper3_HumanCapital.pdf (71 pages, 2636047 bytes).
+PDF statistics:
+ 1169 PDF objects out of 1200 (max. 8388607)
+ 236 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Paper3_HumanCapital.pdf (59 pages).

@@ -1,32 +1,22 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:expenditures_level_lag2} School Expenditure by Category, IV Estimates (Lag 2)}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables:                & Tuition (USD) & Books (USD)  & Transport (USD) & Uniform (USD) & Lunch and snacks (USD)\\  
-      Model:                              & (1)           & (2)          & (3)             & (4)           & (5)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp., lag 2 (100M USD)      & 16.3          & -14.8        & -39.8           & 9.10          & 93.5\\   
-                                          & (37.0)        & (12.8)       & (69.7)          & (22.9)        & (89.9)\\   
-      Female                              & -4.24         & 5.61$^{***}$ & 25.7$^{***}$    & -8.41$^{***}$ & 14.9$^{**}$\\   
-                                          & (6.72)        & (1.90)       & (7.98)          & (1.88)        & (6.54)\\   
-      Age                                 & -7.23$^{***}$ & 1.17$^{***}$ & 31.9$^{***}$    & 2.71$^{***}$  & 29.4$^{***}$\\   
-                                          & (0.774)       & (0.246)      & (2.48)          & (0.275)       & (1.27)\\   
-      Mean of dep. var.                   & 48.388        & 70.385       & 258.767         & 88.556        & 464.417\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 993.40        & 811.13       & 773.80          & 810.83        & 804.73\\  
-      Observations                        & 9,246         & 10,281       & 10,283          & 10,304        & 10,337\\  
-      R$^2$                               & 0.03981       & 0.06848      & 0.08087         & 0.04630       & 0.11294\\  
-      \midrule \midrule
-      \multicolumn{6}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: enrolled children; real 2024 USD; 2014 excluded due to survey design. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                                                  & \makecell{Tuition\\ (USD)}    & \makecell{Books\\ (USD)}    & \makecell{Transport\\ (USD)}    & \makecell{Uniform\\ (USD)}    & \makecell{Lunch and\\ snacks\\ (USD)}\\       
+   Model:                                                                & (1)                           & (2)                         & (3)                             & (4)                           & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.,\\ lag 2 (100M USD)}}     & 25.3                          & -9.77                       & -33.2                           & 13.6                          & 108.6\\   
+                                                                         & (40.0)                        & (11.2)                      & (68.3)                          & (23.2)                        & (89.4)\\   
+   Female                                                                & -4.42                         & 5.63$^{***}$                & 25.7$^{***}$                    & -8.40$^{***}$                 & 15.0$^{**}$\\   
+                                                                         & (6.76)                        & (1.87)                      & (7.99)                          & (1.77)                        & (6.54)\\   
+   Age                                                                   & -7.29$^{***}$                 & 1.15$^{***}$                & 31.9$^{***}$                    & 2.69$^{***}$                  & 29.3$^{***}$\\   
+                                                                         & (0.770)                       & (0.247)                     & (2.48)                          & (0.262)                       & (1.30)\\   
+   No. enrolled siblings (HH)                                            & -12.8$^{***}$                 & -9.34$^{***}$               & -11.7$^{***}$                   & -8.39$^{***}$                 & -28.2$^{***}$\\   
+                                                                         & (2.98)                        & (0.951)                     & (2.64)                          & (1.05)                        & (3.41)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                     & 990.13                        & 808.88                      & 771.86                          & 808.75                        & 802.52\\  
+   Observations                                                          & 9,246                         & 10,281                      & 10,283                          & 10,304                        & 10,337\\  
+   R$^2$                                                                 & 0.04441                       & 0.09251                     & 0.08191                         & 0.05555                       & 0.11900\\  
+   Mean of dep. var.                                                     & 48.388                        & 70.385                      & 258.767                         & 88.556                        & 464.417\\  
+\bottomrule
+\end{tabular}

@@ -1,32 +1,26 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:exams_contemp} Examination Attainment, IV Estimates (Contemporaneous)}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables: & At least GNAT & At least CXC Basic & \multicolumn{2}{c}{At least CXC General} & CXC incl. math and English\\
-      Model:                          & (1)           & (2)           & (3)           & (4)           & (5)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp. (100M USD)         & 0.101         & 0.086         & 0.055         & -0.208        & 0.007\\   
-                                      & (0.185)       & (0.166)       & (0.119)       & (0.236)       & (0.068)\\   
-      Female                          & 0.032$^{***}$ & 0.031$^{***}$ & 0.026$^{***}$ & 0.014         & 0.011$^{***}$\\   
-                                      & (0.004)       & (0.004)       & (0.004)       & (0.011)       & (0.002)\\   
-      Age                             & 0.021$^{***}$ & 0.019$^{***}$ & 0.016$^{***}$ & 0.008$^{***}$ & 0.007$^{***}$\\   
-                                      & (0.0008)      & (0.0009)      & (0.0009)      & (0.002)       & (0.0008)\\   
-      Mean of dep. var.               & 0.061         & 0.056         & 0.046         & 0.022         & 0.019\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 33.869        & 33.869        & 33.869        & 13.844        & 33.869\\  
-      Observations                    & 13,687        & 13,687        & 13,687        & 882           & 13,687\\  
-      R$^2$                           & 0.11338       & 0.11290       & 0.10256       & 0.07354       & 0.05165\\  
-      \midrule \midrule
-      \multicolumn{6}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: children ages 5--19. Outcomes indicate attainment of at least the named exam level. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lcccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                                           & GNAT          & \makecell{CXC\\ Basic}    & \makecell{CXC\\ General}    & \makecell{CXC: math\\ and English}    & \makecell{CAPE/\\ A-Level}    & Degree\\  
+   Model:                                                         & (1)           & (2)                       & (3)                         & (4)                                   & (5)                           & (6)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.\\ (100M USD)}}     & 0.097         & 0.082                     & 0.051                       & 0.005                                 & -0.234                        & -0.025\\   
+                                                                  & (0.174)       & (0.155)                   & (0.110)                     & (0.066)                               & (0.204)                       & (0.049)\\   
+   Female                                                         & 0.032$^{***}$ & 0.031$^{***}$             & 0.026$^{***}$               & 0.011$^{***}$                         & 0.015$^{***}$                 & 0.004\\   
+                                                                  & (0.004)       & (0.004)                   & (0.004)                     & (0.002)                               & (0.006)                       & (0.003)\\   
+   Age                                                            & 0.021$^{***}$ & 0.019$^{***}$             & 0.016$^{***}$               & 0.007$^{***}$                         & 0.010$^{***}$                 & 0.003$^{***}$\\   
+                                                                  & (0.0008)      & (0.0009)                  & (0.0009)                    & (0.0008)                              & (0.001)                       & (0.0007)\\   
+   No. enrolled siblings (HH)                                     & -0.006$^{**}$ & -0.006$^{**}$             & -0.006$^{**}$               & -0.002$^{**}$                         & -0.006$^{**}$                 & -0.001\\   
+                                                                  & (0.003)       & (0.003)                   & (0.003)                     & (0.0009)                              & (0.002)                       & (0.0009)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                  & 34.270        & 34.270                    & 34.270                      & 34.270                                & 23.957                        & 23.957\\  
+   Observations                                                   & 13,687        & 13,687                    & 13,687                      & 13,687                                & 6,275                         & 6,275\\  
+   R$^2$                                                          & 0.11670       & 0.11635                   & 0.10554                     & 0.05221                               & -0.14401                      & 0.01262\\  
+\midrule
+\emph{Sample}\\
+School-age (5--19) & Yes & Yes & Yes & Yes & No & No   \\   
+Upper secondary (16--25) & No & No & No & No & Yes & Yes   \\   
+   Mean of dep. var.                                              & 0.061         & 0.056                     & 0.046                       & 0.019                                 & 0.041                         & 0.006\\  
+\bottomrule
+\end{tabular}

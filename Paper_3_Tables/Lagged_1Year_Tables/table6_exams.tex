@@ -1,32 +1,20 @@
-﻿
-\begin{table}[htbp]
-   \caption{\label{tab:exams} Examination Attainment, IV Estimates}
-   \centering
-   \resizebox{0.75\textwidth}{!}{\begin{tabular}{lccccc}
-      \tabularnewline \midrule \midrule
-      Dependent Variables: & At least GNAT & At least CXC Basic & \multicolumn{2}{c}{At least CXC General} & CXC incl. math and English\\
-      Model:                              & (1)           & (2)           & (3)           & (4)           & (5)\\  
-      \midrule
-      \emph{Variables}\\
-      Tourism exp., lag 1 (100M USD)      & -0.007        & -0.018        & -0.007        & 0.045         & 0.005\\   
-                                          & (0.016)       & (0.012)       & (0.014)       & (0.090)       & (0.014)\\   
-      Female                              & 0.031$^{***}$ & 0.030$^{***}$ & 0.025$^{***}$ & 0.018$^{*}$   & 0.011$^{***}$\\   
-                                          & (0.004)       & (0.004)       & (0.004)       & (0.010)       & (0.002)\\   
-      Age                                 & 0.021$^{***}$ & 0.019$^{***}$ & 0.016$^{***}$ & 0.008$^{***}$ & 0.007$^{***}$\\   
-                                          & (0.0008)      & (0.0009)      & (0.0010)      & (0.002)       & (0.0008)\\   
-      Mean of dep. var.                   & 0.061         & 0.056         & 0.046         & 0.021         & 0.020\\  
-      \midrule
-      \emph{Fit statistics}\\
-      Bartik F-stat (1st stage)   & 1,028.8       & 1,028.8       & 1,028.8       & 44.088        & 1,028.8\\  
-      Observations                        & 13,518        & 13,518        & 13,518        & 861           & 13,518\\  
-      R$^2$                               & 0.14510       & 0.13709       & 0.11767       & 0.10563       & 0.05217\\  
-      \midrule \midrule
-      \multicolumn{6}{l}{\emph{Clustered standard errors in parentheses}}\\
-      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
-   \end{tabular}}
-   
-   \par \raggedright 
-   Sample: children ages 5--19. Outcomes indicate attainment of at least the named exam level. All specifications include development area and year fixed effects; standard errors clustered by development area.
-\end{table}
-
-
+\begin{tabular}{lcccccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables:                                                  & GNAT    & \makecell{CXC\\ Basic}    & \makecell{CXC\\ General}    & \makecell{CXC: math\\ and English}    & \makecell{CAPE/\\ A-Level}    & Degree\\  
+   Model:                                                                & (1)     & (2)                       & (3)                         & (4)                                   & (5)                           & (6)\\  
+   \midrule
+   \emph{Variables}\\
+   \multirow{2}{*}{\shortstack[l]{Tourism exp.,\\ lag 1 (100M USD)}}     & -0.007  & -0.019                    & -0.007                      & 0.005                                 & -0.034$^{**}$                 & -0.004\\   
+                                                                         & (0.016) & (0.012)                   & (0.013)                     & (0.015)                               & (0.014)                       & (0.005)\\   
+   \midrule
+   \emph{Fit statistics}\\
+   Bartik F-stat (1st stage)                                     & 1,030.2 & 1,030.2                   & 1,030.2                     & 1,030.2                               & 484.43                        & 484.43\\  
+   Observations                                                          & 13,518  & 13,518                    & 13,518                      & 13,518                                & 6,019                         & 6,019\\  
+   R$^2$                                                                 & 0.14591 & 0.13809                   & 0.11882                     & 0.05256                               & 0.02929                       & 0.00777\\  
+\midrule
+\emph{Sample}\\
+School-age (5--19) & Yes & Yes & Yes & Yes & No & No   \\   
+Secondary/College (14--20) & No & No & No & No & Yes & Yes   \\   
+   Mean of dep. var.                                                     & 0.061   & 0.056                     & 0.046                       & 0.020                                 & 0.017                         & 0.001\\  
+\bottomrule
+\end{tabular}
