@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.26)  15 MAY 2026 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.26)  21 MAY 2026 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1520,24 +1520,24 @@ sed on input line 233.
 [6 <../Paper_3_Graphs/Summary_Stats/tourism_by_year.png>]
 
 LaTeX Warning: Reference `tab:reasons_dropout' on page 7 undefined on input lin
-e 245.
+e 244.
 
 
 
 [7]
-<../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png, id=144, 469.755p
+<../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png, id=150, 469.755p
 t x 289.08pt>
 File: ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png Graphic file
  (type png)
 <use ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annu
-al.png  used on input line 260.
+al.png  used on input line 259.
 (pdftex.def)             Requested size: 385.20255pt x 237.04712pt.
 
 
-[8 <../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>]
+[8]
 
-[9]
+[9 <../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>]
 
 [10]
 
@@ -1550,7 +1550,7 @@ al.png  used on input line 260.
 [14] (../Paper_3_Tables/Lagged_1Year_Tables/table2_dropout_reasons.tex)
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 371.
+(Font)              size <5> substituted on input line 370.
 
 (../Paper_3_Tables/Lagged_1Year_Tables/table4_attendance_reasons.tex)
 
@@ -1560,28 +1560,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15]
 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png, id=2
-14, 469.755pt x 234.8775pt>
+22, 469.755pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png 
 Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transp
-ort_urbanrural.png  used on input line 392.
+ort_urbanrural.png  used on input line 391.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
- (../Paper_3_Tables/Lagged_1Year_Tables/table8_expenditures_level.tex)
 
-[16 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>]
+
+[16] (../Paper_3_Tables/Lagged_1Year_Tables/table8_expenditures_level.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table6_exams.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[17]
+[17 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>]
+
 
 [18]
 
 [19]
-Overfull \hbox (1.33063pt too wide) in paragraph at lines 457--458
+Overfull \hbox (1.33063pt too wide) in paragraph at lines 456--457
 []\T1/cmr/m/n/12 Another dis-tin-guish-ing fea-ture of the re-sults is the con-
 cen-tra-tion of po-ten-tial substitution-
  []
@@ -1596,29 +1597,31 @@ cen-tra-tion of po-ten-tial substitution-
 
 [23]
 
-[24] (../Paper_3_Tables/Lagged_1Year_Tables/table5_skills_program.tex)
+[24]
+
+[25] (../Paper_3_Tables/Lagged_1Year_Tables/table5_skills_program.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table3_attendance_levels.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table9_expenditures_log.tex)
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png, id=274, 469.755pt
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png, id=287, 469.755pt
  x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
 (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiar
-y.png  used on input line 519.
+y.png  used on input line 518.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
 
-LaTeX Warning: Reference `tab:sixthform' on page 25 undefined on input line 521
+LaTeX Warning: Reference `tab:sixthform' on page 26 undefined on input line 520
 .
 
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png, id=275, 46
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png, id=288, 46
 9.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
 c file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence
-_reasons.png  used on input line 527.
+_reasons.png  used on input line 526.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 (../Paper_3_Tables/Lagged_1Year_Tables/table4b_transport_urbanrural.tex)
 (../Paper_3_Tables/Main_Regression_Tables/table1_enrollment_contemp.tex
@@ -1636,7 +1639,7 @@ tex)
 (../Paper_3_Tables/Main_Regression_Tables/table8_expenditures_level_contemp.tex
 ) (../Paper_3_Tables/Main_Regression_Tables/table9_expenditures_log_contemp.tex
 )
-Overfull \hbox (5.46654pt too wide) in paragraph at lines 634--642
+Overfull \hbox (5.46654pt too wide) in paragraph at lines 633--641
  [] 
  []
 
@@ -1644,15 +1647,13 @@ Overfull \hbox (5.46654pt too wide) in paragraph at lines 634--642
 (../Paper_3_Tables/Main_Regression_Tables/table7_sixthform_tertiary_contemp.tex
 ) (../Paper_3_Tables/Main_Regression_Tables/table5_skills_program_contemp.tex)
 
-[25]
-
 [26]
 
-[27 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>]
+[27]
 
-[28 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>]
+[28 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>]
 
-[29]
+[29 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>]
 
 [30]
 
@@ -1672,14 +1673,16 @@ Overfull \hbox (5.46654pt too wide) in paragraph at lines 634--642
 
 [38]
 
-[39] (../Paper_3_Tables/Lagged_2Year_Tables/table1_enrollment_lag2.tex)
+[39]
+
+[40] (../Paper_3_Tables/Lagged_2Year_Tables/table1_enrollment_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table2_dropout_reasons_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table3_attendance_levels_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table4_attendance_reasons_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table4b_transport_urbanrural_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table8_expenditures_level_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table9_expenditures_log_lag2.tex)
-Overfull \hbox (52.3146pt too wide) in paragraph at lines 763--771
+Overfull \hbox (52.3146pt too wide) in paragraph at lines 762--770
  [] 
  []
 
@@ -1687,11 +1690,9 @@ Overfull \hbox (52.3146pt too wide) in paragraph at lines 763--771
 (../Paper_3_Tables/Lagged_2Year_Tables/table7_sixthform_tertiary_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table5_skills_program_lag2.tex)
 
-[40
+[41
 
 ]
-
-[41]
 
 [42]
 
@@ -1708,307 +1709,309 @@ Overfull \hbox (52.3146pt too wide) in paragraph at lines 763--771
 [48]
 
 [49]
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png, id=446, 469.755
+
+[50]
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png, id=458, 469.755
 pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png Graphic fil
 e (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollm
-ent.png  used on input line 819.
+ent.png  used on input line 818.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png, id=447, 46
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png, id=459, 46
 9.755pt x 292.6935pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png Graphi
 c file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout
-_reasons.png  used on input line 825.
+_reasons.png  used on input line 824.
 (pdftex.def)             Requested size: 399.29463pt x 248.79063pt.
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png, id=448, 469.755
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png, id=460, 469.755
 pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png Graphic fil
 e (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot3_attenda
-nce.png  used on input line 831.
+nce.png  used on input line 830.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
 c file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence
-_reasons.png  used on input line 837.
+_reasons.png  used on input line 836.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png 
 Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transp
-ort_urbanrural.png  used on input line 843.
+ort_urbanrural.png  used on input line 842.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png, id=449, 469.755pt x
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png, id=461, 469.755pt x
  234.8775pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png Graphic file (t
 ype png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.
-png  used on input line 849.
+png  used on input line 848.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png, id=450, 469.755pt x 
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png, id=462, 469.755pt x 
 408.3255pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png Graphic file (ty
 pe png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot6_exams.p
-ng  used on input line 855.
+ng  used on input line 854.
 (pdftex.def)             Requested size: 399.29463pt x 347.07831pt.
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
 (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiar
-y.png  used on input line 861.
+y.png  used on input line 860.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png, id=451,
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png, id=463,
  469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png Gra
 phic file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expendi
-tures_level.png  used on input line 867.
+tures_level.png  used on input line 866.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png, id=452, 4
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png, id=464, 4
 69.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png Graph
 ic file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expendi
-tures_log.png  used on input line 873.
+tures_log.png  used on input line 872.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
 
-[50 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png>]
+[51 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot1_enrollment.png>]
 
-[51 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png> <../Pa
+[52 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot2_dropout_reasons.png> <../Pa
 per_3_Graphs/Lagged_1Year_Coefplots/plot3_attendance.png>]
 
-[52]
+[53]
 
-[53 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png> <../Paper_3_Gra
+[54 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot5_skills.png> <../Paper_3_Gra
 phs/Lagged_1Year_Coefplots/plot6_exams.png>]
 
-[54]
+[55]
 
-[55 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png>]
+[56 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot8_expenditures_level.png>]
 
-[56 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png>]
-<../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png, id=493, 469.
+[57 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot9_expenditures_log.png>]
+<../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png, id=505, 469.
 755pt x 216.81pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png Graphic 
 file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_c
-ontemp.png  used on input line 883.
+ontemp.png  used on input line 882.
 (pdftex.def)             Requested size: 399.29463pt x 184.28935pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png, id=494,
+<../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png, id=506,
  469.755pt x 292.6935pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png Gra
 phic file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reas
-ons_contemp.png  used on input line 889.
+ons_contemp.png  used on input line 888.
 (pdftex.def)             Requested size: 399.29463pt x 248.79063pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png, id=495, 469.
+<../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png, id=507, 469.
 755pt x 234.8775pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png Graphic 
 file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_c
-ontemp.png  used on input line 895.
+ontemp.png  used on input line 894.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png, id=496,
+<../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png, id=508,
  469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png Gra
 phic file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reas
-ons_contemp.png  used on input line 901.
+ons_contemp.png  used on input line 900.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 <../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.png, i
-d=497, 469.755pt x 234.8775pt>
+d=509, 469.755pt x 234.8775pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.p
 ng Graphic file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.pn
 g>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_u
-rbanrural_contemp.png  used on input line 907.
+rbanrural_contemp.png  used on input line 906.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png, id=498, 469.755p
+<../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png, id=510, 469.755p
 t x 234.8775pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png Graphic file
  (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_conte
-mp.png  used on input line 913.
+mp.png  used on input line 912.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png, id=499, 469.755pt
+<../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png, id=511, 469.755pt
  x 408.3255pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png Graphic file 
 (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot6_exams_contem
-p.png  used on input line 919.
+p.png  used on input line 918.
 (pdftex.def)             Requested size: 399.29463pt x 347.07831pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png, id=500, 469.75
+<../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png, id=512, 469.75
 5pt x 350.5095pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png Graphic fi
 le (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_con
-temp.png  used on input line 925.
+temp.png  used on input line 924.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 <../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png, id=5
-01, 469.755pt x 350.5095pt>
+13, 469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png 
 Graphic file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures
-_level_contemp.png  used on input line 931.
+_level_contemp.png  used on input line 930.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
-<../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png, id=502
+<../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png, id=514
 , 469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png Gr
 aphic file (type png)
 <use ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures
-_log_contemp.png  used on input line 937.
+_log_contemp.png  used on input line 936.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
 
-[57
+[58
 
  <../Paper_3_Graphs/Contemp_Coefplots/plot1_enrollment_contemp.png>]
 
-[58 <../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png> <..
+[59 <../Paper_3_Graphs/Contemp_Coefplots/plot2_dropout_reasons_contemp.png> <..
 /Paper_3_Graphs/Contemp_Coefplots/plot3_attendance_contemp.png>]
 
-[59 <../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png> <..
+[60 <../Paper_3_Graphs/Contemp_Coefplots/plot4_absence_reasons_contemp.png> <..
 /Paper_3_Graphs/Contemp_Coefplots/plot4b_transport_urbanrural_contemp.png>]
 
-[60 <../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png> <../Paper_3_
+[61 <../Paper_3_Graphs/Contemp_Coefplots/plot5_skills_contemp.png> <../Paper_3_
 Graphs/Contemp_Coefplots/plot6_exams_contemp.png>]
 
-[61 <../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png>]
+[62 <../Paper_3_Graphs/Contemp_Coefplots/plot7_tertiary_contemp.png>]
 
-[62 <../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png>]
+[63 <../Paper_3_Graphs/Contemp_Coefplots/plot8_expenditures_level_contemp.png>]
 
 
-[63 <../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png>]
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png, id=543, 4
+[64 <../Paper_3_Graphs/Contemp_Coefplots/plot9_expenditures_log_contemp.png>]
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png, id=555, 4
 69.755pt x 216.81pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png Graph
 ic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enroll
-ment_lag2.png  used on input line 947.
+ment_lag2.png  used on input line 946.
 (pdftex.def)             Requested size: 399.29463pt x 184.28935pt.
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png, id=5
-44, 469.755pt x 292.6935pt>
+56, 469.755pt x 292.6935pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png 
 Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropou
-t_reasons_lag2.png  used on input line 953.
+t_reasons_lag2.png  used on input line 952.
 (pdftex.def)             Requested size: 399.29463pt x 248.79063pt.
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png, id=545, 4
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png, id=557, 4
 69.755pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png Graph
 ic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attend
-ance_lag2.png  used on input line 959.
+ance_lag2.png  used on input line 958.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png, id=5
-46, 469.755pt x 350.5095pt>
+58, 469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png 
 Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absenc
-e_reasons_lag2.png  used on input line 965.
+e_reasons_lag2.png  used on input line 964.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag2.png
-, id=547, 469.755pt x 234.8775pt>
+, id=559, 469.755pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag
 2.png Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag2
 .png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_trans
-port_urbanrural_lag2.png  used on input line 971.
+port_urbanrural_lag2.png  used on input line 970.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png, id=548, 469.7
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png, id=560, 469.7
 55pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png Graphic f
 ile (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills
-_lag2.png  used on input line 977.
+_lag2.png  used on input line 976.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png, id=549, 469.75
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png, id=561, 469.75
 5pt x 408.3255pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png Graphic fi
 le (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot6_exams_
-lag2.png  used on input line 983.
+lag2.png  used on input line 982.
 (pdftex.def)             Requested size: 399.29463pt x 347.07831pt.
-<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png, id=550, 469
+<../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png, id=562, 469
 .755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png Graphic
  file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertia
-ry_lag2.png  used on input line 989.
+ry_lag2.png  used on input line 988.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.png, i
-d=551, 469.755pt x 350.5095pt>
+d=563, 469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.p
 ng Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.pn
 g>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expend
-itures_level_lag2.png  used on input line 995.
+itures_level_lag2.png  used on input line 994.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png, id=
-552, 469.755pt x 350.5095pt>
+564, 469.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png
  Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png>
 
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expend
-itures_log_lag2.png  used on input line 1001.
+itures_log_lag2.png  used on input line 1000.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
 
-[64
+[65
 
  <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot1_enrollment_lag2.png>]
 
-[65 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png> 
+[66 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot2_dropout_reasons_lag2.png> 
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot3_attendance_lag2.png>]
 
-[66 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png> 
+[67 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4_absence_reasons_lag2.png> 
 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot4b_transport_urbanrural_lag2.png
 >]
 
-[67 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png> <../Paper
+[68 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot5_skills_lag2.png> <../Paper
 _3_Graphs/Lagged_2Years_Coefplots/plot6_exams_lag2.png>]
 
-[68 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png>]
+[69 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot7_tertiary_lag2.png>]
 
-[69 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.pn
+[70 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot8_expenditures_level_lag2.pn
 g>]
 
-[70 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png>
+[71 <../Paper_3_Graphs/Lagged_2Years_Coefplots/plot9_expenditures_log_lag2.png>
 ]
 
-[71
+[72
 
 ] (Paper3_HumanCapital.aux)
  ***********
@@ -2028,13 +2031,13 @@ Package logreq Info: Writing requests to 'Paper3_HumanCapital.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41277 strings out of 469923
- 865647 string characters out of 5469170
- 1670190 words of memory out of 5000000
- 67201 multiletter control sequences out of 15000+600000
+ 41287 strings out of 469923
+ 865907 string characters out of 5469170
+ 1670276 words of memory out of 5000000
+ 67207 multiletter control sequences out of 15000+600000
  650884 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,132p,2045b,2316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,132p,2045b,2304s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
 1095.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecti1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -2062,9 +2065,9 @@ cket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 :/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on Paper3_HumanCapital.pdf (71 pages, 2636047 bytes).
+Output written on Paper3_HumanCapital.pdf (72 pages, 2643074 bytes).
 PDF statistics:
- 1169 PDF objects out of 1200 (max. 8388607)
- 236 named destinations out of 1000 (max. 500000)
+ 1193 PDF objects out of 1200 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [1] Config.pm:311> INFO - Logfile is 'Paper3_HumanCapital.blg'
-[178] biber-MSWIN64:340> INFO - === 
-[247] Biber.pm:420> INFO - Reading 'Paper3_HumanCapital.bcf'
-[396] Biber.pm:994> INFO - Found 26 citekeys in bib section 0
-[410] Biber.pm:4463> INFO - Processing section 0
-[423] Biber.pm:4654> INFO - Looking for bibtex file '../Bibliography/Thesis_current_bibliography.bib' for section 0
-[1121] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1924] bibtex.pm:1519> INFO - Found BibTeX data source '../Bibliography/Thesis_current_bibliography.bib'
-[2208] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2208] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2209] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[2209] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[2256] bbl.pm:676> INFO - Writing 'Paper3_HumanCapital.bbl' with encoding 'UTF-8'
-[2274] bbl.pm:779> INFO - Output to Paper3_HumanCapital.bbl
+[594] biber-MSWIN64:340> INFO - === 
+[815] Biber.pm:420> INFO - Reading 'Paper3_HumanCapital.bcf'
+[1101] Biber.pm:994> INFO - Found 27 citekeys in bib section 0
+[1134] Biber.pm:4463> INFO - Processing section 0
+[1201] Biber.pm:4654> INFO - Looking for bibtex file '../Bibliography/Thesis_current_bibliography.bib' for section 0
+[1427] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3109] bibtex.pm:1519> INFO - Found BibTeX data source '../Bibliography/Thesis_current_bibliography.bib'
+[3668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3669] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3669] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[3669] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[3727] bbl.pm:676> INFO - Writing 'Paper3_HumanCapital.bbl' with encoding 'UTF-8'
+[3762] bbl.pm:779> INFO - Output to Paper3_HumanCapital.bbl
