@@ -425,6 +425,84 @@
       \verb C:\Users\mcket\Zotero\storage\ZGHENC8T\Cai et al. - 2024 - Migration networks, export shocks, and human capital acquisition Evidence from China.pdf
       \endverb
     \endentry
+    \entry{caribbean_policy_research_institute_growthless_2023}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=59cdb4d9db54a69ca7899298f8418846}{%
+           family={{Caribbean Policy Research Institute}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Caribbean Policy Research Institute}%
+      }
+      \list{location}{1}{%
+        {Kingston, Jamaica}%
+      }
+      \strng{namehash}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{fullhash}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{fullhashraw}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{bibnamehash}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{authorbibnamehash}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{authornamehash}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{authorfullhash}{59cdb4d9db54a69ca7899298f8418846}
+      \strng{authorfullhashraw}{59cdb4d9db54a69ca7899298f8418846}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Growthless {{Jobs}}: {{The Paradox}} of {{Rising Employment}} and {{Stagnant Output}} |{} {{Caribbean Policy Research Institute}} ({{CAPRI}})}
+      \field{type}{techreport}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\8NZUT3P2\\Caribbean Policy Research Institute - 2023 - Growthless Jobs The Paradox of Rising Employment and Stagnant Output Caribbean Policy Research In.pdf;C\:\\Users\\mcket\\Zotero\\storage\\3LF4UNWS\\growthless-jobs-paradox-rising-employment-and-stagnant-output.html
+      \endverb
+    \endentry
+    \entry{caribbean_policy_research_institute_jamaica_2025}{report}{}{}
+      \name{author}{3}{}{%
+        {{hash=59cdb4d9db54a69ca7899298f8418846}{%
+           family={{Caribbean Policy Research Institute}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=e3545cdc58201ff875cb0fa5fba4f0f4}{%
+           family={{Inter-American Dialogue}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=824982c5052ed3fab4dfe9eee9f75af6}{%
+           family={{Postgraduate Centre for Research and Intelligence}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Caribbean Policy Research Institute}%
+      }
+      \strng{namehash}{f584a74b899288801c7a9b776917b253}
+      \strng{fullhash}{922ffd26771418778634082ffe8a1055}
+      \strng{fullhashraw}{922ffd26771418778634082ffe8a1055}
+      \strng{bibnamehash}{f584a74b899288801c7a9b776917b253}
+      \strng{authorbibnamehash}{f584a74b899288801c7a9b776917b253}
+      \strng{authornamehash}{f584a74b899288801c7a9b776917b253}
+      \strng{authorfullhash}{922ffd26771418778634082ffe8a1055}
+      \strng{authorfullhashraw}{922ffd26771418778634082ffe8a1055}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The 2025 Jamaica Education Report Card evaluates the performance of the education system across eight key dimensions: learning outcomes, coverage, staying in school, equity, standards and evaluation, school authority and accountability, the teaching profession, and financing.}
+      \field{langid}{american}
+      \field{month}{9}
+      \field{shorttitle}{Jamaica {{Education Report Card}} 2025}
+      \field{title}{Jamaica {{Education Report Card}} 2025: {{Assessing}} the {{Present}}, {{Guiding}} the {{Future}}}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\46S7A9H9\\2025 - Jamaica Education Report Card 2025 Assessing the Present, Guiding the Future – Inter-American Dialo.pdf;C\:\\Users\\mcket\\Zotero\\storage\\F3GRKIWJ\\jamaica-education-report-card-2025-assessing-the-present-guiding-the-future.html
+      \endverb
+    \endentry
     \entry{carrillo_present_2020}{article}{}{}
       \name{author}{1}{}{%
         {{hash=da6ada9b461e1ca002c894fbc165e1ac}{%
@@ -470,6 +548,56 @@
       \endverb
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\Z4IATFGN\Carrillo - 2020 - Present Bias and Underinvestment in Education Long-Run Effects of Childhood Exposure to Booms in Co.pdf
+      \endverb
+    \endentry
+    \entry{chegwin_school_2021-1}{report}{}{}
+      \name{author}{3}{}{%
+        {{hash=d50df0ca5d3c61c883b144e5b2e17e84}{%
+           family={Chegwin},
+           familyi={C\bibinitperiod},
+           given={Valentina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=48de102b88edf62db3c567aa61401de3}{%
+           family={Hobbs},
+           familyi={H\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b198336284aa606a7da7942ac8704097}{%
+           family={Thailinger},
+           familyi={T\bibinitperiod},
+           given={Agustina},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Inter-American Development Bank}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \strng{namehash}{71297499a593035347e49087f9f4e3d9}
+      \strng{fullhash}{09f157087de3d4728eb0358ffd7fe259}
+      \strng{fullhashraw}{09f157087de3d4728eb0358ffd7fe259}
+      \strng{bibnamehash}{71297499a593035347e49087f9f4e3d9}
+      \strng{authorbibnamehash}{71297499a593035347e49087f9f4e3d9}
+      \strng{authornamehash}{71297499a593035347e49087f9f4e3d9}
+      \strng{authorfullhash}{09f157087de3d4728eb0358ffd7fe259}
+      \strng{authorfullhashraw}{09f157087de3d4728eb0358ffd7fe259}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{School {{Financing}} in {{Jamaica}}: {{An Exploration}} of the {{Allocation}} of {{School Resources}} |{} {{Publications}}}
+      \field{type}{techreport}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\FDDH9EQ2\Chegwin et al. - 2021 - School Financing in Jamaica An Exploration of the Allocation of School Resources Publications.pdf
       \endverb
     \endentry
     \entry{corden_booming_1982}{article}{}{}
@@ -802,6 +930,54 @@
       \endverb
       \keyw{Dissertation Proposal,notion}
     \endentry
+    \entry{levy_evaluation_2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=07f1faefd17b4cb7508193fe228d2e23}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c681c102823693619eda99746973d959}{%
+           family={Ohls},
+           familyi={O\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{fullhash}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{fullhashraw}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{bibnamehash}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{authorbibnamehash}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{authornamehash}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{authorfullhash}{8010e9718ba56d4d66ef1811234981cb}
+      \strng{authorfullhashraw}{8010e9718ba56d4d66ef1811234981cb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper summarises the findings of an evaluation of the Programme of Advancement through Health and Education (PATH), a conditional cash transfer programme implemented by the Government of Jamaica. The authors find that PATH was generally implemented as intended; exhibited better targeting to the poor than other similar social assistance programmes in Jamaica; and had positive and statistically significant impacts on school attendance and number of preventive healthcare visits for children. They find no evidence, however, that PATH was able to affect longer-term outcomes such as marks, grade progression, or healthcare status.}
+      \field{issn}{1943-9342}
+      \field{journaltitle}{Journal of Development Effectiveness}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Evaluation of {{Jamaica}}'s {{PATH}} Conditional Cash Transfer Programme}
+      \field{volume}{2}
+      \field{year}{2010}
+      \field{pages}{421\bibrangedash 441}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/19439342.2010.519783
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\V5ZUGWG2\Levy and Ohls - 2010 - Evaluation of Jamaica's PATH conditional cash transfer programme.pdf
+      \endverb
+      \keyw{conditional cash transfer,education,health,Jamaica,poverty}
+    \endentry
     \entry{mcketty_sun_2026}{unpublished}{}{}
       \name{author}{1}{}{%
         {{hash=6308d4c05561ed70d846a26b35eae784}{%
@@ -982,31 +1158,6 @@
       \verb C:\Users\mcket\Zotero\storage\B3XEG2AC\Peters et al. - 2026 - Skipping the Factory Service-Led Growth and Structural Transformation in the Developing World.pdf
       \endverb
     \endentry
-    \entry{noauthor_public_2021}{report}{}{}
-      \list{institution}{1}{%
-        {The World Bank}%
-      }
-      \list{location}{1}{%
-        {Washington, DC}%
-      }
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{month}{6}
-      \field{title}{Public {{Expenditure Review}} of the {{Education Sector}} in {{Jamaica}}}
-      \field{type}{techreport}
-      \field{urlday}{21}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb C:\Users\mcket\Zotero\storage\8U8CVMTF\2021 - Public Expenditure Review of the Education Sector in Jamaica.pdf
-      \endverb
-    \endentry
     \entry{rodrik_premature_2016}{article}{}{}
       \name{author}{1}{}{%
         {{hash=838c73523715fb8fdf83d1d7a57cc6bd}{%
@@ -1093,6 +1244,100 @@
       \endverb
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\ZYNA2NRU\Shah and Steinberg - 2017 - Drought of Opportunities Contemporaneous and Long-Term Impacts of Rainfall Shocks on Human Capital.pdf
+      \endverb
+    \endentry
+    \entry{stampini_conditional_2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=b7737df646cf9b9691e9d77879173867}{%
+           family={Stampini},
+           familyi={S\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c62797ab7bf0267394393454b12529de}{%
+           family={{Martinez-Cordova}},
+           familyi={M\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=de7e5d812e0f7ce4eb7d1fe3c1a641ba}{%
+           family={Insfran},
+           familyi={I\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=10dc5a583c69460bd76b81428b661f14}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Donna},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f1cf3a360de61b210a7068a10a8ef08}
+      \strng{fullhash}{8cccceda377ba8fd38012b1fd4b8a108}
+      \strng{fullhashraw}{8cccceda377ba8fd38012b1fd4b8a108}
+      \strng{bibnamehash}{2f1cf3a360de61b210a7068a10a8ef08}
+      \strng{authorbibnamehash}{2f1cf3a360de61b210a7068a10a8ef08}
+      \strng{authornamehash}{2f1cf3a360de61b210a7068a10a8ef08}
+      \strng{authorfullhash}{8cccceda377ba8fd38012b1fd4b8a108}
+      \strng{authorfullhashraw}{8cccceda377ba8fd38012b1fd4b8a108}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Conditional cash transfer (CCT) programs have become the main anti-poverty program in many Latin American and Caribbean countries. While numerous rigorous impact evaluations have shown that they have been successful in increasing school enrollment and attendance, the evidence on learning achievement is still mixed, and there are no studies that analyze the effect on school placement. In this paper, we explore the hypothesis that the Programme of Advancement through Health and Education (PATH), Jamaica's CCT program, contributes to breaking the intergenerational poverty cycle by placing its urban beneficiaries on a higher educational trajectory. Using a regression discontinuity design, we find that PATH urban male beneficiaries who sat the Grade Six Achievement Test (GSAT) over the period 2010--14 performed better on the test (scoring 22.48 points, or 5.1\%, higher than non-beneficiaries); consequently, they were placed in better secondary schools (7.2 percentiles higher in a national school ranking based on preprogram GSAT scores). In contrast, we find no significant impact on aspirations or on any outcome indicators for urban girls. To the best of our knowledge, our study is the first in the literature to take a comprehensive look at the impacts of a CCT program on educational aspirations, school performance, and placement.}
+      \field{issn}{0305-750X}
+      \field{journaltitle}{World Development}
+      \field{month}{1}
+      \field{shorttitle}{Do {{Conditional Cash Transfers Lead}} to {{Better Secondary Schools}}?}
+      \field{title}{Do {{Conditional Cash Transfers Lead}} to {{Better Secondary Schools}}? {{Evidence}} from {{Jamaica}}'s {{PATH}}}
+      \field{volume}{101}
+      \field{year}{2018}
+      \field{pages}{104\bibrangedash 118}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.worlddev.2017.08.015
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\SSE5WNHD\\Stampini et al. - 2018 - Do Conditional Cash Transfers Lead to Better Secondary Schools Evidence from Jamaica’s PATH.pdf;C\:\\Users\\mcket\\Zotero\\storage\\XT5JQH58\\S0305750X17302863.html
+      \endverb
+      \keyw{conditional cash transfers (CCTs),educational aspiration,Jamaica,Programme of Advancement through Health and Education (PATH),school performance,school placement}
+    \endentry
+    \entry{the_world_bank_public_2021}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=e34f8e39991a692b65cfd5b750bd71bd}{%
+           family={{The World Bank}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {The World Bank}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \strng{namehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{fullhash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{fullhashraw}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{bibnamehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authorbibnamehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authornamehash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authorfullhash}{e34f8e39991a692b65cfd5b750bd71bd}
+      \strng{authorfullhashraw}{e34f8e39991a692b65cfd5b750bd71bd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Public {{Expenditure Review}} of the {{Education Sector}} in {{Jamaica}}}
+      \field{type}{techreport}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\8U8CVMTF\The World Bank - 2021 - Public Expenditure Review of the Education Sector in Jamaica.pdf
       \endverb
     \endentry
     \entry{venables_using_2016}{article}{}{}

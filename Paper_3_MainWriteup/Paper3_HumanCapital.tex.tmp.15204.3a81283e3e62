@@ -117,30 +117,6 @@ hypertexnames=true
 	\renewcommand*{\mkbibnamegiven}[1]{\textbf{#1}}%
 }
 
-% Make full citation (author name + year) blue and hyperlinked.
-% By default biblatex authoryear only hyperlinks the year; this patch
-% wraps the entire \textcite / \parencite output in the same link.
-\DeclareFieldFormat{citehyperref}{%
-  \DeclareFieldAlias{bibhyperref}{noformat}%
-  \bibhyperref{#1}}
-
-\DeclareFieldFormat{textcitehyperref}{%
-  \DeclareFieldAlias{bibhyperref}{noformat}%
-  \bibhyperref{#1}}
-
-\savebibmacro{cite}
-\savebibmacro{textcite}
-
-\renewbibmacro*{cite}{%
-  \printtext[citehyperref]{%
-    \restorebibmacro{cite}%
-    \usebibmacro{cite}}}
-
-\renewbibmacro*{textcite}{%
-  \printtext[textcitehyperref]{%
-    \restorebibmacro{textcite}%
-    \usebibmacro{textcite}}}
-
 
 \makeatletter
 \patchcmd{\@footnotetext}{\footnotesize}{\footnotesize\ignorespaces}{}{}
@@ -250,7 +226,7 @@ hypertexnames=true
 
 	\subsection{Jamaica and Tourism}
 
-Jamaica is an upper-middle-income country in the northern Caribbean with an economy heavily based on services, which comprise about 70 percent of the nation's Gross Domestic Product (GDP).\footnote{\footnotesize Source: \href{https://statinja.gov.jm/nationalaccounting/annual/newannualgdp.aspx}{STATIN: Annual GDP Statistics}} Tourism services account for 33 percent of GDP when factoring in backward linkages. Even as the industry has seen significant expansion over the past three decades, the country has struggled to achieve meaningful economic growth. Over the past thirty years the tourism sector has expanded by 36 percent, and overall GDP by only 10 percent.\footnote{\footnotesize Source: \href{https://www.vision2030.gov.jm/blog/jamaicas-tourism-sector-is-resilient-september-2022/}{Vision 2030 Jamaica: Jamaica's Tourism Sector is Resilient}} Low labor productivity resulting in part from a lack of high-skilled workers is one of the most often-cited reasons for this challenge.\footnote{\footnotesize Source: \parencite{caribbean_policy_research_institute_growthless_2023}} 
+Jamaica is an upper-middle-income country in the northern Caribbean with an economy heavily based on services, which comprise approximately 70 percent of GDP. Tourism services account for 33 percent of GDP when factoring in backward linkages.\footnote{} Even as tourism has grown considerably over the past two decades\footnote{}, the country has struggled to achieve meaningful economic growth, with average GDP per capita oscillating between 1 and $-1$ percent since 2000. A commonly cited reason is Jamaica’s persistent challenge in expanding the skills and productivity of its workforce.
 
 	\begin{figure}[htbp]
 		\centering
@@ -261,15 +237,15 @@ Jamaica is an upper-middle-income country in the northern Caribbean with an econ
 
 	\subsection{The Jamaican Education System}
 
-	Schooling in Jamaica is compulsory from primary school beginning in grade 1 up until grade 11.\footnote{\footnotesize  Enrollment in early childhood education is not required.} The system is divided into primary and secondary stages of schooling, with primary schools teaching grades 1 through 6, and secondary schools teaching grades 7 through 13.\footnote{\footnotesize Source: \parencite{ the_world_bank_public_2021}} The crucial milestone in the secondary stage that helps determine  college attendance is the Caribbean Secondary Education Certificate examination, taken in the 11th grade.\footnote{\footnotesize This is based upon the British O-Level Examination. Completion of these exams is equivalent to receiving a high school diploma in the United States.} These exams cover five major subject areas and are the primary secondary credential.\footnote{\footnotesize Source: \href{https://americantranslationservice.com/blog/foreign-credential-evaluation-in-usa-csec.php}{CSEC Equivalent in USA -- American Education \& Translation Services (AET)}} These examinations provide entry to skilled work, and are a necessary pre-requisite for those who want to continue on to university. 
+	Schooling in Jamaica is compulsory from primary school beginning in grade 1 up until grade 11.\footnote{\footnotesize  Enrollment in early childhood education is not required.} The system is divided into primary and secondary stages of schooling, with primary schools teaching grades 1 through 6, and secondary schools teaching grades 7 through 13.\footnote{\footnotesize Source: \parencite{ noauthor_public_2021}} The crucial milestone in the secondary stage that helps determine  college attendance is the Caribbean Secondary Education Certificate examination, taken in the 11th grade.\footnote{\footnotesize This is based upon the British O-Level Examination. Completion of these exams is equivalent to receiving a high school diploma in the United States.} These exams cover five major subject areas and are the primary secondary credential.\footnote{\footnotesize Source: \href{https://americantranslationservice.com/blog/foreign-credential-evaluation-in-usa-csec.php}{CSEC Equivalent in USA -- American Education \& Translation Services (AET)}} These examinations provide entry to skilled work, and are a necessary pre-requisite for those who want to continue on to university. 
 	
 	Successful completion of the CSEC exams grants access to Sixth Form: two years of additional study in three or four subject areas designed to prepare students for university. In the U.S. context, this is roughly equivalent to Advanced Placement or International Baccalaureate coursework. At the end of Sixth Form (grade 13), students sit the Caribbean Advanced Proficiency Exam (CAPE).
 	
-	Primary and secondary schooling is largely administered by the government and nominally free, while early childhood education is primarily provided by private institutions with some government support. Significant costs remain for families, particularly at the secondary level, including uniforms, textbooks, transportation, and meals. Households spend the equivalent of 3 percent of GDP on early childhood, primary, and secondary education. Relative to the average GDP per capita in 2017 of approximately 3,053 USD, the household cost for one child represented 13 percent of GDP per capita for primary school and 20 percent for secondary education.\footnote{\footnotesize Source: \parencite{the_world_bank_public_2021}} Financial constraints are unsurprisingly the most commonly cited reason for leaving school before grade 11, as shown in Table \ref{tab:dropout_reasons}, with lunch, snacks, and transportation comprising the largest reported shares of schooling expenditures.
+	Primary and secondary schooling is largely administered by the government and nominally free, while early childhood education is primarily provided by private institutions with some government support. Significant costs remain for families, particularly at the secondary level, including uniforms, textbooks, transportation, and meals. Households spend the equivalent of 3 percent of GDP on early childhood, primary, and secondary education. Relative to the average GDP per capita in 2017 of approximately 3,053 USD, the household cost for one child represented 13 percent of GDP per capita for primary school and 20 percent for secondary education.\footnote{\footnotesize Source:} Financial constraints are accordingly the most commonly cited reason for leaving school before grade 11, as shown in Table \ref{tab:reasons_dropout}, with lunch, snacks, and transportation comprising the largest reported shares of schooling expenditures.
 	
-The Jamaican government has made considerable investments into the education system over the previous two decades. These have included a conditional cash transfer (CCT) program to encourage attendance\footnote{\footnotesize The Programme of Advancement through Health and Education (PATH) is a CCT program overseen by the government, and implemented nationwide in 2002. Qualifying households receive bimonthly transfers that are conditioned on school attendance and that vary based on child gender and grade level \parencite{ stampini_conditional_2018, levy_evaluation_2010}.}, Ministry of Education-funded lunch and snack programs\footnote{\footnotesize Jamaica has a National School Feeding Program that provides lunch and snacks to  vulnerable students. Source: \href{https://www.advocacyincubator.org/news/2025-06-16-jamaica-invests-in-the-future-country-moves-forward-with-national-school-nutrition-policy}{Jamaica Invests in the Future}}, and support for low-income families to cover textbooks and other materials.\footnote{\footnotesize Sources: \href{https://jis.gov.jm/education-ministry-providing-textbooks-for-primary-and-secondary-schools/}{1. Education Ministry Providing Textbooks},\href{https://jis.gov.jm/parents-urged-take-advantage-book-rental-scheme/}{2. Parents Urged to Take Advantage of Book Rental Scheme}} Public expenditure on education as a share of GDP was approximately 5 percent throughout the 2010s, similar to the average for industrialized countries in the Organization for Economic Cooperation and Development (OECD) \parencite{ chegwin_school_2021-1}. 
+The government invests considerably in the education system, including through cash transfer programs to encourage attendance\footnote{}, Ministry of Education-funded lunch and snack programs\footnote{}, and support for low-income families to cover textbooks and other materials.\footnote{} Jamaica has spent more than many peer nations on education, with the education budget reaching approximately 5 percent of GDP. These supports may reduce dropout rates by easing the financial constraints facing families.
 
-	There is near-universal school attendance up to age 16 \parencite{world_bank_jamaica_2022}, but Jamaican students perform worse than those in peer nations on measures of academic achievement.\footnote{\footnotesize Source: Jamaica Education Report Card 2025: Assessing the Present, Guiding the Future \parencite{ caribbean_policy_research_institute_jamaica_2025}.} Jamaican students complete an average of 11.4 years of formal education, but only 7.1 Learning-Adjusted Years of Schooling (LAYS) \parencite{world_bank_jamaica_2022}, reflecting significant gaps in schooling quality. Another key challenge is secondary school completion and tertiary enrollment: approximately 90 percent of students complete secondary education, while only 27 percent enroll in tertiary institutions. The transition from secondary to tertiary education is therefore one of the most important margins to examine.
+	There is near-universal school attendance up to age 16 \parencite{world_bank_jamaica_2022}, but Jamaican students perform worse than those in peer nations on measures of learning.\footnote{} Jamaican students complete an average of 11.4 years of formal education, but only 7.1 Learning-Adjusted Years of Schooling (LAYS) \parencite{world_bank_jamaica_2022}, reflecting significant gaps in schooling quality. Another key challenge is secondary school completion and tertiary enrollment: approximately 90 percent of students complete secondary education, while only 27 percent enroll in tertiary institutions. The transition from secondary to tertiary education is therefore one of the most important margins to examine.
 
 %	\begin{figure}[htbp]
 %		\centering
@@ -506,11 +482,11 @@ The first hypothesis reflects the finding in \textcite{mcketty_sun_2026} that in
 	
 	The core takeaway is that tourism-sector specialization has primarily little to no effect on educational attainment and investment in Jamaica, and that the observed effects are mixed. There is no evidence that lagged tourism levels increase the likelihood of students dropping out during grade school. Through better access to healthcare, some children may improve attendance, which is important for academic achievement; but potential inflationary pressure on transportation may harm attendance for rural students. While dropping out appears largely unaffected, there may be an effect at the margin between secondary schooling and tertiary education.
 	
-	These findings depart from those of prior work on development and human capital accumulation. Unlike studies such as \textcite{shah_drought_2017} and \textcite{atkin_endogenous_2016}, there is no evidence here that greater tourism activity leads more students to leave school. Reinforcing this, I observe no effect of lagged tourism on students missing school to work, and no change in the probability of leaving school because of financial constraints. Instead, the analysis reveals that growth in a sector dominated by middle- and lower-skilled labor can marginally improve attendance through better access to healthcare. This pathway differs from the more commonly observed income-channel effects, in which higher household earnings reduce the need for children to work or free up additional resources for schooling. Here, more income enables better medical care, which in turn reduces illness-related absences.
+	These findings depart from those of prior work on development and human capital accumulation. Unlike studies such as \textcite{shah_drought_2017} and \textcite{atkin_endogenous_2016}, there is no evidence here that greater tourism activity leads more students to leave school. Reinforcing this, I observe no effect of lagged tourism on students missing school to work, and no change in the probability of leaving school because of financial constraints. Instead, the analysis reveals that growth in a sector dominated by middle- and lower-skilled labor can marginally improve attendance through better access to healthcare.\footnote{} This pathway differs from the more commonly observed income-channel effects, in which higher household earnings reduce the need for children to work or free up additional resources for schooling. Here, more income enables better medical care, which in turn reduces illness-related absences.
 	
 	Another distinguishing feature of the results is the concentration of potential substitution-channel effects at the margin between sixth form and college. The negative effect of lagged tourism on college enrollment may be consistent with substitution from higher education to the workforce. This interpretation is reinforced by the absence of any effect of tourism on enrollment in skills or training programs. The negative effect on textbook spending could also reflect a lowering of investment in materials that support continued study. Firmer conclusions are difficult to draw from the estimated effects alone.
 	
-	This study cannot directly explain the absence of broader effects on academic outcomes, but several factors are worth considering. First, unemployment was persistently high during the study period, averaging 10 percent between 2010 and 2019. There may therefore have been limited work available for children and young adults in the tourism sector’s mid- and lower-skilled jobs given the large supply of excess labor. Second, the quality of tourism-sector jobs may be accurately perceived as low in terms of wages and potential for advancement.\footnote{\footnotesize For example, Ministry of Tourism officials note that resort jobs are commonly viewed as being low quality in terms of wages and job security. In recent years there have been strikes by workers from some hotels against poor wages and treatment by their employers. See: \href{https://www.paxnews.com/news/tourism-board/hotel-workers-strikes-rock-jamaicas-tourism-industry-jtb-responds}{Pax News: Hotel strikes rock Jamaica's tourism industry.} } Discontentment among tourism workers has been well documented in the Jamaican media. Third, because tourism is largely composed of mid-skilled jobs requiring completion of 11th grade, a boom in tourism services may not reduce the likelihood of completing secondary education, but instead affect whether students choose to pursue tertiary education. The real challenge may be that gains in mid-skilled services leave secondary school completion largely unchanged—or even strengthen it—while limiting incentives to progress further, producing a kind of “secondary education trap” that could prove challenging for the long-term growth of middle-income nations like Jamaica.
+	This study cannot directly explain the absence of broader effects on academic outcomes, but several factors are worth considering. First, unemployment was persistently high during the study period, averaging 10 percent between 2010 and 2019. There may therefore have been limited work available for children and young adults in the tourism sector’s mid- and lower-skilled jobs given the large supply of excess labor. Second, the quality of tourism-sector jobs may be accurately perceived as low in terms of wages and advancement potential.\footnote{} Discontentment among tourism workers has been well documented in the Jamaican media. Third, because tourism is largely composed of mid-skilled jobs requiring completion of 11th grade, a boom in tourism services may not reduce the likelihood of completing secondary education, but instead affect whether students choose to pursue tertiary education. The real challenge may be that gains in mid-skilled services leave secondary school completion largely unchanged—or even strengthen it—while limiting incentives to progress further, producing a kind of “secondary education trap” that could prove challenging for the long-term growth of middle-income nations like Jamaica.
 	
 	The growth of human capital in middle-income countries depends heavily on micro-level household decisions about how much education to obtain and how much to invest at each stage. Tourism services are of growing importance in these economies, but we know little about how the growth of this industry alters household incentives regarding education at both the extensive and intensive margins. The results of this paper demonstrate the potential for income effects to operate through channels such as health, and for substitution effects to operate at the margin between secondary schooling and university education. Specific to tourism and other consumer services, the data also show how local sector booms can alter the provision of services in local communities, potentially disadvantaging the most vulnerable.
 	
@@ -607,36 +583,6 @@ The first hypothesis reflects the finding in \textcite{mcketty_sun_2026} that in
 		\begin{tablenotes}
 			\small
 			\item \textit{Notes:} Sample: enrolled children; real 2024 USD; 2014 excluded due to survey design. Other fees not available for 2017 (questionnaire split the category into two sub-components that year); 2017 is not in the analysis sample. Controls for gender, age, and enrolled household siblings are included in all specifications but not shown. All specifications include development area and year fixed effects; standard errors clustered by development area.
-		\end{tablenotes}
-	\end{threeparttable}
-	\end{adjustbox}
-	\end{table}
-
-	\begin{table}[htbp]
-	\centering
-	\begin{adjustbox}{max width=\textwidth}
-	\begin{threeparttable}
-		\caption{Household Electronics Spending (Computers + Cellphones), IV Estimates}
-		\label{tab:electronics_expenditure}
-		{\small\input{\TableLagOnePath/table8g_electronics_expenditure.tex}}
-		\begin{tablenotes}
-			\small
-			\item \textit{Notes:} One observation per household per year. Real 2024 USD. \textit{Electronics} = annual household spending on information processing equipment (ITEM\_CD 3202: computers, tablets) plus cellphones (ITEM\_CD 3481). \textit{Computers} = information processing equipment only (ITEM\_CD 3202). Controls: household size and urban/rural indicator. Development area and year fixed effects included; standard errors clustered by development area.
-		\end{tablenotes}
-	\end{threeparttable}
-	\end{adjustbox}
-	\end{table}
-
-	\begin{table}[htbp]
-	\centering
-	\begin{adjustbox}{max width=\textwidth}
-	\begin{threeparttable}
-		\caption{Book Spending: Intensive vs.\ Extensive Margin, IV Estimates}
-		\label{tab:books_margin}
-		{\small\input{\TableLagOnePath/table8h_books_margin.tex}}
-		\begin{tablenotes}
-			\small
-			\item \textit{Notes:} Sample: enrolled children; real 2024 USD; 2014 excluded due to survey design. Columns (1)--(2) use the full enrolled sample. \textit{Any books (0/1)} is a linear probability model (LPM) for the extensive margin; the coefficient is the percentage-point change in the probability of positive book spending. Columns (4)--(5) restrict to households with positive book spending (\textit{buyers only}), isolating the intensive margin. If columns (1)--(2) are negative but (4)--(5) are near zero, the effect operates entirely through the extensive margin. The buyers-only sample also serves as a robustness check against potential coding inconsistencies in which zero spending is recorded as \texttt{NA} in some survey years. Controls for gender, age, and enrolled household siblings are included in all specifications but not shown. All specifications include development area and year fixed effects; standard errors clustered by development area.
 		\end{tablenotes}
 	\end{threeparttable}
 	\end{adjustbox}
