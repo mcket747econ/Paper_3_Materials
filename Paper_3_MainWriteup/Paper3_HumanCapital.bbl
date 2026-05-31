@@ -19,66 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{adao_shift-share_2019}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=d6cd36effb9fe74b394e8394e3e14539}{%
-           family={Adão},
-           familyi={A\bibinitperiod},
-           given={Rodrigo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=18fccda38f1f34c8603a86fc23652233}{%
-           family={Kolesár},
-           familyi={K\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f005e6c3ec9ffdba7b3f5b87092c5b6a}{%
-           family={Morales},
-           familyi={M\bibinitperiod},
-           given={Eduardo},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{08580ac4c5408669f6957cf679a2e928}
-      \strng{fullhash}{be4a78d7eae77b03b22cd755b12d42e3}
-      \strng{fullhashraw}{be4a78d7eae77b03b22cd755b12d42e3}
-      \strng{bibnamehash}{08580ac4c5408669f6957cf679a2e928}
-      \strng{authorbibnamehash}{08580ac4c5408669f6957cf679a2e928}
-      \strng{authornamehash}{08580ac4c5408669f6957cf679a2e928}
-      \strng{authorfullhash}{be4a78d7eae77b03b22cd755b12d42e3}
-      \strng{authorfullhashraw}{be4a78d7eae77b03b22cd755b12d42e3}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We study inference in shift-share regression designs, such as when a regional outcome is regressed on a weighted average of sectoral shocks, using regional sector shares as weights. We conduct a placebo exercise in which we estimate the effect of a shift-share regressor constructed with randomly generated sectoral shocks on actual labor market outcomes across U.S. Commuting Zones. Tests based on commonly used standard errors with 5\textbackslash\% nominal significance level reject the null of no effect in up to 55\textbackslash\% of the placebo samples. We use a stylized economic model to show that this overrejection problem arises because regression residuals are correlated across regions with similar sectoral shares, independently of their geographic location. We derive novel inference methods that are valid under arbitrary cross-regional correlation in the regression residuals. We show using popular applications of shift-share designs that our methods may lead to substantially wider confidence intervals in practice.}
-      \field{eprintclass}{econ}
-      \field{eprinttype}{arXiv}
-      \field{issn}{0033-5533, 1531-4650}
-      \field{journaltitle}{The Quarterly Journal of Economics}
-      \field{month}{11}
-      \field{number}{4}
-      \field{shorttitle}{Shift-{{Share Designs}}}
-      \field{title}{Shift-{{Share Designs}}: {{Theory}} and {{Inference}}}
-      \field{urlday}{19}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{volume}{134}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \field{pages}{1949\bibrangedash 2010}
-      \range{pages}{62}
-      \verb{doi}
-      \verb 10.1093/qje/qjz025
-      \endverb
-      \verb{eprint}
-      \verb 1806.07928
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\mcket\\Zotero\\storage\\6L3Q6689\\Adão et al. - 2019 - Shift-Share Designs Theory and Inference.pdf;C\:\\Users\\mcket\\Zotero\\storage\\HUKQ2QTG\\1806.html
-      \endverb
-      \keyw{Economics - Econometrics}
-    \endentry
     \entry{allen_urban_2021}{article}{}{}
       \name{author}{6}{}{%
         {{hash=c6da22fb2258db0db845299a5091c5c7}{%
@@ -220,6 +160,53 @@
       \verb C:\Users\mcket\Zotero\storage\FBTH8VTF\atkin-2016-endogenous-skill-acquisition-and-export-manufacturing-in-mexico.pdf
       \endverb
       \keyw{Human Capital/Education,notion}
+    \endentry
+    \entry{aucejo_assessing_2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4d087802861e86477d98e16885ee54f8}{%
+           family={Aucejo},
+           familyi={A\bibinitperiod},
+           given={Esteban\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=337c11b680224e7763038d0d17f7dabd}{%
+           family={Romano},
+           familyi={R\bibinitperiod},
+           given={Teresa\bibnamedelima Foy},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{fullhash}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{fullhashraw}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{bibnamehash}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{authorbibnamehash}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{authornamehash}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{authorfullhash}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \strng{authorfullhashraw}{ad49c1771f9cd5aec2d94015ccc5d261}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While instructional time is viewed as crucial to learning, little is known about the effectiveness of reducing absences relative to increasing the number of school days. Using administrative data from North Carolina public schools, this paper jointly estimates the effect of absences and length of the school calendar on test score performance. We exploit a state policy that provides variation in the number of school days prior to standardized testing and find substantial differences between these two effects. Extending the school calendar by ten days increases math and reading test scores by only 1.7\% and 0.8\% of a standard deviation, respectively. A similar reduction in absences would lead to gains of 5.5\% in math and 2.9\% in reading. We perform a number of robustness checks including utilizing flu data to instrument for absences, family-year fixed effects, distinguishing between excused and unexcused absences, and controlling for a contemporaneous measure of student disengagement. Our results are robust to these alternative specifications. In addition, our findings indicate considerable heterogeneity across student ability, suggesting that targeting absenteeism among low performing students could aid in narrowing current gaps in performance.}
+      \field{issn}{0272-7757}
+      \field{journaltitle}{Economics of Education Review}
+      \field{month}{12}
+      \field{title}{Assessing the Effect of School Days and Absences on Test Score Performance}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{55}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{70\bibrangedash 87}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.econedurev.2016.08.007
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\mcket\\Zotero\\storage\\JAMLKUKD\\Aucejo and Romano - 2016 - Assessing the effect of school days and absences on test score performance.pdf;C\:\\Users\\mcket\\Zotero\\storage\\4CI53W77\\S0272775715301655.html
+      \endverb
     \endentry
     \entry{bau_human_2020}{misc}{}{}
       \name{author}{4}{}{%
@@ -827,6 +814,62 @@
       \endverb
       \keyw{Consumer services,development,economic growth,India,inequality,non-homothetic preferences,notion,productivity,spatial equilibrium,structural change,welfare}
     \endentry
+    \entry{gershenson_are_2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=432003d376323afaecb35bbabf9dac34}{%
+           family={Gershenson},
+           familyi={G\bibinitperiod},
+           given={Seth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=68c818d436837c55e973b7d8b87c37c5}{%
+           family={Jacknowitz},
+           familyi={J\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0009d00764fe039bbfaf055646c80b9e}{%
+           family={Brannegan},
+           familyi={B\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{b8f320bd203c6bddd45a34d4577d0e7a}
+      \strng{fullhash}{b6a8bb9181e798da63159c0fbb3d04e3}
+      \strng{fullhashraw}{b6a8bb9181e798da63159c0fbb3d04e3}
+      \strng{bibnamehash}{b8f320bd203c6bddd45a34d4577d0e7a}
+      \strng{authorbibnamehash}{b8f320bd203c6bddd45a34d4577d0e7a}
+      \strng{authornamehash}{b8f320bd203c6bddd45a34d4577d0e7a}
+      \strng{authorfullhash}{b6a8bb9181e798da63159c0fbb3d04e3}
+      \strng{authorfullhashraw}{b6a8bb9181e798da63159c0fbb3d04e3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Student absences are a potentially important, yet understudied, input in the educational process. Using longitudinal data from a nationally representative survey and rich administrative records from North Carolina, we investigate the relationship between student absences and academic performance. Generally, student absences are associated with modest but statistically significant decreases in academic achievement. The harmful effects of absences are approximately linear, and are two to three times larger among fourth and fifth graders in North Carolina than among kindergarten and first-grade students in the nationally representative Early Childhood Longitudinal Study. In both datasets, absences similarly reduce achievement in urban, rural, and suburban schools. In North Carolina, the harm associated with student absences is greater among both low-income students and English language learners, particularly for reading achievement. Also, in North Carolina, unexcused absences are twice as harmful as excused absences. Policy implications and directions for future research are discussed.}
+      \field{eprinttype}{jstor}
+      \field{issn}{1557-3060}
+      \field{journaltitle}{Education Finance and Policy}
+      \field{number}{2}
+      \field{title}{Are {{Student Absences Worth}} the {{Worry}} in {{U}}.s. {{Primary Schools}}?}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{137\bibrangedash 165}
+      \range{pages}{29}
+      \verb{eprint}
+      \verb 90003733
+      \endverb
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\QVFATZCU\Gershenson et al. - 2017 - Are Student Absences Worth the Worry in U.s. Primary Schools.pdf
+      \endverb
+    \endentry
     \entry{heath_manufacturing_2015}{article}{}{}
       \name{author}{2}{}{%
         {{hash=d7506dacf36716218a5cd587b17601bf}{%
@@ -862,6 +905,40 @@
       \verb{file}
       \verb C:\Users\mcket\Zotero\storage\XZTCWUUC\_.pdf
       \endverb
+    \endentry
+    \entry{international_labour_office_structure_2012}{book}{}{}
+      \name{editor}{1}{}{%
+        {{hash=116d2ec04b5526bd6dc1351eb6257f90}{%
+           family={{International Labour Office}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {International Labour Office}%
+      }
+      \strng{namehash}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{fullhash}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{fullhashraw}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{bibnamehash}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{editorbibnamehash}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{editornamehash}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{editorfullhash}{116d2ec04b5526bd6dc1351eb6257f90}
+      \strng{editorfullhashraw}{116d2ec04b5526bd6dc1351eb6257f90}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pt. 1. Introductory and methodological notes -- pt. 2. Structure of the International Standard Classification of Occupation (ISCO-08) -- pt. 3. Definitions of major groups, sub-major groups, minor groups and unit groups -- pt. 4. Correspondence with ISCO-88}
+      \field{isbn}{978-92-2-125952-7 978-92-2-125953-4}
+      \field{langid}{english}
+      \field{number}{v. 1}
+      \field{series}{International Standard Classification of Occupations}
+      \field{title}{Structure, Group Definitions and Correspondence Tables}
+      \field{year}{2012}
     \endentry
     \entry{jamaican_ministry_of_tourism_annual_2025}{report}{}{}
       \name{author}{1}{}{%
@@ -977,6 +1054,42 @@
       \verb C:\Users\mcket\Zotero\storage\V5ZUGWG2\Levy and Ohls - 2010 - Evaluation of Jamaica's PATH conditional cash transfer programme.pdf
       \endverb
       \keyw{conditional cash transfer,education,health,Jamaica,poverty}
+    \endentry
+    \entry{lucas_mechanics_1988}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d75b1c25901858e9d7cbfbb24d9dc0de}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima E},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{fullhash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{fullhashraw}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{bibnamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorbibnamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authornamehash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorfullhash}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \strng{authorfullhashraw}{d75b1c25901858e9d7cbfbb24d9dc0de}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper considers the prospects for constructing a neoclassical theory of growth and international trade that is consistent with some of the main features of economic development. Three models are considered and compared to evidence: a model emphasizing physical capital accumulation and technological change, a model emphasizing human capital accumulation through schooling, and a model emphasizing specialized human capital accumulation through learning-by-doing.}
+      \field{journaltitle}{J. Monet. Econ.}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{On the Mechanics of Economic Development}
+      \field{volume}{22}
+      \field{year}{1988}
+      \field{pages}{3\bibrangedash 42}
+      \range{pages}{40}
+      \verb{file}
+      \verb C:\Users\mcket\Zotero\storage\9MC5YLGL\Lucas - 1988 - On the mechanics of economic development.pdf
+      \endverb
+      \keyw{More_Updates,notion}
     \endentry
     \entry{mcketty_sun_2026}{unpublished}{}{}
       \name{author}{1}{}{%

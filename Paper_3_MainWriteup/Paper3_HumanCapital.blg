@@ -1,15 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'Paper3_HumanCapital.blg'
-[242] biber-MSWIN64:340> INFO - === 
-[332] Biber.pm:420> INFO - Reading 'Paper3_HumanCapital.bcf'
-[458] Biber.pm:994> INFO - Found 32 citekeys in bib section 0
-[479] Biber.pm:4463> INFO - Processing section 0
-[500] Biber.pm:4654> INFO - Looking for bibtex file '../Bibliography/Thesis_current_bibliography.bib' for section 0
-[708] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1901] bibtex.pm:1519> INFO - Found BibTeX data source '../Bibliography/Thesis_current_bibliography.bib'
-[3352] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3352] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3352] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[3352] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[3755] bbl.pm:676> INFO - Writing 'Paper3_HumanCapital.bbl' with encoding 'UTF-8'
-[3866] bbl.pm:779> INFO - Output to Paper3_HumanCapital.bbl
+[152] biber-MSWIN64:340> INFO - === 
+[220] Biber.pm:420> INFO - Reading 'Paper3_HumanCapital.bcf'
+[360] Biber.pm:994> INFO - Found 35 citekeys in bib section 0
+[375] Biber.pm:4463> INFO - Processing section 0
+[389] Biber.pm:4654> INFO - Looking for bibtex file '../Bibliography/Thesis_current_bibliography.bib' for section 0
+[536] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1271] bibtex.pm:1519> INFO - Found BibTeX data source '../Bibliography/Thesis_current_bibliography.bib'
+[1582] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1582] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1582] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1582] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1613] bbl.pm:676> INFO - Writing 'Paper3_HumanCapital.bbl' with encoding 'UTF-8'
+[1636] bbl.pm:779> INFO - Output to Paper3_HumanCapital.bbl
+[1636] Biber.pm:131> WARN - ISBN '978-92-2-125952-7 978-92-2-125953-4' in entry 'international_labour_office_structure_2012' is invalid - run biber with '--validate_datamodel' for details.
+[1636] Biber.pm:133> INFO - WARNINGS: 1
