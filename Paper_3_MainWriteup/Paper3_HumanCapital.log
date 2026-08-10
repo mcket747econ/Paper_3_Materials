@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.26)  28 MAY 2026 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.26)  9 AUG 2026 21:14
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **./Paper3_HumanCapital.tex
 (Paper3_HumanCapital.tex
@@ -1518,21 +1519,21 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
 [5]
 
 [6]
-<../Paper_3_Graphs/Summary_Stats/tourism_by_year.png, id=133, 469.755pt x 289.0
+<../Paper_3_Graphs/Summary_Stats/tourism_by_year.png, id=134, 469.755pt x 289.0
 8pt>
 File: ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png Graphic file (type pn
 g)
 <use ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/tourism_by_year.png  u
-sed on input line 276.
+sed on input line 281.
 (pdftex.def)             Requested size: 385.20255pt x 237.04712pt.
-<../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png, id=134, 505.89pt x 325.
+<../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png, id=135, 505.89pt x 325.
 215pt>
 File: ../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png Graphic file (type 
 png)
 <use ../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png 
- used on input line 283.
+ used on input line 288.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
 
 
@@ -1540,19 +1541,14 @@ Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png
 
 [8 <../Paper_3_Graphs/Summary_Stats/enrollment_by_age.png>]
 
-LaTeX Warning: Reference `tab:dropout_reasons' on page 9 undefined on input lin
-e 295.
-
-
-
 [9]
-<../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png, id=202, 469.755p
+<../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png, id=201, 469.755p
 t x 289.08pt>
 File: ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png Graphic file
  (type png)
 <use ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annual.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/absence_by_reason_annu
-al.png  used on input line 310.
+al.png  used on input line 315.
 (pdftex.def)             Requested size: 385.20255pt x 237.04712pt.
 
 
@@ -1581,18 +1577,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [19] (../Paper_3_Tables/Lagged_1Year_Tables/table4_attendance_reasons.tex)
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 499.
+(Font)              size <5> substituted on input line 493.
 
 
 
 [20]
 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png, id=3
-11, 469.755pt x 234.8775pt>
+12, 469.755pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png 
 Graphic file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transport_urbanrural.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4b_transp
-ort_urbanrural.png  used on input line 504.
+ort_urbanrural.png  used on input line 498.
 (pdftex.def)             Requested size: 399.29463pt x 199.6468pt.
 
 
@@ -1625,246 +1621,153 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32] (../Paper_3_Tables/Lagged_1Year_Tables/table5_skills_program.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table3_attendance_levels.tex)
-(../Paper_3_Tables/Lagged_1Year_Tables/table9_expenditures_log.tex)
+
+[33] (../Paper_3_Tables/Lagged_1Year_Tables/table9_expenditures_log.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table8b_textbooks.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[34] (../Paper_3_Tables/Lagged_1Year_Tables/table8e_nobooksrsn_availability.tex
+)
 
-(../Paper_3_Tables/Lagged_1Year_Tables/table8e_nobooksrsn_availability.tex)
+[35] (../Paper_3_Tables/Lagged_1Year_Tables/table8f_expenditures_supp_level.tex
+) (../Paper_3_Tables/Lagged_1Year_Tables/table8g_electronics_expenditure.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[36] (../Paper_3_Tables/Lagged_1Year_Tables/table8h_books_margin.tex)
 
-(../Paper_3_Tables/Lagged_1Year_Tables/table8f_expenditures_supp_level.tex)
+[37] (../Paper_3_Tables/Lagged_1Year_Tables/table9b_expenditures_supp_log.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_1Year_Tables/table8g_electronics_expenditure.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_1Year_Tables/table8h_books_margin.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_1Year_Tables/table9b_expenditures_supp_log.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_1Year_Tables/table10_distance.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[38] (../Paper_3_Tables/Lagged_1Year_Tables/table10_distance.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table11_transport.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_1Year_Tables/table12a_expshare_parent.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[39] (../Paper_3_Tables/Lagged_1Year_Tables/table12a_expshare_parent.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table12b_expshare_moeyc.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[33]
-
-[34]
-
-[35]
-
-[36]
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png, id=459, 469.755pt
+[40]
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png, id=476, 469.755pt
  x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png Graphic file 
 (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiar
-y.png  used on input line 852.
+y.png  used on input line 846.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
 
-LaTeX Warning: Reference `tab:sixthform' on page 37 undefined on input line 854
-.
-
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png, id=460, 46
+[41]
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png, id=483, 46
 9.755pt x 350.5095pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png Graphi
 c file (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence
-_reasons.png  used on input line 860.
+_reasons.png  used on input line 854.
 (pdftex.def)             Requested size: 399.29463pt x 297.93448pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+[42 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>]
 (../Paper_3_Tables/Lagged_1Year_Tables/table4b_transport_urbanrural.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[43 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>]
 (../Paper_3_Tables/Lagged_1Year_Tables/table8c_textbooks_binary.tex)
 (../Paper_3_Tables/Lagged_1Year_Tables/table8d_nobooksrsn_financial.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[44] (../Paper_3_Tables/Summary_Stats/table_hhsize_ses.tex)
 
-
-
-[37
-
- <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot7_tertiary.png>]
-(../Paper_3_Tables/Summary_Stats/table_hhsize_ses.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png, id=471, 469.755pt x 289.
+[45]
+<../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png, id=507, 469.755pt x 289.
 08pt>
 File: ../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png Graphic file (type p
 ng)
 <use ../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png  
-used on input line 945.
+used on input line 930.
 (pdftex.def)             Requested size: 366.40834pt x 225.48148pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_disagg.png, id=472, 469.75
+<../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_disagg.png, id=508, 469.75
 5pt x 234.8775pt>
 File: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_disagg.png Graphic fi
 le (type png)
 <use ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_disagg.png>
 Package pdftex.def Info: ../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_di
-sagg.png  used on input line 952.
+sagg.png  used on input line 937.
 (pdftex.def)             Requested size: 352.31625pt x 176.15768pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
-[38 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot4_absence_reasons.png>]
-
-[39]
-
-[40 <../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png>]
-
-[41 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_disagg.png>]
+[46 <../Paper_3_Graphs/Summary_Stats/popdec_by_hhsize.png>]
 (../Paper_3_Tables/Main_Regression_Tables/table1_enrollment_contemp.tex
 Underfull \hbox (badness 1472) in paragraph at lines 22--22
 []\T1/cmr/m/n/12 Table 24: |School En-roll-ment, IV Es-ti-mates
  []
 
 ) (../Paper_3_Tables/Main_Regression_Tables/table2_dropout_reasons_contemp.tex)
+
+
+[47 <../Paper_3_Graphs/Lagged_1Year_Coefplots/plot_books_disagg.png>]
 (../Paper_3_Tables/Main_Regression_Tables/table3_attendance_levels_contemp.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-
+[48]
 (../Paper_3_Tables/Main_Regression_Tables/table4_attendance_reasons_contemp.tex
 )
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+[49]
 (../Paper_3_Tables/Main_Regression_Tables/table4b_transport_urbanrural_contemp.
 tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+[50]
 (../Paper_3_Tables/Main_Regression_Tables/table8_expenditures_level_contemp.tex
 )
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[51]
 (../Paper_3_Tables/Main_Regression_Tables/table9_expenditures_log_contemp.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[52] (../Paper_3_Tables/Main_Regression_Tables/table6_exams_contemp.tex)
 
-(../Paper_3_Tables/Main_Regression_Tables/table6_exams_contemp.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+[53]
 (../Paper_3_Tables/Main_Regression_Tables/table7_sixthform_tertiary_contemp.tex
 )
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[54]
 (../Paper_3_Tables/Main_Regression_Tables/table5_skills_program_contemp.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[55]
 
-
-
-[42
-
-]
-
-[43]
-
-[44]
-
-[45] (../Paper_3_Tables/Lagged_2Year_Tables/table1_enrollment_lag2.tex)
+[56] (../Paper_3_Tables/Lagged_2Year_Tables/table1_enrollment_lag2.tex)
 (../Paper_3_Tables/Lagged_2Year_Tables/table2_dropout_reasons_lag2.tex)
-(../Paper_3_Tables/Lagged_2Year_Tables/table3_attendance_levels_lag2.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[57] (../Paper_3_Tables/Lagged_2Year_Tables/table3_attendance_levels_lag2.tex)
 
-(../Paper_3_Tables/Lagged_2Year_Tables/table4_attendance_reasons_lag2.tex)
+[58] (../Paper_3_Tables/Lagged_2Year_Tables/table4_attendance_reasons_lag2.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+[59]
 (../Paper_3_Tables/Lagged_2Year_Tables/table4b_transport_urbanrural_lag2.tex)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_2Year_Tables/table8_expenditures_level_lag2.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_2Year_Tables/table9_expenditures_log_lag2.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_2Year_Tables/table6_exams_lag2.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_2Year_Tables/table7_sixthform_tertiary_lag2.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(../Paper_3_Tables/Lagged_2Year_Tables/table5_skills_program_lag2.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+[60] (../Paper_3_Tables/Lagged_2Year_Tables/table8_expenditures_level_lag2.tex)
 
 
+[61] (../Paper_3_Tables/Lagged_2Year_Tables/table9_expenditures_log_lag2.tex)
 
-[46
+[62] (../Paper_3_Tables/Lagged_2Year_Tables/table6_exams_lag2.tex)
 
-]
+[63] (../Paper_3_Tables/Lagged_2Year_Tables/table7_sixthform_tertiary_lag2.tex)
 
-[47]
 
-[48]
+[64] (../Paper_3_Tables/Lagged_2Year_Tables/table5_skills_program_lag2.tex)
 
-[49] (../Paper_3_Tables/Summary_Stats/table_distance_urban_rural.tex)
-(../Paper_3_Tables/Summary_Stats/table_transport_urban_rural.tex)
+[65]
+
+[66] (../Paper_3_Tables/Summary_Stats/table_distance_urban_rural.tex)
+
+[67] (../Paper_3_Tables/Summary_Stats/table_transport_urban_rural.tex)
 (../Paper_3_Tables/Summary_Stats/table_enrollment_by_age_year.tex)
-Overfull \hbox (27.59727pt too wide) in paragraph at lines 1497--1505
+Overfull \hbox (27.59727pt too wide) in paragraph at lines 1482--1490
  [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+[68]
 
-
-[50
-
-]
-
-[51] (Paper3_HumanCapital.aux)
+[69] (Paper3_HumanCapital.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
@@ -1874,52 +1777,48 @@ L3 programming layer <2025-04-29>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'Paper3_HumanCapital.run.xml'.
 \openout1 = `Paper3_HumanCapital.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41656 strings out of 469923
- 869717 string characters out of 5469170
- 1673683 words of memory out of 5000000
- 67516 multiletter control sequences out of 15000+600000
- 651198 words of font info for 107 fonts, out of 8000000 for 9000
+ 41668 strings out of 469923
+ 869722 string characters out of 5469170
+ 1633509 words of memory out of 5000000
+ 67513 multiletter control sequences out of 15000+600000
+ 650415 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,21n,132p,2045b,2306s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+ <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1095.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt1095.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+0\ecti1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecti1095.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\mcket\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\mcket\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\mcket\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\mcket\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\
-mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
-Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk
-> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2
-074.pk><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/mcket/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/mcket/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mcket/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mc
-ket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb>
-Output written on Paper3_HumanCapital.pdf (51 pages, 1002157 bytes).
+/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\mcket\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\mcket\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\mcket\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\mcket\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\mcket\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
+mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\
+Users\mcket\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
+><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/mcket/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/mcket/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mcket/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mcket/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/m
+cket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Users/mcket/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on Paper3_HumanCapital.pdf (69 pages, 1018535 bytes).
 PDF statistics:
- 1214 PDF objects out of 1440 (max. 8388607)
- 242 named destinations out of 1000 (max. 500000)
+ 1284 PDF objects out of 1440 (max. 8388607)
+ 258 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
